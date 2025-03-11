@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 
 export default function Movement() {
-    const parentElement = useRef(null);
+    const parentElement = useRef(null) as React.RefObject<null|HTMLDivElement>;
     const [dotx, setDotx] = useState(50);
     const [doty, setDoty] = useState(50);
 
