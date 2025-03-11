@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,800&family=Rationale&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,800&family=Rationale&display=swap'); */
 
 @import "tailwindcss";
 
@@ -129,12 +129,12 @@
 
 
 h1{
-  font-family: 'Big Shoulders Stencil';
+  font-family: var(--font-big-shoulder-stencil);
   line-height: 0.9;
 }
 
 h2{
- font-family: 'Rationale';
+ font-family: var(--rationale);
  font-weight: bold;
 }
 

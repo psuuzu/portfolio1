@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Big_Shoulders_Stencil_Display, Rationale } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/ui/nav";
 
@@ -10,6 +10,17 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const bigShoulderStencil = Big_Shoulders_Stencil_Display({
+  variable: "--font-big-shoulder-stencil",
+  subsets: ["latin"],
+});
+
+const rationale = Rationale({
+  variable: "--rationale",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -26,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}
+        className={`${geistSans.variable} ${geistMono.variable} ${bigShoulderStencil.variable} ${rationale.variable} antialiased bg-black`}
       >
         <main>
           <Navbar/>
