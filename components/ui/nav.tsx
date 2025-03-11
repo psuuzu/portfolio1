@@ -1,8 +1,8 @@
 export function Navbar() {
     return (
-        <section className="h-[40px] flex justify-centerS align-middle w-full">
-            <p>hey</p>
-            <p>hey</p>
+        <section className="h-[40px] flex flex-row justify-center align-middle w-full inline-flex">
+            <p>Home</p>
+            <p>Contacts</p>
         </section>
     )
   }
