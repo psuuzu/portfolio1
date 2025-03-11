@@ -145,3 +145,12 @@ p{
 body{
   background-color: black;
 }
+
+.turtle{
+  background-color: blueviolet;
+  width: 2vh;
+  height: 2vh ;
+  position: absolute;
+  left: 50%;
+  top:50%;
+}
