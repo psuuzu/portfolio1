@@ -1,6 +1,13 @@
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
+  // const parentElement = useRef()
+  // function up() {
+  //   parentElement.current.appendChild()
+  // }
+
+
+
   return (
     <>
     {/* title */}
@@ -13,6 +20,7 @@ export default function Home() {
         </div>
         {/* space above animation / title */}
       </div> 
+      
       <div className='flex justify-center'>
       <img src="/images/anim8c.gif" alt="gif" className='w-[80vw] sm:w-[70vw] md:w-[62vw] lg:w-[55vw]'/>
       {/* animation */}
@@ -33,6 +41,8 @@ export default function Home() {
         </div>
       </section>
       <h2 className='text-[30px] sm:text-[40px] md:text-[50px]'></h2>
+
+      {/* <div ref={parentElement}></div> */}
     </>
   );
 }

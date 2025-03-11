@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,800&family=Rationale&display=swap');
+=======
+
+>>>>>>> Stashed changes
 @import "tailwindcss";
 
 @plugin 'tailwindcss-animate';
