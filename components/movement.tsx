@@ -65,10 +65,20 @@ export default function Movement() {
 
     function run(){
       if(parentElement.current){
-        const userInputValue = inputRef.current.value.toLowerCase();
+        const userInputValue = inputRef.current?.value.toLowerCase();
+        let currentX = dotx;
+        let currentY = doty;
+
         for (let i=0; i < userInputValue.length; i++){
           if(userInputValue[i] == "u"){
-              up();
+              if(currentY>0){
+                  currentY = currentY - 2
+              }
+              const newDot = document.createElement("div");
+              newDot.className = "turtle";
+              newDot.style.left = currentX +"%";
+              newDot.style.top = (currentY) +"%";
+              parentElement.current.appendChild(newDot)
           }
           if(userInputValue[i] == "d"){
               down();
@@ -79,7 +89,9 @@ export default function Movement() {
           if(userInputValue[i] == "r"){
               right();
           }
-      }
+        }
+        setDoty(currentY)
+        setDotx(currentX)
       }
     }
 
