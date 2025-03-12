@@ -1,11 +1,16 @@
 "use client";
+import { Input } from "./ui/input";
+import { InputWithButton } from "./ui/inputwb";
+import { Button } from "./ui/button";
 
 import { useRef, useState } from "react";
 
 export default function Movement() {
     const parentElement = useRef(null);
+    const inputRef = useRef<HTMLInputElement>(null);
     const [dotx, setDotx] = useState(50);
     const [doty, setDoty] = useState(50);
+    const [inputValue, setinputValue] = useState("")
 
     function up() {
       if(parentElement.current){
@@ -58,6 +63,25 @@ export default function Movement() {
         }
       }
 
+    function run(){
+      if(parentElement.current){
+        const userInputValue = inputRef.current.value.toLowerCase();
+        for (let i=0; i < userInputValue.length; i++){
+          if(userInputValue[i] == "u"){
+              up();
+          }
+          if(userInputValue[i] == "d"){
+              down();
+          }
+          if(userInputValue[i] == "l"){
+              left();
+          }
+          if(userInputValue[i] == "r"){
+              right();
+          }
+      }
+      }
+    }
 
     return(
         <>
@@ -67,14 +91,17 @@ export default function Movement() {
                 <div className ="turtle"></div>  
             </div> 
         </section>
-        <h2 className='text-[18px] sm:text-[20px] md:text-[30px] mt-[40px]'>Programmable Movement</h2>
-
         <button onClick={up}> up</button>
         <button onClick={down}> down</button>
         <button onClick={left}> left</button>
         <button onClick={right}> right</button>
+        <div className="flex w-full max-w-sm items-center space-x-2">
+          <Input type="email" placeholder="Enter program here" ref={inputRef}/>
+          <Button type="submit" variant="outline" onClick={run}>enter</Button>
+        </div>
+        <h2 className='text-[18px] sm:text-[20px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
+        <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
         </>
-
     )
 }
 
