@@ -81,13 +81,34 @@ export default function Movement() {
               parentElement.current.appendChild(newDot)
           }
           if(userInputValue[i] == "d"){
-              down();
+            if(currentY<98){
+              currentY = currentY + 2
+            }
+          const newDot = document.createElement("div");
+          newDot.className = "turtle";
+          newDot.style.left = currentX +"%";
+          newDot.style.top = (currentY) +"%";
+          parentElement.current.appendChild(newDot)
           }
           if(userInputValue[i] == "l"){
-              left();
+            if(currentX>0){
+              currentX = currentX - 2
+          }
+          const newDot = document.createElement("div");
+          newDot.className = "turtle";
+          newDot.style.left = (currentX) +"%";
+          newDot.style.top = currentY +"%";
+          parentElement.current.appendChild(newDot)
           }
           if(userInputValue[i] == "r"){
-              right();
+            if(currentX<98){
+              currentX = currentX + 2
+          }
+          const newDot = document.createElement("div");
+          newDot.className = "turtle";
+          newDot.style.left = (currentX) +"%";
+          newDot.style.top = currentY +"%";
+          parentElement.current.appendChild(newDot)
           }
         }
         setDoty(currentY)
@@ -103,10 +124,13 @@ export default function Movement() {
                 <div className ="turtle"></div>  
             </div> 
         </section>
-        <button onClick={up}> up</button>
-        <button onClick={down}> down</button>
-        <button onClick={left}> left</button>
-        <button onClick={right}> right</button>
+        <div className="h-auto">
+          <button onClick={left} className="h-[100px] border-[1px]"> left</button>
+          <button onClick={up}> up</button>
+          <button onClick={down}> down</button>
+          <button onClick={right}> right</button>
+        </div>
+
         <div className="flex w-full max-w-sm items-center space-x-2">
           <Input type="email" placeholder="Enter program here" ref={inputRef}/>
           <Button type="submit" variant="outline" onClick={run}>enter</Button>
