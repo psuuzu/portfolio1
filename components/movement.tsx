@@ -65,7 +65,7 @@ export default function Movement() {
 
     function run(){
       if(parentElement.current){
-        const userInputValue = inputRef.current?.value.toLowerCase();
+        const userInputValue = inputRef.current?.value.toLowerCase()|| "";
         let currentX = dotx;
         let currentY = doty;
 
