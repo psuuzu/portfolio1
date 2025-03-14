@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import { useRef, useState } from "react";
 
 export default function Movement() {
-    const parentElement = useRef(null);
+    const parentElement = useRef<HTMLDivElement | null>(null);
     const inputRef = useRef<HTMLInputElement>(null);
     const [dotx, setDotx] = useState(50);
     const [doty, setDoty] = useState(50);
