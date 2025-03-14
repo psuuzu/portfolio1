@@ -35,7 +35,7 @@ export default function Home() {
           <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | Personal Project</p>
           <p className="text-[12px] sm:text-[14px] md:text-[16px]">Mixing pixel art and animation mechanics with vanila javascript, html and css. a project that was fueled through boredom and some free time</p>
           <div className="flex justify-center">
-          <Button variant="outline" className="my-[30px]">view more</Button>
+          <Button variant="outline" className="my-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">view more</p></Button>
           </div>
           <div className="flex justify-center">
             <hr className="border-t-2 border-gray-600 w-[60vw] mt-[10px]"/>

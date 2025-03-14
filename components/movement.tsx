@@ -124,17 +124,26 @@ export default function Movement() {
                 <div className ="turtle"></div>  
             </div> 
         </section>
-        <div className="h-auto">
-          <button onClick={left} className="h-[100px] border-[1px]"> left</button>
-          <button onClick={up}> up</button>
-          <button onClick={down}> down</button>
-          <button onClick={right}> right</button>
-        </div>
+        <section className="sm:flex justify-center mt-[10px]">
+          <div className="h-auto w-auto flex flex-col w-[126px] sm:justify-center mx-[5px] align-middle">
+            <div className="flex justify-center">
+              <Button onClick={up} variant="outline" className=" w-[40px]"> ↑ </Button>
+            </div>
+            <div className="flex justify-center">
+              <Button onClick={left} variant="outline" className=" w-[40px] m-[2px]"> ←</Button>
+              <Button onClick={down} variant="outline" className=" w-[40px] m-[2px]"> ↓</Button>
+              <Button onClick={right} variant="outline" className=" w-[40px] m-[2px]"> →</Button>
+            </div>
+          </div>
+          <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
+            <p className="text-[12px] sm:text-[14px] md:text-[16px] text-gray-400">Enter program here using "udlr"</p>
+            <Input type="email" ref={inputRef} className="my-[5px] h-[30px]"/>
+            <Button type="submit" variant="outline" onClick={run} className="h-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">Enter</p></Button>
+          </div>
+        </section>
+        
 
-        <div className="flex w-full max-w-sm items-center space-x-2">
-          <Input type="email" placeholder="Enter program here" ref={inputRef}/>
-          <Button type="submit" variant="outline" onClick={run}>enter</Button>
-        </div>
+
         <h2 className='text-[18px] sm:text-[20px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
         <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
         </>
