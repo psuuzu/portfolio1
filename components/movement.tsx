@@ -146,6 +146,9 @@ export default function Movement() {
         <h2 className='text-[18px] sm:text-[20px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
         <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
         <p className="text-[12px] sm:text-[14px] md:text-[16px]">some descriptionf</p>
+        <div className="flex justify-center">
+          <Button variant="outline" className="my-[25px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">view more</p></Button>
+        </div>
         </>
     )
 }
