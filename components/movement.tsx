@@ -139,7 +139,7 @@ export default function Movement() {
             <p className="text-[12px] sm:text-[14px] md:text-[16px] text-gray-400">Enter program here using "udlr"</p>
             <div className="flex mt-[5px]">
             <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
-            <Button type="submit" variant="outline" onClick={() => run()}  className="h-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">Enter</p></Button>
+            <Button type="submit" variant="outline" onClick={run}  className="h-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">Enter</p></Button>
             </div>
           </div>
         </section>
