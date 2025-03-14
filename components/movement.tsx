@@ -120,7 +120,7 @@ export default function Movement() {
         <>
         
         <section className="flex justify-center mt-[40px]">
-            <div ref={parentElement} className="w-[70vw] sm:w-[50vw] md:w-[35vw] h-[70vw] sm:h-[50vw] md:h-[35vw] border-[1px] border-white-1 relative">
+            <div ref={parentElement} className="w-[70vw] sm:w-[50vw] md:w-[35vw] h-[70vw] sm:h-[50vw] md:h-[35vw] border-[2px] border-gray-500 relative">
                 <div className ="turtle"></div>  
             </div> 
         </section>
@@ -137,15 +137,16 @@ export default function Movement() {
           </div>
           <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
             <p className="text-[12px] sm:text-[14px] md:text-[16px] text-gray-400">Enter program here using "udlr"</p>
-            <Input type="email" ref={inputRef} className="my-[5px] h-[30px]"/>
+            <div className="flex mt-[5px]">
+            <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
             <Button type="submit" variant="outline" onClick={run} className="h-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">Enter</p></Button>
+            </div>
           </div>
         </section>
-        
-
-
+      
         <h2 className='text-[18px] sm:text-[20px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
         <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
+        <p className="text-[12px] sm:text-[14px] md:text-[16px]">some descriptionf</p>
         </>
     )
 }
