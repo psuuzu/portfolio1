@@ -147,7 +147,7 @@ export default function Movement() {
         <p className="text-[14px] sm:text-[16px] md:text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
         <p className="text-[12px] sm:text-[14px] md:text-[16px]">This is a Javascript program that moves a block around and leaves a trail behind. Users are also allowed to write simple programs that control the movement of the block: "u" for up, "d" for down... This project is then integrated into this website by adjusting javascript into typescript rules</p>
         <div className="flex justify-center">
-          <Button variant="outline" className="my-[25px] hover:bg-black hover:text-white"><p className="text-[12px] sm:text-[14px] md:text-[16px] ">view more</p></Button>
+          <Button variant="outline" className="mt-[25px] hover:bg-black hover:text-white"><p className="text-[12px] sm:text-[14px] md:text-[16px] ">view more</p></Button>
         </div>
         </>
     )
