@@ -135,7 +135,7 @@ export default function Movement() {
             </div>
           </div>
           <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
-            <p className="text-[12px] sm:text-[14px] md:text-[16px] text-gray-400">Enter program here using "udlr"</p>
+            <p className="text-[12px] sm:text-[14px] md:text-[16px] text-gray-400">Enter program using letters "udlr"</p>
             <div className="flex mt-[5px]">
             <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
             <Button type="submit" variant="outline" onClick={run}  className="h-[30px]"><p className="text-[12px] sm:text-[14px] md:text-[16px]">Enter</p></Button>
