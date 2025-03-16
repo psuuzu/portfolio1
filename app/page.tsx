@@ -40,9 +40,9 @@ export default function Home() {
           <Line></Line>
           <Tap2heal></Tap2heal>
           <Line></Line>
-          <Inbound></Inbound>
-          <Line></Line>
           <Movement></Movement>
+          <Line></Line>
+          <Inbound></Inbound>
           <Line></Line>
         </div>
       </section>
