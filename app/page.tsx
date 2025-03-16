@@ -5,23 +5,15 @@ import Dsc from "@/components/dsc";
 import Line from "@/components/line";
 
 export default function Home() {
-  // const parentElement = useRef(null);
-  // function up() {
-  //   if(parentElement.current){
-  //     parentElement.current.appendChild()
-  //   }
-  // }
-
-
 
   return (
     <>
     {/* title */}
       <div className="h-[50vh] sm:h-[45vh] md:h-[40vh] lg:h-[35vh] min-w-full flex justify-center items-center">
-        <div className="w-[45vw] sm:w-[30vw] md:w-[20vw] flex">
-         <h1 className='text-[30px] sm:[40px] md:text-[50px] text-right mr-1'>Welcome to Paul's Portfolio</h1>
+        <div className="w-[47vw] sm:w-[30vw] md:w-[20vw] flex">
+         <h1 className='text-[35px] sm:[40px] md:text-[50px] text-right pr-1'>Welcome to Paul's Portfolio</h1>
         </div>
-        <div className='w-[45vw] sm:w-[30vw] md:w-[20vw] lg:w-[18vw] flex h-auto'>
+        <div className='w-[47vw] sm:w-[30vw] md:w-[20vw] lg:w-[18vw] flex h-auto'>
          <p className="text-[14px] md:text-[16px] pl-1">Hi, I am a  UX/UI designer who has an interest in front end development. I enjoy creating user-centered digital solutions</p>
         </div>
         {/* space above animation / title */}
