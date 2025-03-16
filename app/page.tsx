@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <>
     {/* title */}
-      <div className="h-[50vh] sm:h-[45vh] md:h-[40vh] lg:h-[38vh] min-w-full flex justify-center items-center">
-        <div className="w-[47vw] sm:w-[30vw] md:w-[20vw] flex">
+    <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center">
+    <div className="flex-1 flex justify-center items-center">
+        <div className="w-[47vw] sm:w-[30vw] lg:w-[20vw] flex">
          <h1 className='text-[35px] sm:[40px] md:text-[50px] text-right pr-1'>Welcome to Paul's Portfolio</h1>
         </div>
         <div className='w-[47vw] sm:w-[30vw] md:w-[20vw] lg:w-[18vw] flex h-auto'>
@@ -19,11 +20,12 @@ export default function Home() {
         </div>
         {/* space above animation / title */}
       </div> 
-      
-      <div className='flex justify-center'>
+      <div className='flex justify-center h-auto'>
       <img src="/images/anim8c.gif" alt="gif" className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw]'/>
       {/* animation */}
       </div>
+    </section>
+      
 
       <section className='flex justify-center'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
