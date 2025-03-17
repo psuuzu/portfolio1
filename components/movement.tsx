@@ -124,7 +124,7 @@ export default function Movement() {
             </div> 
         </section>
         <section className="sm:flex justify-center mt-[10px]">
-          <div className="h-auto w-auto flex flex-col w-[126px] sm:justify-center mx-[5px] align-middle">
+          <div className="h-auto flex flex-col w-[126px] sm:justify-center mx-[5px] align-middle">
             <div className="flex justify-center">
               <Button onClick={up} variant="outline" className=" w-[40px]"> ↑ </Button>
             </div>
@@ -144,7 +144,7 @@ export default function Movement() {
         </section>
       
         <h2 className='text-[26px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
-        <p className="text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework</p>
+        <p className="text-[18px] text-gray-500 mb-[15px]">Front End | University Coursework | 2024</p>
         <p className="text-[16px]">This is a Javascript program that moves a block around and leaves a trail behind. Users are also allowed to write simple programs that control the movement of the block: "u" for up, "d" for down... This project is then integrated into this website by adjusting javascript into typescript rules</p>
         <div className="flex justify-center">
           <Button variant="outline" className="mt-[25px] hover:bg-black hover:text-white"><p className="text-[16px] ">view more</p></Button>
