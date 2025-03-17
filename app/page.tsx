@@ -6,6 +6,7 @@ import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
 
+
 export default function Home() {
 
   return (
@@ -48,6 +49,7 @@ export default function Home() {
           <Line></Line>
           <Dscweb></Dscweb>
           <Line></Line>
+      
         </div>
       </section>
    
