@@ -8,7 +8,7 @@ export default function Tap2Heal() {
                 <h3 className="mb-[15px]">UI Design | Hackathon | 2024</h3>
                 <p className="text-[16px]">Current pill tracking apps are high maintenance and they not aware of users actions in real life. Tap2Heal is aimed to simplify the tracking process of prescription medication through NFC technology allowing patients to log their prescription through a single tap of their phone.</p>
                 <div className="flex justify-center sm:justify-end">
-                    <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>view more</h4></Button>
+                    <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
                 </div>
             </div>
             <div className="flex items-center">

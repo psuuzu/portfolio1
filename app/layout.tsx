@@ -40,8 +40,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${bigShoulderStencil.variable} ${rationale.variable} antialiased bg-black`}
       >
+        <Navbar/>
         <main>
-          <Navbar/>
+          
         </main>
         {children}
       </body>

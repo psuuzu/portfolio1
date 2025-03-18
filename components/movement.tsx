@@ -124,7 +124,7 @@ export default function Movement() {
             </div> 
         </section>
         <section className="sm:flex justify-center mt-[10px]">
-          <div className="h-auto flex flex-col w-[126px] sm:justify-center mx-[5px] align-middle">
+          <div className="h-auto flex flex-col w-full sm:w-[126px] sm:justify-center mx-[5px] align-middle">
             <div className="flex justify-center">
               <Button onClick={up} variant="outline" className=" w-[40px]"> ↑ </Button>
             </div>
@@ -135,7 +135,7 @@ export default function Movement() {
             </div>
           </div>
           <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
-            <p className="text-[16px] text-gray-400">Enter program using letters "u,d,l,r"</p>
+            <p className="text-[16px] text-gray-400">Enter program using initals of up, down, left, right. Eg. "u" for up</p>
             <div className="flex mt-[5px]">
             <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
             <Button type="submit" variant="outline" onClick={run}  className="h-[30px]  hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>Enter</h4></Button>
@@ -147,7 +147,7 @@ export default function Movement() {
         <h3 className=" mb-[15px]">Front End | University Coursework | 2023</h3>
         <p className="text-[16px]">This is a Javascript program that moves a block around and leaves a trail behind. Users are also allowed to write simple programs that control the movement of the block: "u" for up, "d" for down... This project is then integrated into this website by adjusting javascript into typescript rules</p>
         <div className="flex justify-center">
-          <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>view more</h4></Button>
+          <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
         </div>
         </>
     )

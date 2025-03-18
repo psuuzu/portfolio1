@@ -10,7 +10,7 @@ export default function Dscweb() {
             <h3 className="mb-[15px]">UI Design | Front end | 2024-2025</h3>
             <p className="text-[16px]">As the Data Science Student Society grows in size, its website needs to evolve to better reflect expanding initiatives. Ensuring the club website aligns with current goals involves redesigning and enhancing its visual appeal as well as updating and adding relevant pages.</p>
             <div className="flex justify-center">
-              <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>view more</h4></Button>
+              <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
             </div>
         </section>
     )
