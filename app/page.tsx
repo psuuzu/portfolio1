@@ -3,6 +3,7 @@ import  Movement  from "@/components/movement";
 import  Surrounds  from "@/components/surrounds";
 import Dsc from "@/components/dsc";
 import Line from "@/components/line";
+import Test from "@/components/test"
 
 export default function Home() {
 
@@ -39,6 +40,7 @@ export default function Home() {
           <Line></Line>
           <Movement></Movement>
           <Line></Line>
+          <Test></Test>
         </div>
       </section>
    
