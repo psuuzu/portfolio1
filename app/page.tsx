@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import  Movement  from "@/components/movement";
-import  Inbound  from "@/components/Inbound";
+import  Inbound  from "@/components/redesign";
 import Tap2heal from "@/components/tap2heal";
 import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
+import Redesign from "@/components/redesign";
+import Studytgt from "@/components/studytgt";
 
 
 export default function Home() {
@@ -45,8 +47,9 @@ export default function Home() {
           <Line></Line>
           <Movement></Movement>
           <Line></Line>
-          <Inbound></Inbound>
+          <Redesign></Redesign>
           <Line></Line>
+          <Studytgt></Studytgt>
           <Dscweb></Dscweb>
           <Line></Line>
       
