@@ -7,10 +7,9 @@ export default function Redesign() {
                 <img src="/images/ssphones.jpg" alt="Surround Sound picture" className="w-[75vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]"/>
             </div>
             <div className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]">
-                <h2 className='text-[26px] md:text-[30px]'>Max Gaming re-design</h2>
+                <h2 className='text-[26px] md:text-[30px]'>Maxx Gaming re-design</h2>
                 <h3 className="mb-[15px]">UI Design | Front End | University Coursework | 2024</h3>
-                <p className="text-[16px]">SurroundSound is a project that won first place and accessibility award in the 2024 CISSA Catalyst Hackathon. Our team developed a working application that uses AI to curate personalized Spotify 
-                playlists that fit the ambiance of user's surroundings, selected mood, and listening history.</p>
+                <p className="text-[16px]">This project focuses on redesigning the Maxx Gaming website to enhance its professionalism and competitiveness by implementing the full UI development process from research and analysis to front end implementation</p>
                 <div className="flex justify-center sm:justify-start">
                 <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>view more</h4></Button>
                 </div>
