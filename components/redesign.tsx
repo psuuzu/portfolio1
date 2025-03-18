@@ -4,7 +4,7 @@ export default function Redesign() {
     return (
         <section className="flex flex-col sm:flex-row justify-center items-center w-full mt-[40px]">
             <div className="flex items-center">
-                <img src="/images/ssphones.jpg" alt="Surround Sound picture" className="w-[75vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]"/>
+                <img src="/images/maxx.jpg" alt="maxx website picture" className="w-[75vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]"/>
             </div>
             <div className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]">
                 <h2 className='text-[26px] md:text-[30px]'>Maxx Gaming re-design</h2>
