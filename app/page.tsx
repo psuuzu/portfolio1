@@ -1,16 +1,16 @@
 import { Button } from "@/components/ui/button";
 import  Movement  from "@/components/movement";
-import  Surrounds  from "@/components/surrounds";
-import Dsc from "@/components/dsc";
+import  Inbound  from "@/components/Inbound";
+import Tap2heal from "@/components/tap2heal";
 import Line from "@/components/line";
-import Test from "@/components/test"
+import Surroundsound from "@/components/surroundsound"
 
 export default function Home() {
 
   return (
     <>
     {/* title */}
-      <div className="h-[50vh] sm:h-[45vh] md:h-[40vh] lg:h-[35vh] min-w-full flex justify-center items-center">
+      <div className="h-[50vh] sm:h-[45vh] md:h-[40vh] lg:h-[38vh] min-w-full flex justify-center items-center">
         <div className="w-[47vw] sm:w-[30vw] md:w-[20vw] flex">
          <h1 className='text-[35px] sm:[40px] md:text-[50px] text-right pr-1'>Welcome to Paul's Portfolio</h1>
         </div>
@@ -21,7 +21,7 @@ export default function Home() {
       </div> 
       
       <div className='flex justify-center'>
-      <img src="/images/anim8c.gif" alt="gif" className='w-[80vw] sm:w-[70vw] md:w-[62vw] lg:w-[55vw]'/>
+      <img src="/images/anim8c.gif" alt="gif" className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw]'/>
       {/* animation */}
       </div>
 
@@ -34,13 +34,14 @@ export default function Home() {
           <Button variant="outline" className="mt-[25px] hover:bg-black hover:text-white"><p className="text-[14px] md:text-[16px]">view more</p></Button>
           </div>
           <Line></Line>
-          <Surrounds></Surrounds>
+          <Surroundsound></Surroundsound>
           <Line></Line>
-          <Dsc></Dsc>
+          <Tap2heal></Tap2heal>
+          <Line></Line>
+          <Inbound></Inbound>
           <Line></Line>
           <Movement></Movement>
           <Line></Line>
-          <Test></Test>
         </div>
       </section>
    
