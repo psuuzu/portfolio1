@@ -5,7 +5,7 @@ export default function Studytgt() {
         <section className=" flex flex-col-reverse sm:flex-row justify-center items-center w-full mt-[40px]">
             <div className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw]">
                 <h2 className='text-[26px] md:text-[30px]'>StudyTogether</h2>
-                <h3 className="mb-[15px]">UI Design | 2024</h3>
+                <h3 className="mb-[15px]">Club work | UI Design | 2024</h3>
                 <p className="text-[16px]">Study together is an internal project of the Data Science Student Society, It aims to connect students enrolled in the same subjects and courses together physically to form study groups, share knowledge and improve their learning experiences</p>
                 <div className="flex justify-center sm:justify-end">
                
