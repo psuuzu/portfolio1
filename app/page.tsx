@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <>
     {/* title */}
-    <div className="h-[40px]"></div>
+    <div className="h-[45px]"></div>
     <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center">
-    <div className="flex-1 flex justify-center items-center">
+      <div className="flex-1 flex justify-center items-center">
         <div className="w-[47vw] sm:w-[30vw] lg:w-[20vw] flex">
          <h1 className='text-[40px] md:text-[50px] text-right pr-1'>Welcome to Paul's Portfolio</h1>
         </div>
