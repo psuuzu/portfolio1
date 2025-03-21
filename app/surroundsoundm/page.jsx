@@ -39,6 +39,14 @@ export default function Surroundsoundm() {
                         </p>
                     </a>
                 </div>
+                <div className="flex items-center mt-[15px]">
+                    <p className="mr-[10px]">Devpost :</p>
+                    <a href="https://devpost.com/software/surroundsound-ydkz0b" target="_blank" className="break-words flex flex-grow">
+                        <p className="underline">
+                        Click here 
+                        </p>
+                    </a>
+                </div>
                 <h2 className='!text-[24px] mt-[20px]'>Role</h2>
                 <p>
                 I Designed an immersive user experience, where users can generate playlists through a single snapshot, explore playlists in a gallery view as a visual diary, and seamlessly save curated playlists to their Spotify profile for centralized access. 
