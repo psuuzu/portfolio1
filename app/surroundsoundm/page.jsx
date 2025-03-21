@@ -11,9 +11,9 @@ export default function Surroundsoundm() {
         </div>
         </section>
         
-        <section className='flex justify-center items-center h-[90vh] bg-[#1e1e1e]'>
+        <section className='flex justify-center items-center h-[450px] bg-[#1e1e1e]'>
             <div className=" bg-black rounded-xl">
-            <video src="/videos/ssvid.mp4"className="h-[80vh] my-[10px] mx-[3px]" autoPlay muted loop/>
+            <video src="/videos/ssvid.mp4"className="h-[400px] my-[10px] mx-[3px]" autoPlay muted loop/>
             </div>
         </section> 
         <section className='flex justify-center bg-[#1e1e1e]'>
