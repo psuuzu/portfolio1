@@ -13,8 +13,8 @@ export default function Home() {
 
   return (
     <>
-    {/* title */}
     <div className="h-[45px]"></div>
+    {/* title */}
     <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center">
       <div className="flex-1 flex justify-center items-center">
         <div className="w-[47vw] sm:w-[30vw] lg:w-[20vw] flex">
@@ -45,15 +45,14 @@ export default function Home() {
           <Line></Line>
           <Tap2heal></Tap2heal>
           <Line></Line>
-          <Movement></Movement>
-          <Line></Line>
           <Redesign></Redesign>
-          <Line></Line>
-          <Studytgt></Studytgt>
           <Line></Line>
           <Dscweb></Dscweb>
           <Line></Line>
-      
+          <Studytgt></Studytgt>
+          <Line></Line>
+          <Movement></Movement>
+          <Line></Line>
         </div>
       </section>
    
