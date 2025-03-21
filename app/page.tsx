@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <>
-    <div className="h-[45px]"></div>
+  
     {/* title */}
     <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center">
       <div className="flex-1 flex justify-center items-center">

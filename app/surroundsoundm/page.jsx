@@ -4,8 +4,8 @@ export default function Surroundsoundm() {
 
     return (
         <>
-        <div className="h-[45px]"></div>
-        <div className='flex justify-center items-center h-[95vh]'>
+    
+        <div className='flex justify-center items-center h-[90vh]'>
             <video src="/videos/ssvid.mp4"className="h-[80vh] " autoPlay muted loop/>
         </div> 
         <section className='flex justify-center bg-[#1e1e1e]'>
