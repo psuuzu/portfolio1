@@ -135,7 +135,7 @@ export default function Movement() {
             </div>
           </div>
           <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
-            <p className="text-[16px] text-gray-400">Enter program using initals of up, down, left, right. Eg. "u" for up</p>
+            <p className="text-[16px] text-gray-400">Enter program using initals of up, down, left, right. Eg. "uuull" for 3 ups and 2 left</p>
             <div className="flex mt-[5px]">
             <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
             <Button type="submit" variant="outline" onClick={run}  className="h-[30px]  hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>Enter</h4></Button>
