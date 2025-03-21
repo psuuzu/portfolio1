@@ -4,15 +4,21 @@ export default function Surroundsoundm() {
 
     return (
         <>
-    
-        <div className='flex justify-center items-center h-[90vh]'>
-            <video src="/videos/ssvid.mp4"className="h-[80vh] " autoPlay muted loop/>
-        </div> 
         <section className='flex justify-center bg-[#1e1e1e]'>
-            <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>   
+        <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>   
                 <h2 className='text-[30px] md:text-[35px] pt-[20px]'>SurroundSound</h2>
                 <h3 className="mb-[15px]">UI Design | Hackathon | 2024</h3>
-               
+        </div>
+        </section>
+        
+        <section className='flex justify-center items-center h-[90vh] bg-[#1e1e1e]'>
+            <div className=" bg-black rounded-xl">
+            <video src="/videos/ssvid.mp4"className="h-[80vh] my-[10px] mx-[3px]" autoPlay muted loop/>
+            </div>
+        </section> 
+        <section className='flex justify-center bg-[#1e1e1e]'>
+            <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
+                <div className="h-[20px]"></div>  
                 <p>
                     SurroundSound is a project that won first place and accessibility award in the 2024 CISSA Catalyst Hackathon. Our team developed a working application that uses AI to curate personalized Spotify 
                 playlists that fit the ambiance of user's surroundings, selected mood, and listening history.
