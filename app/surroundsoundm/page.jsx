@@ -43,14 +43,14 @@ export default function Surroundsoundm() {
                 </p>
                 <h2 className='!text-[24px] mt-[20px]'>Market Research</h2>
                 <p>
-                I took a lot of inspiration from Bereal as their user interface is very simple and intuitive, allowing users to navigate through its core functions with ease. Making the camera page the main page is something I liked a lot since it really encourages users to take photos and progress through the user journey. 
+                The initial phase of the project involved conducting research on existing social media and music platforms to identify popular design elements that worked well. This helped pinpoint features such as interactive social sharing and music discovery. Insights from this phase informed the design direction, ensuring that the platform would balance usability, aesthetics, and innovation while catering to user expectations.
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
                 </div>
                 <h2 className='!text-[24px] mt-[20px]'>Wireframing and prototyping</h2>
                 <p>
-                As the hackathon is only a few days long, the UX design process came under a lot of pressure. I would have to rapidly prototype and propose to the rest of the team for the front end development to start. Communication with different roles of the team was crucial in making a prototype that prioritizes efficiency and main functionalities. 
+                As the hackathon is only a few days long, the UX design process came under significant pressure. Rapid prototyping was necessary to enable the front-end development to begin as soon as possible. Clear communication between different team roles was crucial in creating a prototype that prioritized efficiency and core functionalities.
                 </p>
                 <h2 className='!text-[24px] mt-[20px]'>Results</h2>
                 <p>
