@@ -126,17 +126,19 @@
   }
 }
 
-
+/* Title front page */
 h1{
   font-family: var(--font-big-shoulder-stencil);
   line-height: 0.9;
 }
 
+/* title */
 h2{
  font-family: var(--rationale);
  font-weight: bold;
 }
 
+/* tags */
 h3{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2 ;
@@ -145,6 +147,7 @@ h3{
 }
 /* 18px */
 
+/* button */
 h4{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2 ;

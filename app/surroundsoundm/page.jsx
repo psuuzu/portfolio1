@@ -5,16 +5,13 @@ export default function Surroundsoundm() {
 
     return (
         <>
-        <section className='flex justify-center bg-[#1e1e1e]'>
-        <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>   
-                <h2 className='text-[30px] md:text-[35px] pt-[20px]'>SurroundSound</h2>
-                <h3 className="mb-[15px]">UI Design | Hackathon | 2024</h3>
-        </div>
-        </section>
         
-        <section className='flex justify-center items-center h-[450px] bg-[#1e1e1e]'>
-            <div className=" bg-black rounded-xl">
-            <video src="/videos/ssvid.mp4"className="h-[400px] my-[10px] mx-[3px]" autoPlay muted loop/>
+        <section className='flex justify-center items-center h-[500px] bg-black'>
+            <div> 
+                <img src="/images/surroundsoundlogo.png" alt="surroundsound logo" className="sm:w-[300px] md:w-[400px]"/>
+            </div>
+            <div className=" bg-black rounded-xl border-t border-l-[2px] border-b border-[#787878]">
+            <video src="/videos/ssvid.mp4"className="h-[400px] my-[15px] mx-[3px]" autoPlay muted loop/>
             </div>
         </section> 
         <section className='flex justify-center bg-[#1e1e1e]'>
@@ -28,10 +25,10 @@ export default function Surroundsoundm() {
                     <div className="w-[50%] flex flex-col items-center justify-center h-auto">
                        
                             <a href="https://surround-sound.vercel.app/" target="_blank" className="w-full flex justify-center">
-                                <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-black hover:text-white sm:w-[50%]"><h4>Try the App</h4></Button>
+                                <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white sm:w-[50%]"><h4>Try the App</h4></Button>
                             </a>
                             <a href="https://devpost.com/software/surroundsound-ydkz0b" target="_blank" className="w-full flex justify-center mt-[20px]">
-                                <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-black hover:text-white sm:w-[50%]"><h4>Devpost</h4></Button>
+                                <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white sm:w-[50%]"><h4>Devpost</h4></Button>
                             </a>
                             
                     </div>
@@ -39,7 +36,7 @@ export default function Surroundsoundm() {
                         <h2 className='!text-[20px]'>
                             Contribution
                         </h2>
-                        <h3 className="mb-[15px] !text-[16px] !text-[rgb(200,200,200)]">Market Research</h3>
+                        <h3 className="mb-[15px] !text-[16px] !c">Market Research</h3>
                         <h3 className="mb-[15px] !text-[16px] !text-[rgb(200,200,200)]">User flow and app structure</h3>
                         <h3 className="mb-[15px] !text-[16px] !text-[rgb(200,200,200)]">Sketching</h3>
                         <h3 className="mb-[15px] !text-[16px] !text-[rgb(200,200,200)]">Wireframing and prototyping</h3>

@@ -1,9 +1,13 @@
+'use client'
+import { useRouter } from "next/navigation"
+
 export function Navbar() {
+    const router = useRouter()
     return (
         
         <section className="h-[45px] items-center justify-center w-full inline-flex top-0 bg-black">
-            <p className=" text-gray-400 mx-[15px] hover:text-white">Home</p>
-            <p className=" text-gray-400 mx-[15px]  hover:text-white">Contacts</p>
+            <p className=" mx-[16px] hover:!text-white hover:border-b h-[40px] items-center flex" onClick={() => router.push("/")}>Home</p>
+            <p className=" mx-[16px] hover:!text-white hover:border-b h-[40px] items-center flex">Contacts</p>
         </section>
     )
 }
