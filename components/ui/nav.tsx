@@ -5,9 +5,9 @@ export function Navbar() {
     const router = useRouter()
     return (
         
-        <section className="h-[45px] items-center justify-center w-full inline-flex top-0 bg-black">
-            <p className=" mx-[16px] hover:!text-white hover:border-b h-[40px] items-center flex" onClick={() => router.push("/")}>Home</p>
-            <p className=" mx-[16px] hover:!text-white hover:border-b h-[40px] items-center flex">Contacts</p>
+        <section className="h-auto items-center justify-center w-full inline-flex top-0 bg-black">
+            <p className=" px-[16px] py[2px] hover:!text-white hover:border-b h-[40px] items-center flex" onClick={() => router.push("/")}>Home</p>
+            <p className=" px-[16px] py[2px] hover:!text-white hover:border-b h-[40px] items-center flex">Contacts</p>
         </section>
     )
 }
