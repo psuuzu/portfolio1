@@ -6,7 +6,7 @@ export default function Surroundsoundm() {
     return (
         <>
         
-        <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[550px] sm:h-[500px] bg-black'>
+        <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[550px] sm:h-[100vh] bg-black'>
             <div> 
                 <img src="/images/surroundsoundlogo.png" alt="surroundsound logo" className="w-[300px] md:w-[400px]"/>
             </div>
@@ -16,7 +16,7 @@ export default function Surroundsoundm() {
         </section> 
         <section className='flex justify-center bg-[#1e1e1e]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
-                <div className="h-[20px]"></div>
+                <div className="h-[40px]"></div>
                 <p>
                      SurroundSound is a project that won first place and accessibility award in the 2024 CISSA Catalyst Hackathon. Our team developed a working application that uses AI to curate personalized Spotify 
                     playlists that fit the ambiance of user's surroundings, selected mood, and listening history.
@@ -98,12 +98,16 @@ export default function Surroundsoundm() {
                 We analyzed leading music and social platforms to identify popular design elements that worked well. This helped pinpoint features that  informed the design direction, ensuring that the platform would balance usability, aesthetics, and innovation while catering to user expectations.
                 </p>
                 <div className="flex justify-center mt-[20px]">
-                    <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
+                    <img src="/images/ssmarket.png" alt="market analysis" className="w-[280px] sm:w-[350px]"></img>
                 </div>
+             
                 <h2 className='!text-[24px] mt-[20px]'>Wireframing and prototyping</h2>
                 <p>
                 Due to the short hackathon timeframe, the UX design process came under significant pressure. Rapid prototyping was necessary to enable the front-end development to begin as soon as possible. Clear communication between different team roles was crucial in creating a prototype that prioritized efficiency and core functionalities.
                 </p>
+                <div className="flex justify-center mt-[20px]">
+                    <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
+                </div>
                 <h2 className='!text-[24px] mt-[20px]'>Results</h2>
                 <p>
                 Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
