@@ -15,7 +15,7 @@ export default function Home() {
     <>
   
     {/* title */}
-    <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center">
+    <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center" >
       <div className="flex-1 flex justify-center items-center">
         <div className="w-[47vw] sm:w-[30vw] lg:w-[20vw] flex">
          <h1 className='text-[40px] md:text-[50px] text-right pr-1'>Welcome to Paul's Portfolio</h1>
@@ -49,10 +49,14 @@ export default function Home() {
           <Line></Line>
           <Dscweb></Dscweb>
           <Line></Line>
-          <Studytgt></Studytgt>
-          <Line></Line>
           <Movement></Movement>
           <Line></Line>
+          <div className="mt-[80px]"></div>
+          <div className="w-full flex justify-center">
+            <a href="#top"><p>Back to top ↑</p></a>
+          </div>
+          <div className="mt-[80px]"></div>
+          
         </div>
       </section>
    

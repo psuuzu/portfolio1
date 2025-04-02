@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import Line from "@/components/line";
 export default function Surroundsoundm() {
 
 
@@ -112,7 +113,10 @@ export default function Surroundsoundm() {
                 <p>
                 Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
                 </p>
+                <div className="mt-[80px]"></div>
             </div>
+           
+
         </section>
         </>
 
