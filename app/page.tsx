@@ -6,8 +6,7 @@ import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
 import Redesign from "@/components/redesign";
-import Studytgt from "@/components/studytgt";
-
+import Loading from "@/components/ui/loading"
 
 export default function Home() {
 
@@ -52,8 +51,10 @@ export default function Home() {
           <Movement></Movement>
           <Line></Line>
           <div className="mt-[80px]"></div>
-          <div className="w-full flex justify-center">
-            <a href="#top"><p>Back to top ↑</p></a>
+          <Loading></Loading>
+       
+          <div className="w-full flex justify-center mt-[40px]">
+            <a href="#top"><p>More great things to come... back to top ↑</p></a>
           </div>
           <div className="mt-[80px]"></div>
           
