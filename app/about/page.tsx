@@ -27,7 +27,7 @@ export default function Page(){
             <div>
             <Line></Line>
                 <div className="w-[80vw] sm:w-[84vw] lg:w-[60vw] flex flex-col sm:flex-row sm:justify-between items-center mt-[40px] mb-[40px] sm:mb-0">
-                    <div className="flex flex-row items-center mb-[20px] sm:m-0">
+                    <div className="flex flex-row items-center mb-[5px] sm:m-0">
                         <h2 className='text-[20px] md:text-[24px]'>Contacts</h2>
                         <p className="ml-[20px]">psuuzu@gmail.com</p>
                     </div>
