@@ -4,7 +4,7 @@ import Line from "@/components/line"
 export default function Page(){
     return(
         <>
-        <section className="h-auto w-[100vw] flex justify-center items-center">
+        <section className="h-auto w-[100vw] flex flex-col justify-center items-center">
          
                 <div className="flex flex-col sm:flex-row items-center justify-center">
                
