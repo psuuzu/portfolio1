@@ -110,18 +110,10 @@ export default function Surroundsoundm() {
                     <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
                 </div>
                 <h2 className='!text-[24px] mt-[40px]'>Results</h2>
-                <div className="flex flex-col sm:flex-row sm:items-center">
-                    <div className="sm:w-[50%]">
-                        <p>
-                        Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
-                        </p>
-                    </div>
-                    <div className="mt-[20px] sm:mt-0 sm:w-[50%] justify-center items-center flex opacity-75">
-                        <img src="/images/firstplace.png" alt="firstplace logo" className="w-[120px] sm:w-[40%] "/>
-                        <img src="/images/bestaccessibility.png" alt="best accessibility logo" className="w-[120px] sm:w-[40%]"/>
-                    </div>
-                    
-                </div>
+                <p>
+                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
+                </p>
+            
                 <div className="mt-[80px]"></div>
             </div>
            

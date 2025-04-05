@@ -1,4 +1,6 @@
+'use client'
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 import  Movement  from "@/components/movement";
 import  Inbound  from "@/components/redesign";
 import Tap2heal from "@/components/tap2heal";
@@ -9,7 +11,7 @@ import Redesign from "@/components/redesign";
 import Loading from "@/components/ui/loading"
 
 export default function Home() {
-
+  const router = useRouter()
   return (
     <>
   
@@ -37,7 +39,7 @@ export default function Home() {
           <h3 className=" text-gray-600 mb-[15px]">Front End | Personal Project | 2024</h3>
           <p>Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
           <div className="flex justify-center">
-          <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
+          <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={() => router.push("javascript")}><h4>View more</h4></Button>
           </div>
           <Line></Line>
           <Surroundsound></Surroundsound>
