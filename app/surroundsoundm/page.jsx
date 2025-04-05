@@ -49,7 +49,7 @@ export default function Surroundsoundm() {
                 <p>
                 I Designed an immersive user experience, where users can generate playlists through a single snapshot, explore playlists in a gallery view as a visual diary, and seamlessly save curated playlists to their Spotify profile for centralized access. 
                 </p>
-                <h2 className='!text-[24px] mt-[20px]'>Ideation</h2>
+                <h2 className='!text-[24px] mt-[40px]'>Ideation</h2>
                 <p>
                 Music is deeply tied to atmosphere, but discovering the right songs for specific moments can be tedious. Instead of manually picking music for an occasion, why not let AI do the guesswork? 
                 </p>
@@ -94,7 +94,7 @@ export default function Surroundsoundm() {
                         </ul>
                     </div>
                 </section>
-                <h2 className='!text-[24px] mt-[20px]'>Market Research</h2>
+                <h2 className='!text-[24px] mt-[40px]'>Market Research</h2>
                 <p>
                 We analyzed leading music and social platforms to identify popular design elements that worked well. This helped pinpoint features that  informed the design direction, ensuring that the platform would balance usability, aesthetics, and innovation while catering to user expectations.
                 </p>
@@ -102,17 +102,26 @@ export default function Surroundsoundm() {
                     <img src="/images/ssmarket.png" alt="market analysis" className="w-[280px] sm:w-[350px]"></img>
                 </div>
              
-                <h2 className='!text-[24px] mt-[20px]'>Wireframing and prototyping</h2>
+                <h2 className='!text-[24px] mt-[40px]'>Wireframing and prototyping</h2>
                 <p>
                 Due to the short hackathon timeframe, the UX design process came under significant pressure. Rapid prototyping was necessary to enable the front-end development to begin as soon as possible. Clear communication between different team roles was crucial in creating a prototype that prioritized efficiency and core functionalities.
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
                 </div>
-                <h2 className='!text-[24px] mt-[20px]'>Results</h2>
-                <p>
-                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
-                </p>
+                <h2 className='!text-[24px] mt-[40px]'>Results</h2>
+                <div className="flex flex-col sm:flex-row sm:items-center">
+                    <div className="sm:w-[50%]">
+                        <p>
+                        Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
+                        </p>
+                    </div>
+                    <div className="mt-[20px] sm:mt-0 sm:w-[50%] justify-center items-center flex opacity-75">
+                        <img src="/images/firstplace.png" alt="firstplace logo" className="w-[120px] sm:w-[40%] "/>
+                        <img src="/images/bestaccessibility.png" alt="best accessibility logo" className="w-[120px] sm:w-[40%]"/>
+                    </div>
+                    
+                </div>
                 <div className="mt-[80px]"></div>
             </div>
            
