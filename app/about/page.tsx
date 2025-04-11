@@ -19,7 +19,7 @@ export default function Page(){
                         <img src="/images/surf.jpg" alt="surf pic" className="h-full w-full object-cover scale-150"/>
                     </div>
                     <div className="w-[80vw] block sm:hidden">
-                    <p className="mt-[20px] ">I'm a third year UI/UX Designer studying at the University of Melbourne. I am experienced with Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities to bring my designs to life</p>
+                    <p className="mt-[20px] ">I'm a third year UI/UX Designer studying at the University of Melbourne who is experienced with Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities to bring my designs to life</p>
                     <p className="mt-[16px]"> in my free time (if i get any) I enjoy exploring visual arts, playing piano and guitar, and surfing.</p>
                     </div>
 

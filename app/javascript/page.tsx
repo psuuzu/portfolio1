@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button"
+
 export default function Page(){
     return(
         <>
@@ -19,6 +21,7 @@ export default function Page(){
                 <p>
                     Animation is the illusion of movement created by displaying a sequence of static frames quickly. 
                 </p>
+        
                 <ul className="list-disc px-[18px] space-y-[6px] mt-[20px]">
                     <li>
                         <p>The frames are represented by 2d arrays which maps each pixel colour.</p>
@@ -31,6 +34,11 @@ export default function Page(){
                     </li>
                 </ul>
                 <img src="/images/animationconcept.png" alt="animation concept visualised" className="mt-[40px]" />
+                <a href="https://github.com/psuuzu/animation" target="_blank" className="w-full flex justify-center mt-[10px]">
+                    <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
+                </a>
+                <h2 className='!text-[24px] mt-[20px]'>Draft Drawing</h2>
+
             </div>
         </section>
         </>
