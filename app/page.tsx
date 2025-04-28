@@ -8,7 +8,10 @@ import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
 import Redesign from "@/components/redesign";
-import Loading from "@/components/ui/loading"
+import Loading from "@/components/ui/loading";
+import Fadein from "@/components/ui/fadein";
+
+
 
 export default function Home() {
   const router = useRouter()
@@ -35,23 +38,28 @@ export default function Home() {
 
       <section className='flex justify-center'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
+          <Fadein>
           <h2 className='text-[26px] md:text-[30px] mt-[60px]'>Javascript Animation</h2>
           <h3 className=" text-gray-600 mb-[15px]">Front End | Personal Project | 2024</h3>
           <p>Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
           <div className="flex justify-center">
-          <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={() => router.push("javascript")}><h4>View more</h4></Button>
+            <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={() => router.push("javascript")}><h4>View more</h4></Button>
           </div>
+          </Fadein>
+          
+          
           <Line></Line>
-          <Surroundsound></Surroundsound>
+          <Fadein><Surroundsound></Surroundsound></Fadein>
           <Line></Line>
-          <Tap2heal></Tap2heal>
+          <Fadein><Tap2heal></Tap2heal></Fadein>
           <Line></Line>
-          <Redesign></Redesign>
+          <Fadein><Redesign></Redesign></Fadein>
           <Line></Line>
-          <Dscweb></Dscweb>
+          <Fadein><Dscweb></Dscweb></Fadein>
           <Line></Line>
-          <Movement></Movement>
+          <Fadein><Movement></Movement></Fadein>
           <Line></Line>
+      
           <div className="mt-[80px]"></div>
           <Loading></Loading>
        
