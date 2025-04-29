@@ -60,13 +60,13 @@ export default function Home() {
           <Fadein><Movement></Movement></Fadein>
           <Line></Line>
       
-          <div className="mt-[80px]"></div>
+          <div className="mt-[60px]"></div>
           <Loading></Loading>
        
-          <div className="w-full flex justify-center mt-[40px]">
+          <div className="w-full flex justify-center mt-[60px]">
             <a href="#top"><p>More great things to come... back to top ↑</p></a>
           </div>
-          <div className="mt-[80px]"></div>
+          <div className="mt-[60px]"></div>
           
         </div>
       </section>

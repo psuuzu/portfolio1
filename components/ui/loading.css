@@ -12,8 +12,8 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border: solid 2px var(--color);
     border-radius: 50%;
     margin: 0 10px;
@@ -24,8 +24,8 @@
   .loader .circle .dot {
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: var(--color);
     animation: dot-keys var(--animation);
@@ -34,8 +34,8 @@
   .loader .circle .outline {
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     animation: outline-keys var(--animation);
   }
@@ -134,7 +134,7 @@
     100% {
       transform: scale(1);
       outline: solid 0 transparent;
-      outline-offset: 20px;
+      outline-offset: 16px;
       opacity: 0;
     }
   }
