@@ -40,7 +40,7 @@ export default function Home() {
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
           <Fadein>
           <h2 className='text-[26px] md:text-[30px] mt-[60px]'>Javascript Animation</h2>
-          <h3 className=" text-gray-600 mb-[15px]">Front End | Personal Project | 2024</h3>
+          <h3 className=" text-gray-600 mb-[15px]">Front End | Personal Project </h3>
           <p>Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
           <div className="flex justify-center">
             <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={() => router.push("javascript")}><h4>View more</h4></Button>

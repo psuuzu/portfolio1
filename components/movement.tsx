@@ -144,7 +144,7 @@ export default function Movement() {
         </section>
       
         <h2 className='text-[26px] md:text-[30px] mt-[20px]'>Programmable Movement</h2>
-        <h3 className=" mb-[15px]">Front End | University Coursework | 2023</h3>
+        <h3 className=" mb-[15px]">Front End | University Coursework </h3>
         <p className="text-[16px]">This is a Javascript program that allows user to move and program the block around that leaves a trail behind. This project is then integrated into this website by adjusting javascript into typescript rules</p>
         <div className="flex justify-center">
           <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
