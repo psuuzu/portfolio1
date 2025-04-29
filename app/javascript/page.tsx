@@ -32,7 +32,9 @@ export default function Page(){
                 <img src="/images/movementframes.png" alt="movement frames"/>
                 <p className="mt-[20px] !text-white !text-[18px]">Flashing Frames</p>
                 <img src="/images/flashingframes.png" alt="flashing frames"/>
-
+                <p className="mt-[20px]">
+                    All frames are put together in sequential order. After previewing and tweaking the speed, a suitable framerate was defined. 
+                </p>
 
                 <h2 className='!text-[24px] mt-[40px]'>Implementation in Javascript</h2>
                 <p>
