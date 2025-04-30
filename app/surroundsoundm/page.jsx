@@ -111,7 +111,7 @@ export default function Surroundsoundm() {
                 </div>
                 <h2 className='!text-[24px] mt-[40px]'>Results</h2>
                 <p>
-                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award.
+                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize.
                 </p>
             
                 <div className="mt-[80px]"></div>
