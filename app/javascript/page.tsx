@@ -7,7 +7,9 @@ export default function Page(){
             <div className="flex-1 flex flex-col justify-center items-center">   
                 <h2 className='text-[26px] md:text-[30px]'>Javascript pixel animation</h2>
                 <p className="text-[16px] pl-1 w-[300px] text-center">Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
-                
+                <a href="https://github.com/psuuzu/animation" target="_blank" className="w-full flex justify-center mt-[40px]">
+                    <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
+                </a>
                 {/* space above animation / title */}
             </div> 
             <div className='flex justify-center h-auto'>
@@ -18,7 +20,6 @@ export default function Page(){
         <section className='flex justify-center bg-[#1e1e1e] mt-[60px]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
                
-              
                 <h2 className='!text-[24px] mt-[40px]'>Draft</h2>
                 <p>
                     The pixel art of the animation is first drafted on Piskel on a 80 by 40 grid. 
@@ -53,9 +54,14 @@ export default function Page(){
                     </li>
                 </ul>
                 <img src="/images/animationconcept.png" alt="animation concept visualised" className="mt-[30px]" />
-                <a href="https://github.com/psuuzu/animation" target="_blank" className="w-full flex justify-center mt-[40px]">
-                    <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
-                </a>
+                <h2 className='!text-[24px] mt-[40px]'>Takeaways</h2>
+                <p>
+                the animation works as the Javascript logic follows pixel art animation mechanics. However, the code is inefficient, containing long lines of 2d arrays defining each and every pixel of every frame. It is also not scalable, especially for long animations with higher definition as defining pixels on 2d arrays is a tedious process. 
+                </p>
+                <h2 className='!text-[24px] mt-[40px]'>Next Steps</h2>
+                <p>
+                A program could be developed that reads Piskel files and turns them into JavaScript arrays automatically
+                </p>
                 <div className="mt-[80px]"></div>
             </div>
         </section>
