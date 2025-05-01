@@ -36,7 +36,7 @@ export default function Surroundsoundm() {
                 SurroundSound is a music platform that uses AI to curate personalized Spotify playlists tailored to the user's environment, mood, and listening history. 
                 </p>
                 <p className="mt-[20px]">
-                As the sole UI designer, I facilitated the end to end design process—research, Ideation, wireframing and prototyping
+                As the sole UI designer in the team, I facilitated the end to end design process—research, Ideation, wireframing and prototyping
                 </p>
 
                 
