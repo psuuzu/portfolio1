@@ -20,25 +20,25 @@ export default function Page(){
         <section className='flex justify-center bg-[#1e1e1e] mt-[60px]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
                
-                <h2 className='!text-[26px] mt-[40px]'>Draft</h2>
-                <p>
+                <h2 className='!text-[26px] mt-[60px]'>Draft</h2>
+                <p className="mt-[10px]">
                     The pixel art of the animation is first drafted on Piskel on a 80 by 40 grid. 
                 </p>
                 <p>
                     A base frame that shows the bus station is created by assigning colors to pixels. Movement frames are created by making small changes one by one to the base frame. Flashing frames are made by deleting the pixels from the base frame while keeping the sparks. 
                 </p>
                 <p className="mt-[20px] !text-white !text-[18px]">Base Frame</p>
-                <img src="/images/piskelbase.png" alt="base frame image"/>
+                <img src="/images/piskelbase.png" alt="base frame image" className="mt-[10px]"/>
                 <p className="mt-[20px] !text-white !text-[18px]">Movement Frames</p>
-                <img src="/images/movementframes.png" alt="movement frames"/>
+                <img src="/images/movementframes.png" alt="movement frames" className="mt-[10px]"/>
                 <p className="mt-[20px] !text-white !text-[18px]">Flashing Frames</p>
-                <img src="/images/flashingframes.png" alt="flashing frames"/>
+                <img src="/images/flashingframes.png" alt="flashing frames" className="mt-[10px]"/>
                 <p className="mt-[20px]">
                     All frames are put together in sequential order. After previewing and tweaking the speed, a suitable framerate was defined. 
                 </p>
 
-                <h2 className='!text-[26px] mt-[40px]'>Implementation in Javascript</h2>
-                <p>
+                <h2 className='!text-[26px] mt-[60px]'>Implementation in Javascript</h2>
+                <p className="mt-[10px]"> 
                     Animation is the illusion of movement created by displaying a sequence of static frames quickly. 
                 </p>
         
@@ -54,12 +54,12 @@ export default function Page(){
                     </li>
                 </ul>
                 <img src="/images/animationconcept.png" alt="animation concept visualised" className="mt-[30px]" />
-                <h2 className='!text-[26px] mt-[40px]'>Takeaways</h2>
-                <p>
+                <h2 className='!text-[26px] mt-[60px]'>Takeaways</h2>
+                <p className="mt-[10px]">
                 the animation works as the Javascript logic follows pixel art animation mechanics. However, the code is inefficient, containing long lines of 2d arrays defining each and every pixel of every frame. It is also not scalable, especially for long animations with higher definition as defining pixels on 2d arrays is a tedious process. 
                 </p>
-                <h2 className='!text-[26px] mt-[40px]'>Next Steps</h2>
-                <p>
+                <h2 className='!text-[26px] mt-[60px]'>Next Steps</h2>
+                <p className="mt-[10px]">
                 A program could be developed that reads Piskel files and turns them into JavaScript arrays automatically.
                 </p>
                 <div className="mt-[80px]"></div>
