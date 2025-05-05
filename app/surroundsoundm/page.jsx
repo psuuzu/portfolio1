@@ -9,7 +9,7 @@ export default function Surroundsoundm() {
         
         <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[620px] sm:h-[100vh] bg-black'>
             <div className="w-[300px] md:w-[400px]"> 
-                <img src="/images/surroundsoundlogo.png" alt="surroundsound logo" />
+                <img src="/images/surroundsound/surroundsoundlogo.png" alt="surroundsound logo" />
                 <div className="sm:flex justify-end h-auto mx-[10px] mt-[20px] md:mt-0 "> 
                     
                 <div className="flex justify-center h-auto mx-[10px]">
@@ -84,18 +84,34 @@ export default function Surroundsoundm() {
                            
         
                 <h2 className='!text-[26px] mt-[60px]'>Ideation</h2>
+                <p className="mt-[10px]">
+                Using a moderated version of the MoSCoW framework, I organised ideas into categories based on priority. Given the short timeframe of the hackathon, this approach was crucial for focusing our efforts on high-impact features, ensuring efficient use of time and resources
+                </p>
+                <img src="images/surroundsound/ideationss.png" alt="ideation notes" className="mt-[20px]"/>
+                <h2 className='!text-[26px] mt-[60px]'>App Structure</h2>
+                <p className="mt-[10px]">
+                Close communication between front-end and back-end teammates helped us identify key features based on viability, efficiency, and functionality. I mapped out the app structure to visualise how components interact with each other
+                </p>
+                <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
                 <h2 className='!text-[26px] mt-[60px]'>Wireframing and prototyping</h2>
                 <p className="mt-[10px]">
-                Due to the short hackathon timeframe, the UX design process came under significant pressure. Rapid prototyping was necessary to enable the front-end development to begin as soon as possible. Clear communication between different team roles was crucial in creating a prototype that prioritized efficiency and core functionalities.
+                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience.
                 </p>
                 <div className="flex justify-center mt-[20px]">
-                    <img src="/images/ssfigma.png" alt="surroundsound figma"></img>
+                    <img src="/images/surroundsound/ssfigma.png" alt="surroundsound figma"/>
                 </div>
                 <h2 className='!text-[26px] mt-[60px]'>Results</h2>
-                <p>
-                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends 
+                <p className="mt-[10px]">
+                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today
                 </p>
-            
+                <p className="mt-[16px]">
+                    sample playlist generations:
+                </p>
+                <div className="flex justify-evenly mt-[20px]">
+                    <img src="/images/surroundsound/gen1.jpg" alt="playlist generation 1" className="w-[33%]"/>
+                    <img src="/images/surroundsound/gen2.jpg" alt="playlist generation 2" className="w-[33%]"/>
+                    <img src="/images/surroundsound/archive.jpg" alt="archive" className="w-[33%]"/>
+                </div>
                 <div className="mt-[80px]"></div>
             </div>
            
