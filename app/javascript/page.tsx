@@ -7,9 +7,7 @@ export default function Page(){
             <div className="flex-1 flex flex-col justify-center items-center">   
                 <h2 className='text-[26px] md:text-[30px]'>Javascript pixel animation</h2>
                 <p className="text-[16px] pl-1 w-[300px] text-center">Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
-                <a href="https://github.com/psuuzu/animation" target="_blank" className="w-full flex justify-center mt-[40px]">
-                    <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
-                </a>
+
                 {/* space above animation / title */}
             </div> 
             <div className='flex justify-center h-auto'>
@@ -62,6 +60,12 @@ export default function Page(){
                 <p className="mt-[10px]">
                 A program could be developed that reads Piskel files and turns them into JavaScript arrays automatically.
                 </p>
+                <div className="flex mt-[60px] items-center">
+                    <h2 className='!text-[26px]'>Links:</h2>
+                    <a href="https://github.com/psuuzu/animation" target="_blank" className="mx-[20px]">
+                        <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
+                    </a>
+                </div>
                 <div className="mt-[80px]"></div>
             </div>
         </section>

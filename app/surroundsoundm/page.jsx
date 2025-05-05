@@ -10,19 +10,6 @@ export default function Surroundsoundm() {
         <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[620px] sm:h-[100vh] bg-black'>
             <div className="w-[300px] md:w-[400px]"> 
                 <img src="/images/surroundsound/surroundsoundlogo.png" alt="surroundsound logo" />
-                <div className="sm:flex justify-end h-auto mx-[10px] mt-[20px] md:mt-0 "> 
-                    
-                <div className="flex justify-center h-auto mx-[10px]">
-                       
-                       <a href="https://surround-sound.vercel.app/" target="_blank" className="flex justify-center mx-[10px]">
-                           <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Try the App</h4></Button>
-                       </a>
-                       <a href="https://devpost.com/software/surroundsound-ydkz0b" target="_blank" className="flex justify-center mx-[10px]">
-                           <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Devpost</h4></Button>
-                       </a>
-                      
-                </div>
-               </div>
             </div>
             <div className=" bg-black rounded-xl border-t border-l-[2px] border-b border-[#787878] mt-[30px] sm:mt-0">
             <video src="/videos/ssvid.mp4"className="h-[350px] sm:h-[400px] my-[15px] mx-[3px]" autoPlay muted loop/>
@@ -112,6 +99,18 @@ export default function Surroundsoundm() {
                     <img src="/images/surroundsound/gen2.jpg" alt="playlist generation 2" className="w-[33%]"/>
                     <img src="/images/surroundsound/archive.jpg" alt="archive" className="w-[33%]"/>
                 </div>
+                <div className="flex mt-[60px] items-center">
+                    <h2 className='!text-[26px]'>Links:</h2>
+                    <div className="flex h-auto mx-[10px]">  
+                        <a href="https://surround-sound.vercel.app/" target="_blank" className="flex justify-center mx-[10px]">
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Try the App</h4></Button>
+                        </a>
+                        <a href="https://devpost.com/software/surroundsound-ydkz0b" target="_blank" className="flex justify-center mx-[10px]">
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Devpost</h4></Button>
+                        </a>                      
+                    </div>
+                </div>
+      
                 <div className="mt-[80px]"></div>
             </div>
            
