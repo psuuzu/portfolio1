@@ -5,7 +5,7 @@ export default function Page(){
         <>
         <section className="h-[450px] sm:h-[85vh] flex flex-col justify-center" >
             <div className="flex-1 flex flex-col justify-center items-center">   
-                <h2 className='text-[26px] md:text-[30px]'>Javascript pixel animation</h2>
+                <h2 className='text-[30px] sm:text-[35px]'>Javascript pixel animation</h2>
                 <p className="text-[16px] pl-1 w-[300px] text-center">Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
 
                 {/* space above animation / title */}

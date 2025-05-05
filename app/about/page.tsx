@@ -12,7 +12,7 @@ export default function Page(){
                
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] flex flex-col">
                         <h1 className='text-[40px] md:text-[50px] pr-1'>Paul Su</h1>
-                        <p className="mt-[20px] hidden sm:block pr-[10px]">I'm a third year UI/UX Designer studying at the University of Melbourne. I am experienced with Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities to bring my designs to life</p>
+                        <p className="mt-[20px] hidden sm:block pr-[10px]">I'm a third year UI/UX Designer studying at the University of Melbourne with experience in Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities to bring my designs to life using react.</p>
                         <p className="hidden sm:block pr-[10px] mt-[16px]"> in my free time (if i get any) I enjoy exploring visual arts, playing piano and guitar, and surfing.</p>
                     </div>
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] h-[70vw] sm:h-[34vw] lg:h-[20vw] rounded-xl overflow-hidden">
