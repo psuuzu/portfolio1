@@ -27,7 +27,7 @@ export default function Tap2heal() {
             Led market and user research in prescription medication tracking. Developed user personas and journey maps to guide design decisions. Drove the iterative design process, contributing to wireframing and prototyping.
             </p>
             <h2 className='!text-[26px] mt-[60px]'>Problem</h2>
-            <div className="mt-[80px]"></div>
+        <div className="mt-[80px]"></div>
         </div>
         
         </section>
