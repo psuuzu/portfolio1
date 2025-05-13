@@ -30,7 +30,7 @@ export default function Home() {
       
       {/* map or title or landing */}
       <div className='flex justify-center h-auto'>
-      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[70vw] w-auto'/>
+      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[550px] w-auto '/>
       {/* animation */}
       </div>
     </section>
