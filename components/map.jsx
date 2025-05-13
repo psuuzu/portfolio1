@@ -4,6 +4,9 @@ export default function Map(){
     return(
      
         <div className="flex flex-1 justify-center items-center w-[95vw] mt-[10px] h-full">
+            {/* <section className="h-[300px] mr-[25px]">
+                <img src="/images/map.png" className="object-contain h-full w-full"/>
+            </section> */}
             <section className="flex flex-col h-full">
                 <div>
                     <div className="flex items-center">
