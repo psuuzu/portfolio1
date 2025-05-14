@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
 
 export default function Ani(){
+    const router = useRouter()
     return(
         <section>
              <h2 className='text-[26px] md:text-[30px] mt-[60px]'>Javascript Animation</h2>
