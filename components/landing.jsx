@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import Title from './title';
 import Map from './map';
 
-export default function Landing() {
+export default function Landing({ project, setProject }) {
   const [showSecondDiv, setShowSecondDiv] = useState(false);
 
   const divVariants = {
@@ -58,7 +58,7 @@ export default function Landing() {
         exit="exit"
         className='absolute'
       >
-        <Map></Map>
+        <Map project={project} setProject={setProject} ></Map>
        
       </motion.div>
     );
