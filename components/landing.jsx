@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from "@/components/ui/button";
 import Title from './title';
@@ -6,6 +6,18 @@ import Map from './map';
 
 export default function Landing({ project, setProject }) {
   const [showSecondDiv, setShowSecondDiv] = useState(false);
+
+    useEffect(() => {
+    const storedShow = sessionStorage.getItem("showSecondDiv");
+    if (storedShow === "true") {
+      setShowSecondDiv(true);
+    }
+  }, []);
+
+  // Store to sessionStorage on change
+  useEffect(() => {
+    sessionStorage.setItem("showSecondDiv", showSecondDiv ? "true" : "false");
+  }, [showSecondDiv]);
 
   const divVariants = {
     initial: (direction) => ({

@@ -22,6 +22,20 @@ export default function Home() {
   const router = useRouter()
   const [project, setProject] = useState("none")
 
+    useEffect(() => {
+    const storedProject = sessionStorage.getItem("project");
+    if (storedProject) {
+      setProject(storedProject);
+    }
+  }, []);
+
+  // Save state to sessionStorage on change
+  useEffect(() => {
+    if (project && project !== "none") {
+      sessionStorage.setItem("project", project);
+    }
+  }, [project]);
+
    useEffect(() => {
     if (project === "ux") {
       window.scrollTo({
@@ -48,11 +62,8 @@ export default function Home() {
         <div className="flex-1 flex justify-center items-center">
           <Landing project={project} setProject={setProject}></Landing>      
         </div>
-      
-      {/* map or title or landing */}
       <div className='flex justify-center h-auto'>
       <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[550px] w-auto '/>
-      {/* animation */}
       </div>
     </section>
       
