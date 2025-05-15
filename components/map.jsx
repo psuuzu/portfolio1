@@ -23,7 +23,7 @@ export default function Map({ project, setProject }){
                         <p className="!text-[18px] ml-[5px]">to User Experience design</p>
                     </div>
                     <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
-                    <img src="/images/route1.png" className="w-[70vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                   
+                    <img src="/images/route1.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                   
                 </div>
                 </motion.div>
                 <motion.div
@@ -39,7 +39,7 @@ export default function Map({ project, setProject }){
                         <p className="!text-[18px] ml-[5px]">to Front-end Interactions</p>
                     </div>
                     <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
-                    <img src="/images/route2.png" className="w-[70vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>
+                    <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>
                         {/* <Button variant="outline" className=" hover:bg-black hover:border hover:border-input text-black hover:text-white scale-90"><h4>View Projects</h4></Button>                         */}
                 </div>
                 </motion.div>

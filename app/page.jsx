@@ -96,7 +96,7 @@ export default function Home() {
               <Fadein><Movement /></Fadein>
               <Line />
               <div className="mt-[60px]"></div>
-              <Loading className="scale-50" ></Loading>
+              <Loading ></Loading>
        
               <div className="w-full flex justify-center mt-[60px]">
               <a href="#top"><p>More great things to come... back to top ↑</p></a>
