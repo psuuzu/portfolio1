@@ -2,19 +2,30 @@ import { Button } from "./ui/button"
 import * as motion from "motion/react-client"
 import React from "react";
 
-export default function Map({ project, setProject }){
+export default function Map({ project, setProject, showSecondDiv , setShowSecondDiv}){
     return(
      
-        <div className="flex flex-1 justify-center items-center w-[95vw] mt-[10px] h-full">
+        <div className="flex flex-1 justify-center w-[95vw] sm:mt-[10px] h-full">
             {/* <section className="h-[300px] mr-[25px]">
                 <img src="/images/map.png" className="object-contain h-full w-full"/>
             </section> */}
+            <div className="h-full w-[70px] hidden sm:block">
+                <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
+                    <p className="py-[10px] mr-[20px]"> ← Back</p>
+                </div>
+            </div>
             <section className="flex flex-col h-full">
+                <div className="h-full sm:hidden">
+                    <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
+                        <p className="mb-[3vh]"> ← Back</p>
+                    </div>
+                </div>
                 <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                > 
-                <div onClick={()=> setProject("ux")}>
+                className="flex flex-row"> 
+             
+                <div onClick={()=> setProject("ux")} className="px-[10px]">
                     <div className="flex items-center">
                         <h2 className="text-[24px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
@@ -25,12 +36,15 @@ export default function Map({ project, setProject }){
                     <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
                     <img src="/images/route1.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                   
                 </div>
+              
                 </motion.div>
+                
                 <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 > 
-                <div className="mt-[4vh]" onClick={()=> setProject("ui")}>
+                
+                <div className="mt-[4vh] px-[10px]" onClick={()=> setProject("ui")}>
                     <div className="flex items-center">
                         <h2 className="text-[24px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
@@ -41,9 +55,10 @@ export default function Map({ project, setProject }){
                     <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
                     <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>
                         {/* <Button variant="outline" className=" hover:bg-black hover:border hover:border-input text-black hover:text-white scale-90"><h4>View Projects</h4></Button>                         */}
-                </div>
+                </div>  
                 </motion.div>
-                <div className="mt-[4vh] opacity-60">
+                
+                <div className="mt-[4vh] opacity-60 px-[10px]">
                     <div className="flex items-center">
                         <h2 className="text-[24px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
@@ -55,7 +70,8 @@ export default function Map({ project, setProject }){
                     {/* image and button goes here         */}
                 </div>
             </section>
-                
+            <div className="w-[70px]  hidden sm:block"></div>
+            
         </div>           
     )
 }

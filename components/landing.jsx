@@ -70,7 +70,7 @@ export default function Landing({ project, setProject }) {
         exit="exit"
         className='absolute'
       >
-        <Map project={project} setProject={setProject} ></Map>
+        <Map project={project} setProject={setProject} showSecondDiv = {showSecondDiv} setShowSecondDiv={setShowSecondDiv}></Map>
        
       </motion.div>
     );

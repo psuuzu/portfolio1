@@ -22,6 +22,7 @@ export default function Home() {
   const router = useRouter()
   const [project, setProject] = useState("none")
 
+   // Save state to sessionStorage on change
     useEffect(() => {
     const storedProject = sessionStorage.getItem("project");
     if (storedProject) {
@@ -29,7 +30,7 @@ export default function Home() {
     }
   }, []);
 
-  // Save state to sessionStorage on change
+ 
   useEffect(() => {
     if (project && project !== "none") {
       sessionStorage.setItem("project", project);

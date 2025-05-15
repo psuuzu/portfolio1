@@ -27,7 +27,7 @@ const rationale = Rationale({
 
 export const metadata: Metadata = {
   title: "Pauls portfolio",
-  description: "built using react and nextjs",
+  description: "built using react",
 };
 
 export default function RootLayout({
