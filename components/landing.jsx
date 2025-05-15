@@ -21,7 +21,7 @@ export default function Landing({ project, setProject }) {
 
   const divVariants = {
     initial: (direction) => ({
-      y: direction === 'in' ? '100%' : 0,
+      y: direction === 'in' ? '15%' : 0,
       x: 0,
       opacity: 0,
     }),
