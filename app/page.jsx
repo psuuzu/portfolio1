@@ -32,9 +32,8 @@ export default function Home() {
 
  
   useEffect(() => {
-    if (project && project !== "none") {
       sessionStorage.setItem("project", project);
-    }
+ 
   }, [project]);
 
    useEffect(() => {
