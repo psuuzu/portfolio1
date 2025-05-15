@@ -26,6 +26,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/social.jsx", "components/ui/fadein.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ui/social.jsx", "components/ui/fadein.jsx", "components/ui/nav.jsx"],
   "exclude": ["node_modules"]
 }

@@ -72,7 +72,7 @@ export default function Home() {
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
           {project === "ux" && (
             <>
-              <Line />
+              <div className="mt-[60px]"></div>
               <Fadein><Surroundsound /></Fadein>
               <Line />
               <Fadein><Tap2heal /></Fadein>
