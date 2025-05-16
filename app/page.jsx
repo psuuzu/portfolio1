@@ -33,7 +33,6 @@ export default function Home() {
  
   useEffect(() => {
       sessionStorage.setItem("project", project);
- 
   }, [project]);
 
    useEffect(() => {
