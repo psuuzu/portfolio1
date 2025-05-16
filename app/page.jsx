@@ -39,7 +39,7 @@ export default function Home() {
    useEffect(() => {
     if (project === "ux") {
       window.scrollTo({
-        top: window.innerHeight, 
+        top: window.innerHeight/1.1, 
         behavior: "smooth", // Smooth scrolling
       });
     }
