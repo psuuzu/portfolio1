@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default function Tap2heal() {
     return(
         <>
-        <section className="h-[auto] sm:h-[97vh] flex-col flex justify-center">
+        <section className="h-[auto] sm:h-[97vh] flex-col flex ">
             
             <div className="flex-col flex sm:flex-row ml-[5vw] sm:ml-[5vw] md:ml-[10vw] lg:ml-[15vw] h-auto items-center"> 
                 <div className="flex mt-[60px] sm:mt-0">
@@ -14,7 +14,7 @@ export default function Tap2heal() {
                     </div>
                 </div>                
                 <div className="flex-1 mb-[60px] sm:mb-0 self-end ml-auto">
-                    <img src="images/taptoheal/banner.png" alt="banner image" className="w-full h-auto object-contain object-right max-h-[90vh]"/>
+                    <img src="images/taptoheal/banner.jpg" alt="banner image" className="w-full h-auto object-contain object-right max-h-[90vh]"/>
                 </div>
             </div> 
         </section>
