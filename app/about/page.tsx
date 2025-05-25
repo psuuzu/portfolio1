@@ -12,15 +12,15 @@ export default function Page(){
                
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] flex flex-col">
                         <h1 className='text-[40px] md:text-[50px] pr-1'>Paul Su</h1>
-                        <p className="mt-[20px] hidden sm:block pr-[10px]">I'm a third year UI/UX Designer studying at the University of Melbourne with experience in Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities in react to bring my designs to life.</p>
-                        <p className="hidden sm:block pr-[10px] mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing piano and guitar, and surfing.</p>
+                        <p className="mt-[20px] hidden sm:block pr-[10px]">I’m a UX designer with a passion for creating intuitive solutions that bridge the gap between people and technology—blending visual appeal with thoughtful, human-centered experiences. Beyond UX design, I am trying to expand my front end development abilities in react to bring my designs to life.</p>
+                        <p className="hidden sm:block pr-[10px] mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing music, and surfing.</p>
                     </div>
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] h-[70vw] sm:h-[34vw] lg:h-[20vw] rounded-xl overflow-hidden">
                         <img src="/images/surf.jpg" alt="surf pic" className="h-full w-full object-cover scale-150"/>
                     </div>
                     <div className="w-[80vw] block sm:hidden">
-                        <p className="mt-[20px] ">I'm a third year UI/UX Designer studying at the University of Melbourne with experience in Figma for wireframing and prototyping as well as photoshop for visual designs. I am trying to expand my front end development abilities in react to bring my designs to life.</p>
-                        <p className="mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing piano and guitar, and surfing.</p>
+                        <p className="mt-[20px] ">I’m a UX designer with a passion for creating intuitive solutions that bridge the gap between people and technology—blending visual appeal with thoughtful, human-centered experiences. Beyond UX design, I am trying to expand my front end development abilities in react to bring my designs to life.</p>
+                        <p className="mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing music, and surfing.</p>
                     </div>
             </div>
             <div>

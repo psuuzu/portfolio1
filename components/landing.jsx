@@ -4,21 +4,7 @@ import { Button } from "@/components/ui/button";
 import Title from './title';
 import Map from './map';
 
-export default function Landing({ project, setProject }) {
-  const [showSecondDiv, setShowSecondDiv] = useState(false);
-
-    useEffect(() => {
-    const storedShow = sessionStorage.getItem("showSecondDiv");
-    if (storedShow === "true") {
-      setShowSecondDiv(true);
-    }
-  }, []);
-
-  // Store to sessionStorage on change
-  useEffect(() => {
-    sessionStorage.setItem("showSecondDiv", showSecondDiv ? "true" : "false");
-  }, [showSecondDiv]);
-
+export default function Landing({ project, setProject, showSecondDiv, setShowSecondDiv}) {
   const divVariants = {
     initial: (direction) => ({
       y: direction === 'in' ? '15%' : 0,
