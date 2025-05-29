@@ -37,7 +37,7 @@ export default function Tap2heal() {
                 Current Apps
             </h2>
             <section className="flex flex-col sm:flex-row mt-[10px]">
-                    <div className='w-[88px]'></div>
+                    <div className='w-[50px]'></div>
                     <div className="h-auto mx-[18px]">
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
