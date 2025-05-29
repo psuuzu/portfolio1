@@ -27,11 +27,11 @@ export default function Surroundsoundm() {
 
                 
                 <section className="flex flex-col sm:flex-row mt-[60px]">
-                    <h2 className='!text-[26px]'>
+                    <h2 className='!text-[30px]'>
                         Problem
                     </h2>
                     <div className="h-auto mx-[18px]">            
-                        <ul className="list-disc pl-[18px] space-y-[20px]">
+                        <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Time Consuming</h2>
                                 <p>Discovering new music that fits your vibe can be time consuming. Also, users have to spend time organising songs into playlists themselves</p>
@@ -48,11 +48,11 @@ export default function Surroundsoundm() {
                     </div>
                 </section>
                 <section className="flex flex-col sm:flex-row mt-[60px]">
-                    <h2 className='!text-[26px]'>
+                    <h2 className='!text-[30px]'>
                         Solution
                     </h2>
                     <div className="h-auto mx-[18px]">
-                        <ul className="list-disc pl-[18px] space-y-[20px]">
+                        <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>AI and Image recognition</h2>
                                 <p>Using AI and image recognition to analyze the surrounding environment</p>
@@ -70,24 +70,24 @@ export default function Surroundsoundm() {
                 </section>
                            
         
-                <h2 className='!text-[26px] mt-[60px]'>Ideation</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
                 <p className="mt-[10px]">
                 Using a moderated version of the MoSCoW framework, I organised ideas into categories based on priority. Given the short timeframe of the hackathon, this approach was crucial for focusing our efforts on high-impact features, ensuring efficient use of time and resources
                 </p>
                 <img src="images/surroundsound/ideationss.png" alt="ideation notes" className="mt-[20px]"/>
-                <h2 className='!text-[26px] mt-[60px]'>App Structure</h2>
+                <h2 className='!text-[30px] mt-[60px]'>App Structure</h2>
                 <p className="mt-[10px]">
                 Close communication between front-end and back-end teammates helped us identify key features based on viability, efficiency, and functionality. I mapped out the app structure to visualise how components interact with each other
                 </p>
                 <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
-                <h2 className='!text-[26px] mt-[60px]'>Wireframing and prototyping</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Wireframing and prototyping</h2>
                 <p className="mt-[10px]">
                 The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience.
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/surroundsound/ssfigma.png" alt="surroundsound figma"/>
                 </div>
-                <h2 className='!text-[26px] mt-[60px]'>Results</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Results</h2>
                 <p className="mt-[10px]">
                 Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today
                 </p>
@@ -100,7 +100,7 @@ export default function Surroundsoundm() {
                     <img src="/images/surroundsound/archive.jpg" alt="archive" className="w-[33%]"/>
                 </div>
                 <div className="flex mt-[60px] items-center">
-                    <h2 className='!text-[26px]'>Links:</h2>
+                    <h2 className='!text-[30px]'>Links:</h2>
                     <div className="flex h-auto mx-[10px]">  
                         <a href="https://surround-sound.vercel.app/" target="_blank" className="flex justify-center mx-[10px]">
                             <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Try the App</h4></Button>

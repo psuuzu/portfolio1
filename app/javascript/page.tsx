@@ -5,7 +5,7 @@ export default function Page(){
         <>
         <section className="h-[450px] sm:h-[85vh] flex flex-col justify-center" >
             <div className="flex-1 flex flex-col justify-center items-center">   
-                <h2 className='text-[30px] sm:text-[35px]'>Javascript pixel animation</h2>
+                <h2 className='text-[30px] sm:text-[38px]'>Javascript pixel animation</h2>
                 <p className="text-[16px] pl-1 w-[300px] text-center">Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
 
                 {/* space above animation / title */}
@@ -18,7 +18,7 @@ export default function Page(){
         <section className='flex justify-center bg-[#1e1e1e] mt-[60px]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
                
-                <h2 className='!text-[26px] mt-[60px]'>Draft</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Draft</h2>
                 <p className="mt-[10px]">
                     The pixel art of the animation is first drafted on Piskel on a 80 by 40 grid. 
                 </p>
@@ -35,7 +35,7 @@ export default function Page(){
                     All frames are put together in sequential order. After previewing and tweaking the speed, a suitable framerate was defined. 
                 </p>
 
-                <h2 className='!text-[26px] mt-[60px]'>Implementation in Javascript</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Implementation in Javascript</h2>
                 <p className="mt-[10px]"> 
                     Animation is the illusion of movement created by displaying a sequence of static frames quickly. 
                 </p>
@@ -52,16 +52,16 @@ export default function Page(){
                     </li>
                 </ul>
                 <img src="/images/javascript/animationconcept.png" alt="animation concept visualised" className="mt-[30px]" />
-                <h2 className='!text-[26px] mt-[60px]'>Takeaways</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Takeaways</h2>
                 <p className="mt-[10px]">
                 the animation works as the Javascript logic follows pixel art animation mechanics. However, the code is inefficient, containing long lines of 2d arrays defining each and every pixel of every frame. It is also not scalable, especially for long animations with higher definition as defining pixels on 2d arrays is a tedious process. 
                 </p>
-                <h2 className='!text-[26px] mt-[60px]'>Next Steps</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Next Steps</h2>
                 <p className="mt-[10px]">
                 A program could be developed that reads Piskel files and turns them into JavaScript arrays automatically.
                 </p>
                 <div className="flex mt-[60px] items-center">
-                    <h2 className='!text-[26px]'>Links:</h2>
+                    <h2 className='!text-[30px]'>Links:</h2>
                     <a href="https://github.com/psuuzu/animation" target="_blank" className="mx-[20px]">
                         <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Github</h4></Button>
                     </a>
