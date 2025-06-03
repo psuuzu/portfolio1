@@ -6,9 +6,6 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
     return(
      
         <div className="flex flex-1 justify-center w-[95vw] sm:mt-[10px] h-full">
-            {/* <section className="h-[300px] mr-[25px]">
-                <img src="/images/map.png" className="object-contain h-full w-full"/>
-            </section> */}
             <div className="h-full w-[70px] hidden sm:block">
                 <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
                     <p className="py-[10px] mr-[20px]"> ← Back</p>

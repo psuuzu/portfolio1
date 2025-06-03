@@ -28,14 +28,14 @@ export default function Home() {
     const storedShow = sessionStorage.getItem("showSecondDiv");
     if (storedShow === "true") {
       setShowSecondDiv(true);
+    }else{
+      setShowSecondDiv(false)
     }
   }, []);
 
     useEffect(() => {
     const storedProject = sessionStorage.getItem("project");
-    if (storedProject) {
       setProject(storedProject);
-    }
   }, []);
 
   // Store to sessionStorage on change
