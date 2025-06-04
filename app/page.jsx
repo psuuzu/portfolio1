@@ -14,6 +14,7 @@ import Ani from "@/components/ani";
 import Title from "@/components/title";
 import Map from "@/components/map"; 
 import Landing from "@/components/landing";
+import Portf from "@/components/portf"
 import { useState, useEffect } from 'react';
 
 
@@ -94,6 +95,8 @@ if (project === "ux") {
       <Fadein><Ani /></Fadein>
       <Line />
       <Fadein><Movement /></Fadein>
+      <Line />
+      <Fadein><Portf/></Fadein>
       <Line />
       <div className="mt-[60px]"></div>
       <Loading />

@@ -7,7 +7,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
      
         <div className="flex flex-1 justify-center w-[95vw] sm:mt-[10px] h-full">
             <div className="h-full w-[70px] hidden sm:block">
-                <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
+                <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}} className="cursor-pointer">
                     <p className="py-[10px] mr-[20px]"> ← Back</p>
                 </div>
             </div>
