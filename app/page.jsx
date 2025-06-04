@@ -120,7 +120,7 @@ if (project === "ux") {
           <p className="!text-[14px] opacity-55">built with react and tailwind css</p>
       </div> */}
       <div className='flex justify-center h-auto'>
-      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[550px] w-auto '/>
+      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto '/>
       </div>  
     </section>
       
