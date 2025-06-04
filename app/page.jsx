@@ -82,6 +82,7 @@ if (project === "ux") {
       <Fadein><Redesign /></Fadein>
       <Line />
       <Fadein><Dscweb /></Fadein>
+      <Line />
       <div className="mt-[60px]"></div>
       <Loading />
       <div className="w-full flex justify-center mt-[60px]">
