@@ -31,14 +31,6 @@ export default function Page(){
                         <p className="ml-[20px]">psuuzu@gmail.com</p>
                     </div>
                     <Social></Social>
-                    <div className="flex items-end flex-col w-100% mb-[80px] sm:mb-0 sm:hidden">
-                        <p className="mr-[15vw] my-[10px]"> ↑</p>
-                        <p className="italic"> This portfolio was built with React and Tailwind CSS </p>
-                    </div>
-                </div>
-                <div className="sm:flex items-end flex-col w-100% sm:mb-0 hidden">
-                    <p className="mr-[17px] my-[10px]"> ↑</p>
-                    <p className="italic"> This portfolio was built with React and Tailwind CSS </p>
                 </div>
             </div>  
         </section>
