@@ -112,7 +112,7 @@ if (project === "ux") {
     <>
   
     {/* title */}
-    <section className="h-[80vh] sm:h-[85vh] flex flex-col justify-center" >
+    <section className="h-[85vh] sm:h-[88vh] flex flex-col justify-center" >
         <div className="flex-1 flex justify-center items-center">
           <Landing project={project} setProject={setProject} showSecondDiv={showSecondDiv} setShowSecondDiv={setShowSecondDiv}></Landing>      
         </div>
