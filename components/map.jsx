@@ -5,7 +5,7 @@ import React from "react";
 export default function Map({ project, setProject, showSecondDiv , setShowSecondDiv}){
     return(
      
-        <div className="flex flex-1 justify-center w-[95vw] sm:mt-[10px] h-full">
+        <div className="flex flex-1 justify-center w-[95vw] h-full">
             <div className="h-full w-[70px] hidden sm:block">
                 <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}} className="cursor-pointer">
                     <p className="py-[10px] mr-[20px]"> ← Back</p>
