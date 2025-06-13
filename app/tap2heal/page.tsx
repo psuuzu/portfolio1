@@ -30,32 +30,59 @@ export default function Tap2heal() {
             <p className="!text-[20px] mt-[10px] !text-white">
                 Managing pills feels like a chore
             </p>
-            <p className="">
-                applying incorrect dosages might be fine for treatments of headaches, but for high risk medications like Blood Coagulants, missing or overdosing your medication could be unimaginable.
-            </p>
-            <h2 className='!text-[30px] mt-[60px]'>
-                Current Apps
-            </h2>
             <section className="flex flex-col sm:flex-row mt-[10px]">
-                    <div className='w-[50px]'></div>
-                    <div className="h-auto mx-[18px]">
-                        <ul className="list-disc pl-[10px] space-y-[20px]">
-                            <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>High Effort</h2>
-                                <p>Apps often require long user journeys needing users to manually input data themselves takes up a lot of effort and time</p>
-                            </li>
-                            <li>
-                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>No Awareness of Patient's Actions</h2>
-                                <p>Since apps rely on user's manual input of data, the apps could not tell if users actually took pills on time or at all</p>
-                            </li>     
-                            <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Not Flexible</h2>
-                                <p>Current apps are essentially glorified alarms. Since they are unaware of user's actions IRL, they are unable to take steps for what if I missed a pill</p>
-                            </li>
-                        </ul>
-                    </div>     
-                </section>
-
+                <div className='w-[50px]'></div>
+                <div className="h-auto mx-[18px]">
+                    <ul className="list-disc pl-[10px] space-y-[20px]">
+                        <li>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>High Effort</h2>
+                            <p>Current apps often require long user journeys needing users to manually input data themselves takes up a lot of effort and time</p>
+                        </li>
+                        <li>
+                        <h2 className='!text-[26px] text-[rgb(200,200,200)]'>No Awareness of Patient's Actions</h2>
+                            <p>Since current apps rely on user's manual input of data, the apps could not tell if users actually took pills on time or at all</p>
+                        </li>     
+                        <li>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Not Flexible</h2>
+                            <p>Current apps are essentially glorified alarms. Since they are unaware of user's actions IRL, they are unable to take steps for what if I missed a pill</p>
+                        </li>
+                    </ul>
+                </div>     
+            </section>
+            <h2 className='!text-[30px] mt-[60px]'>
+                Solution
+            </h2>
+            <p className="!text-[20px] mt-[10px] !text-white">
+                Incorporating NFC into Prescription drugs. 
+            </p>
+            <section className="flex flex-col sm:flex-row mt-[10px]">
+                <div className='w-[50px]'></div>
+                <div className="h-auto mx-[18px]">
+                    <ul className="list-disc pl-[10px] space-y-[20px]">
+                        <li>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Easy to Use</h2>
+                            <p>When notified to take their pill, the patient can simply tap their phone onto the NFC sticker to log their intake without any other user input needed</p>
+                        </li>
+                        <li>
+                        <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Awareness of Patient's Actions</h2>
+                            <p>Due to the action-oriented pill tracking method, the app is aware of patient’s pill intake</p>
+                        </li>     
+                        <li>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Easy to Set Up</h2>
+                            <p>General practitioners can input a patient’s prescription data onto Tap2Heal’s site to write data onto a NFC sticker, which will be placed on pill bottles</p>
+                        </li>
+                    </ul>
+                </div>     
+            </section>
+            <h2 className='!text-[30px] mt-[60px]'>
+                User Journey
+            </h2>
+            <h2 className='!text-[30px] mt-[60px]'>
+                Wireframing
+            </h2>
+            <h2 className='!text-[30px] mt-[60px]'>
+                Prototype
+            </h2>
         <div className="mt-[80px]"></div>
         </div>
         

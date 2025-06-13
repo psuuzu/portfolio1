@@ -32,6 +32,7 @@ export default function Page(){
                     </div>
                     <Social></Social>
                 </div>
+                <div className="mt-[80px] sm:hidden"></div>
             </div>  
         </section>
 
