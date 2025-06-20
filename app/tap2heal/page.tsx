@@ -107,6 +107,18 @@ export default function Tap2heal() {
             <div className="justify-center flex mt-[20px]">
                 <video src="images/taptoheal/desktopprototype.mp4" autoPlay loop playsInline muted className="" />
             </div>
+
+            <div className="flex mt-[60px] items-center">
+                <h2 className='!text-[30px]'>Links:</h2>
+                    <div className="flex h-auto mx-[10px]">  
+                        <a href="https://www.figma.com/design/P9STfJptgY0JX70RnQB7FT/Product-thon?node-id=60-2&p=f&t=uk2ZciDcPN54r3HY-0" target="_blank" className="flex justify-center mx-[10px]">
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Figma</h4></Button>
+                        </a>
+                        <a href="https://devpost.com/software/tap2heal?" target="_blank" className="flex justify-center mx-[10px]">
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Devpost</h4></Button>
+                        </a>                      
+                    </div>
+            </div>
         <div className="mt-[80px]"></div>
         </div>
         
