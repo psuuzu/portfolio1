@@ -83,17 +83,27 @@ export default function Tap2heal() {
                 Wireframing
             </h2>
             <p>Patient's Mobile:</p>
-            <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[10px]" />
+            <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
             <p>GP's Desktop:</p>
-            <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[10px]" />
+            <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
             <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles</p>
 
             <h2 className='!text-[30px] mt-[60px]'>
                 Prototype
             </h2>
-      
-            <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline className="" />
-       
+            <p>Patient's Mobile:</p>
+            <div className="justify-center flex mt-[20px]">
+                <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline muted className="" />
+            </div>
+            <p className="mt-[10px]">Sample NFC -with QR code alternative- sticker  on prescription bottle:</p>
+            <div className="justify-center flex mt-[20px]">
+                <img src="images/taptoheal/nfc.png" alt="nfc sticker" className="rounded-lg w-[60%] h-auto" />
+            </div>
+
+            <p className="mt-[20px]">GP's Desktop:</p>
+            <div className="justify-center flex mt-[20px]">
+                <video src="images/taptoheal/desktopprototype.mp4" autoPlay loop playsInline muted className="" />
+            </div>
         <div className="mt-[80px]"></div>
         </div>
         
