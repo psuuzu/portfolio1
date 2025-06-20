@@ -82,20 +82,23 @@ export default function Tap2heal() {
             <h2 className='!text-[30px] mt-[60px]'>
                 Wireframing
             </h2>
-            <p>Patient's Mobile:</p>
+            <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles. Our goal was to create a seamless experience for patients — one that felt effortless and reassuring, rather than burdensome.</p>
+            <p className="mt-[10px]">Patient's Mobile:</p>
             <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
             <p>GP's Desktop:</p>
             <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
-            <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles</p>
+
 
             <h2 className='!text-[30px] mt-[60px]'>
                 Prototype
             </h2>
-            <p>Patient's Mobile:</p>
+            <p className="mt-[10px]">Building on the wireframes, we developed interactive prototypes to bring the app’s core experience to life. Using Figma’s prototyping tools, we created high-fidelity prototypes that simulated key user flows</p>
+
+            <p className="mt-[20px]">Patient's Mobile:</p>
             <div className="justify-center flex mt-[20px]">
                 <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline muted className="" />
             </div>
-            <p className="mt-[10px]">Sample NFC -with QR code alternative- sticker  on prescription bottle:</p>
+            <p className="mt-[20px]">Sample NFC --with QR code alternative-- sticker  on prescription bottle:</p>
             <div className="justify-center flex mt-[20px]">
                 <img src="images/taptoheal/nfc.png" alt="nfc sticker" className="rounded-lg w-[60%] h-auto" />
             </div>
