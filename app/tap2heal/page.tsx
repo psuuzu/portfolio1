@@ -68,8 +68,9 @@ export default function Tap2heal() {
                             <p>Due to the action-oriented pill tracking method, the app is aware of patient’s pill intake</p>
                         </li>     
                         <li>
-                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Easy to Set Up</h2>
-                            <p>General practitioners can input a patient’s prescription data onto Tap2Heal’s site to write data onto a NFC sticker, which will be placed on pill bottles</p>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Flexible</h2>
+                            <p>GP's can change pill intake schedule after visit and the app updates automatically</p>
+                            <p> Also, since the app is aware of user actions IRL, it can contact emergency contacts if important pill is missed</p>
                         </li>
                     </ul>
                 </div>     
@@ -77,12 +78,22 @@ export default function Tap2heal() {
             <h2 className='!text-[30px] mt-[60px]'>
                 User Journey
             </h2>
+            <img src="images/taptoheal/journey.png" alt="journey map" className="mt-[10px]" />
             <h2 className='!text-[30px] mt-[60px]'>
                 Wireframing
             </h2>
+            <p>Patient's Mobile:</p>
+            <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[10px]" />
+            <p>GP's Desktop:</p>
+            <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[10px]" />
+            <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles</p>
+
             <h2 className='!text-[30px] mt-[60px]'>
                 Prototype
             </h2>
+      
+            <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline className="" />
+       
         <div className="mt-[80px]"></div>
         </div>
         
