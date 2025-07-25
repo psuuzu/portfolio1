@@ -77,7 +77,7 @@ export default function Dsc(){
                                     <p>This interactive tool lets users explore how words relate to each other using high-dimensional embeddings, projected into 3D space</p>
                                 </li>
                                 <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>aesthetic redesign</h2>
+                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Aesthetic redesign</h2>
                                     <p>Redesigned layout, style and colour palette to better fit club's brand image</p>
                                 </li>     
                                 <li>
