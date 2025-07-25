@@ -2,25 +2,25 @@
 'use client';
 import { useState, useEffect } from "react";
 export default function Dsc(){
-     const [videoReady, setVideoReady] = useState(false);
+     const [dscvideoReady, setVideoReady] = useState(false);
         //load the saved value on render
         useEffect(() => {
-        const storedVid = sessionStorage.getItem("videoReady");
+        const storedVid = sessionStorage.getItem("dscvideoReady");
         setVideoReady(storedVid);
         }, []);
 
         // Store to sessionStorage on change
         useEffect(() => {
-        sessionStorage.setItem("videoReady", videoReady);
-        }, [videoReady]);
+        sessionStorage.setItem("dscvideoReady", dscvideoReady);
+        }, [dscvideoReady]);
 
     return(
             <>
-            <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "block"}`}>
+            <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
             <p>Loading...</p>
             </div>
 
-            <div className={`${videoReady ? "block" : "hidden"}`}>
+            <div className={`${dscvideoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute"/>
                 <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">

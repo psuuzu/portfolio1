@@ -7,25 +7,25 @@ import Line from "@/components/line";
 //the loading page is an illusion made by hiding and showing elements based on the state
 export default function Surroundsoundm() {
 
-     const [videoReady, setVideoReady] = useState(false);
+     const [ssvideoReady, setVideoReady] = useState(false);
         //load the saved value on render
         useEffect(() => {
-        const storedVid = sessionStorage.getItem("videoReady");
+        const storedVid = sessionStorage.getItem("ssvideoReady");
         setVideoReady(storedVid);
         }, []);
 
         // Store to sessionStorage on change
         useEffect(() => {
-        sessionStorage.setItem("videoReady", videoReady);
-        }, [videoReady]);
+        sessionStorage.setItem("ssvideoReady", ssvideoReady);
+        }, [ssvideoReady]);
    
         return (
         <>
-        <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "block"}`}>
+        <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${ssvideoReady ? "hidden" : "block"}`}>
         <p>Loading...</p>
         </div>
         
-        <div className={`${videoReady ? "block" : "hidden"}`}>
+        <div className={`${ssvideoReady ? "block" : "hidden"}`}>
         <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[620px] sm:h-[100vh] bg-black'>
             <div className="w-[300px] md:w-[400px]"> 
                 <img src="/images/surroundsound/surroundsoundlogo.png" alt="surroundsound logo" />
