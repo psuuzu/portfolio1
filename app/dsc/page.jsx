@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 //state name must be different for different pages as storing session would cause trouble if it were the same
 export default function Dsc(){
      const [dscvideoReady, setVideoReady] = useState(false);
-     
+
         //load the saved value on render
         useEffect(() => {
         const storedVid = sessionStorage.getItem("dscvideoReady");
@@ -27,7 +27,7 @@ export default function Dsc(){
 
             <div className={`${dscvideoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
-                <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute"/>
+                <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
                 <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">
                     <h2 className='text-[34px] sm:text-[38px]'>DSCubed Website Redesign</h2>
                 </div>
