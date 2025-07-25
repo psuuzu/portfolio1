@@ -24,7 +24,7 @@ export default function Home() {
   const [project, setProject] = useState("none")
     const [showSecondDiv, setShowSecondDiv] = useState(false);
 
-    // Save state to sessionStorage on change
+    //set state on load
     useEffect(() => {
     const storedShow = sessionStorage.getItem("showSecondDiv");
     if (storedShow === "true") {
@@ -34,6 +34,12 @@ export default function Home() {
     }
   }, []);
 
+   // Save state to sessionStorage on change
+  useEffect(() => {
+    sessionStorage.setItem("showSecondDiv", showSecondDiv);
+  }, [showSecondDiv]);
+
+  //set state on load
     useEffect(() => {
     const storedProject = sessionStorage.getItem("project");
       setProject(storedProject);
@@ -44,10 +50,7 @@ export default function Home() {
       sessionStorage.setItem("project", project);
   }, [project]);
 
- 
-  useEffect(() => {
-    sessionStorage.setItem("showSecondDiv", showSecondDiv);
-  }, [showSecondDiv]);
+
 
   //scrolling when project is clicked
    useEffect(() => {
