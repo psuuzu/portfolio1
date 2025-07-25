@@ -13,7 +13,7 @@ export default function Redesign() {
                 <div className="flex justify-center sm:justify-start">
                 <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
                 </div>
-                <p className="mt-[10px]">(under development)</p>
+                <p className="mt-[10px]">(page under development)</p>
             </div>
         </section>
     )
