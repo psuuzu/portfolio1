@@ -21,7 +21,7 @@ export default function Surroundsoundm() {
    
         return (
         <>
-        <div className={` bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "flex"}`}>
+        <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "block"}`}>
         <p>Loading...</p>
         </div>
         

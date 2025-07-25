@@ -2,10 +2,25 @@
 'use client';
 import { useState, useEffect } from "react";
 export default function Dsc(){
+     const [videoReady, setVideoReady] = useState(false);
+        //load the saved value on render
+        useEffect(() => {
+        const storedVid = sessionStorage.getItem("videoReady");
+        setVideoReady(storedVid);
+        }, []);
+
+        // Store to sessionStorage on change
+        useEffect(() => {
+        sessionStorage.setItem("videoReady", videoReady);
+        }, [videoReady]);
 
     return(
             <>
-            <div>
+            <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "block"}`}>
+            <p>Loading...</p>
+            </div>
+
+            <div className={`${videoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute"/>
                 <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">
