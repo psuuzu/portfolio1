@@ -1,8 +1,8 @@
 export default function Dsc(){
     return(
         <>
-            <section className="h-[620px] sm:h-[100vh] bg-black">
-                
+            <section className="h-[620px] sm:h-[100vh]">
+                <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center]"/>
             </section>
             <section className='flex justify-center bg-[#1e1e1e]'>
                 <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
