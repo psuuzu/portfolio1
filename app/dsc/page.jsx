@@ -22,12 +22,12 @@ export default function Dsc(){
         }, [dscvideoReady]);
 
     return(
-            <>
-            <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
+    <>
+        <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
             <h2 className='!text-[30px]'>Loading...</h2>
-            </div>
+        </div>
 
-            <div className={`${dscvideoReady ? "block" : "hidden"}`}>
+        <div className={`${dscvideoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
                 <div className="w-full h-full flex flex-col absolute items-start justify-center lg:ml-[10%] lg:w-auto z-20 px-[15px] " >
@@ -91,17 +91,17 @@ export default function Dsc(){
                     <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
                     <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                     <div className="flex mt-[60px] items-center">
-                    <h2 className='!text-[30px]'>Links:</h2>
-                    <div className="flex h-auto mx-[10px]">  
-                        <a href="https://www.dscubed.org.au/" target="_blank" className="flex justify-center mx-[10px]">
-                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Club Website</h4></Button>
-                        </a>                      
+                        <h2 className='!text-[30px]'>Links:</h2>
+                        <div className="flex h-auto mx-[10px]">  
+                            <a href="https://www.dscubed.org.au/" target="_blank" className="flex justify-center mx-[10px]">
+                                <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Club Website</h4></Button>
+                            </a>                      
+                        </div>
                     </div>
-                    </div>
-                <div className="mt-[80px]"></div>
+                    <div className="mt-[80px]"></div>
                 </div>
             </section>
         </div>
-        </>
+    </>
     )
 }
