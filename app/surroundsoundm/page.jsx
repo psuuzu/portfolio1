@@ -1,18 +1,37 @@
-
+'use client';
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Line from "@/components/line";
+
+//this page adds a loading page since the video takes some time to load
+//the loading page is an illusion made by hiding and showing elements based on the state
 export default function Surroundsoundm() {
 
+     const [videoReady, setVideoReady] = useState(false);
+        //load the saved value on render
+        useEffect(() => {
+        const storedVid = sessionStorage.getItem("videoReady");
+        setVideoReady(storedVid);
+        }, []);
 
-    return (
+        // Store to sessionStorage on change
+        useEffect(() => {
+        sessionStorage.setItem("videoReady", videoReady);
+        }, [videoReady]);
+   
+        return (
         <>
+        <div className={` bg-black text-white flex items-center justify-center  ${videoReady ? "hidden" : "flex"}`}>
+        <p>Loading...</p>
+        </div>
         
+        <div className={`${videoReady ? "block" : "hidden"}`}>
         <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[620px] sm:h-[100vh] bg-black'>
             <div className="w-[300px] md:w-[400px]"> 
                 <img src="/images/surroundsound/surroundsoundlogo.png" alt="surroundsound logo" />
             </div>
             <div className=" bg-black rounded-xl border-t border-l-[2px] border-b border-[#787878] mt-[30px] sm:mt-0">
-            <video src="/videos/ssvid.mp4"className="h-[350px] sm:h-[400px] my-[15px] mx-[3px]" autoPlay muted loop/>
+            <video src="/videos/ssvid.mp4"className="h-[350px] sm:h-[400px] my-[15px] mx-[3px]" autoPlay muted loop onCanPlay={() => setVideoReady(true)}/>
             </div>
             
         </section> 
@@ -113,10 +132,8 @@ export default function Surroundsoundm() {
       
                 <div className="mt-[80px]"></div>
             </div>
-           
-
         </section>
+        </div>
         </>
-
     )
 }

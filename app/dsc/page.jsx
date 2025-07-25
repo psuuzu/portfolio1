@@ -1,10 +1,11 @@
 
-
+'use client';
+import { useState, useEffect } from "react";
 export default function Dsc(){
 
     return(
             <>
-    
+            <div>
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute"/>
                 <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">
@@ -64,7 +65,7 @@ export default function Dsc(){
                     </section>
                 </div>
             </section>
-            
+        </div>
         </>
     )
 }
