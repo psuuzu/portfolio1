@@ -5,6 +5,7 @@ import Line from "@/components/line";
 
 //this page adds a loading page since the video takes some time to load
 //the loading page is an illusion made by hiding and showing elements based on the state
+//state name must be different for different pages as storing session would cause trouble if it were the same
 export default function Surroundsoundm() {
 
      const [ssvideoReady, setVideoReady] = useState(false);
