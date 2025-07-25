@@ -5,6 +5,7 @@ import Line from "@/components/line";
 
 //this page adds a loading page since the video takes some time to load
 //the loading page is an illusion made by hiding and showing elements based on the state
+//state changes depending on video load
 //state name must be different for different pages as storing session would cause trouble if it were the same
 export default function Surroundsoundm() {
 
@@ -23,7 +24,7 @@ export default function Surroundsoundm() {
         return (
         <>
         <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${ssvideoReady ? "hidden" : "block"}`}>
-        <p>Loading...</p>
+        <h2 className='!text-[30px]'>Loading...</h2>
         </div>
         
         <div className={`${ssvideoReady ? "block" : "hidden"}`}>

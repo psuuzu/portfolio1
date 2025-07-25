@@ -1,9 +1,11 @@
 
 'use client';
 import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
 
 //this page adds a loading page since the video takes some time to load
 //the loading page is an illusion made by hiding and showing elements based on the state
+//state changes depending on video load
 //state name must be different for different pages as storing session would cause trouble if it were the same
 export default function Dsc(){
      const [dscvideoReady, setVideoReady] = useState(false);
@@ -22,15 +24,17 @@ export default function Dsc(){
     return(
             <>
             <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
-            <p>Loading...</p>
+            <h2 className='!text-[30px]'>Loading...</h2>
             </div>
 
             <div className={`${dscvideoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
-                <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">
-                    <h2 className='text-[34px] sm:text-[38px]'>DSCubed Website Redesign</h2>
+                <div className="w-full h-full flex flex-col absolute items-start justify-center lg:ml-[10%] lg:w-auto z-20 px-[15px] " >
+                    <h2 className='text-[34px] sm:text-[38px] sm:w-[400px] '>The Leading Data Science Club at The University of Melbourne</h2>
+                    <p className="mt-[20px] !text-white">Website Redesign</p>
                 </div>
+                <div className="w-full h-full bg-black opacity-50 z-10 lg:hidden"></div>
             </section>
             <section className='flex justify-center bg-[#1e1e1e]'>
                 <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
@@ -83,6 +87,18 @@ export default function Dsc(){
                             </ul>
                         </div>     
                     </section>
+                    <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
+                    <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
+                    <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
+                    <div className="flex mt-[60px] items-center">
+                    <h2 className='!text-[30px]'>Links:</h2>
+                    <div className="flex h-auto mx-[10px]">  
+                        <a href="https://www.dscubed.org.au/" target="_blank" className="flex justify-center mx-[10px]">
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Club Website</h4></Button>
+                        </a>                      
+                    </div>
+                    </div>
+                <div className="mt-[80px]"></div>
                 </div>
             </section>
         </div>
