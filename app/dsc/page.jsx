@@ -1,41 +1,14 @@
-'use client';
-import { useEffect, useState } from "react";
+
 
 export default function Dsc(){
-    const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Wait for full page load (images, fonts, etc.)
-    const handleLoad = () => {
-      setIsLoading(false);
-    };
-
-    // Use 'complete' if the page was cached
-    if (document.readyState === "complete") {
-      handleLoad();
-    } else {
-      window.addEventListener("load", handleLoad);
-    }
-
-    return () => {
-      window.removeEventListener("load", handleLoad);
-    };
-  }, []);
 
     return(
-        <>
-            {isLoading ? (
-            <div className="fixed inset-0 flex items-center justify-center bg-black text-white z-50">
-            {/* Replace this with your actual loading screen */}
-            <p>Loading...</p>
-            </div>
-        ) : (
-            <div>
+            <>
+    
             <section className="h-[620px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute"/>
-                <div className="w-full h-full flex flex-col absolute justify-center sm:left-40">
+                <div className="w-full h-full flex absolute items-center justify-center lg:ml-[10%] lg:w-auto">
                     <h2 className='text-[34px] sm:text-[38px]'>DSCubed Website Redesign</h2>
-                    <p className="text-[16px] w-auto sm:w-[180px] mt-[10px]">Reimagining prescription healthcare management</p>
                 </div>
             </section>
             <section className='flex justify-center bg-[#1e1e1e]'>
@@ -91,8 +64,6 @@ export default function Dsc(){
                     </section>
                 </div>
             </section>
-            </div>
-        )}
             
         </>
     )
