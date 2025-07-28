@@ -94,7 +94,7 @@ export default function Tap2heal() {
             </h2>
             <p className="mt-[10px]">Building on the wireframes, we developed interactive prototypes to bring the app’s core experience to life. Using Figma’s prototyping tools, we created high-fidelity prototypes that simulated key user flows</p>
 
-            <p className="mt-[20px]">Patient's Mobile:</p>
+            <p className="mt-[20px]">Patient's Mobile (Video):</p>
             <div className="justify-center flex mt-[20px]">
                 <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline muted className="" />
             </div>
@@ -103,7 +103,7 @@ export default function Tap2heal() {
                 <img src="images/taptoheal/nfc.png" alt="nfc sticker" className="rounded-lg w-[60%] h-auto" />
             </div>
 
-            <p className="mt-[20px]">GP's Desktop:</p>
+            <p className="mt-[20px]">GP's Desktop (Video):</p>
             <div className="justify-center flex mt-[20px]">
                 <video src="images/taptoheal/desktopprototype.mp4" autoPlay loop playsInline muted className="" />
             </div>
