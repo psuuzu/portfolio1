@@ -85,7 +85,7 @@ export default function Tap2heal() {
             <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles. Our goal was to create a seamless experience for patients — one that felt effortless and reassuring, rather than burdensome.</p>
             <p className="mt-[10px]">Patient's Mobile:</p>
             <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
-            <p>GP's Desktop:</p>
+            <p className="mt-[10px]">GP's Desktop:</p>
             <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
 
 
