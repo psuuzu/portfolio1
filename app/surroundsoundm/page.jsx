@@ -103,11 +103,14 @@ export default function Surroundsoundm() {
                 <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
                 <h2 className='!text-[30px] mt-[60px]'>Wireframing and prototyping</h2>
                 <p className="mt-[10px]">
-                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience.
+                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/surroundsound/ssfigma.png" alt="surroundsound figma"/>
                 </div>
+                <p className="mt-[10px]">
+                    The designs were used as a framework for the development of the working app
+                </p>
                 <h2 className='!text-[30px] mt-[60px]'>Results</h2>
                 <p className="mt-[10px]">
                 Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today
