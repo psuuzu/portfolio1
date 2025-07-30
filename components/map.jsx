@@ -28,7 +28,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
                             <h2 className="text-[20px] !text-black">01</h2>
                         </div>
-                        <p className="!text-[18px] ml-[5px]">to User Experience design</p>
+                        <p className="!text-[18px] ml-[5px]">to UX/UI Design</p>
                     </div>
                     <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
                     <img src="/images/route1.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                   
