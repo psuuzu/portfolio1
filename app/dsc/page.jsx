@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
+
 //this page adds a loading page since the video takes some time to load
 //the loading page is an illusion made by hiding and showing elements based on the state
 //state changes depending on video load
@@ -88,8 +89,32 @@ export default function Dsc(){
                         </div>     
                     </section>
                     <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
+                    <p className="mt-[10px]">I conducted an analysis of the current website, identifying issues and creating a list of improvements:</p>
+                    <div className="sm:flex w-full mt-[20px]">
+                    <img src="images/dsc/olddsc.png" alt="old website" className="w-full sm:w-[65%] object-contain"/>
+                    <ul className="list-disc pl-6">
+                        <li><p className="mt-[10px]">Update color theme </p></li>
+                        <li><p className="mt-[10px]">Gradients </p></li>
+                        <li><p className="mt-[10px]">Replace AI images</p></li>
+                        <li><p className="mt-[10px]">Merge two sections</p></li>
+                        <li><p className="mt-[10px]">Focus on benefits of the club</p></li>
+                        <li><p className="mt-[10px]">Shorten paragraphs</p></li>
+                        <li><p className="mt-[10px]">Replace pixel grid with visualizer</p></li>
+                        <li><p className="mt-[10px]">restyle nav bar</p></li>
+                        <li><p className="mt-[10px]">Competitions page information update</p></li>
+                        <li><p className="mt-[10px]">Projects page design review</p></li>
+                    </ul> 
+                    </div>
+                    
+                    
                     <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
+                    <img src="images/dsc/dscwireframe.png" />
+                    <p className="mt-[20px]">These wireframes are presented to the club committee to collect feedback. The responses are used to mix and match sections and features that work well along with small fixes and polishes to the designs</p>
                     <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
+                    <img src="images/dsc/dscproto.png" alt="website prototype" className=""/>
+                    <p>View more on website (link below)</p>
+                    <h2 className='!text-[30px] mt-[60px]'>Takeaways</h2>
+                    <p className="mt-[10px]">Through updated visuals, a refined structure, and a cohesive style, the new design presents a clearer, more engaging experience for users. This workflow was used for other club internal projects such as the projects page, committee page and the competitions page that increased signups by more than double from last year! </p>
                     <div className="flex mt-[60px] items-center">
                         <h2 className='!text-[30px]'>Links:</h2>
                         <div className="flex h-auto mx-[10px]">  
