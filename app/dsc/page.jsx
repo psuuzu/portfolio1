@@ -123,11 +123,21 @@ export default function Dsc(){
                             </a>                      
                         </div>
                     </div>
-                    <h2 className='!text-[30px] mt-[60px]'>Club Pages Project Gallery</h2>
-                    <img src="images/dsc/projectgallery.png" alt="Projects page and Competitions page gallery" className=""/>
+                    <h2 className='!text-[30px] mt-[60px]'>Other Webpage projects</h2>
+                    <div className="flex-col flex justify-center items-center w-full bg-[#1e1e1e]">
+                        <a href="https://www.dscubed.org.au/projects" target="_blank" className="w-[80%] mt-[30px]">
+                            <img src="images/dsc/project.png" alt="Projects page" />
+                        </a>
+                        <a href="https://www.dscubed.org.au/competitions" target="_blank" className="w-[80%] mt-[30px]">
+                            <img src="images/dsc/competition.png" alt="competition page"/>
+                        </a>
+                        <a href="https://www.dscubed.org.au/committee-2025" target="_blank" className="w-[80%] mt-[30px]">
+                            <img src="images/dsc/committee.png" alt="Committee page" />
+                        </a>
+                    </div>
                     <div className="mt-[80px]"></div>
                 </div>
-            </section>
+            </section>   
         </div>
     </>
     )
