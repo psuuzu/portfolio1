@@ -123,6 +123,8 @@ export default function Dsc(){
                             </a>                      
                         </div>
                     </div>
+                    <h2 className='!text-[30px] mt-[60px]'>Club Pages Project Gallery</h2>
+                    <img src="images/dsc/projectgallery.png" alt="Projects page and Competitions page gallery" className=""/>
                     <div className="mt-[80px]"></div>
                 </div>
             </section>
