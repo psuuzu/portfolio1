@@ -60,7 +60,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
                             <h2 className="text-[20px] !text-black">03</h2>
                         </div>
-                        <p className="!text-[18px] ml-[5px]">to Visual Design</p>
+                        <p className="!text-[18px] ml-[5px]">to Graphic Design</p>
                     </div>
                     <p>(Under Construction)</p>
                     {/* image and button goes here         */}
