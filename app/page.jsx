@@ -2,12 +2,12 @@
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import  Movement  from "@/components/movement";
-import  Inbound  from "@/components/redesign";
+import  Inbound  from "@/components/lab";
 import Tap2heal from "@/components/tap2heal";
 import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
-import Redesign from "@/components/redesign";
+import Lab from "@/components/lab";
 import Loading from "@/components/ui/loading";
 import Fadein from "@/components/ui/fadein";
 import Ani from "@/components/ani"; 
@@ -82,7 +82,7 @@ if (project === "ux") {
       <Line />
       <Fadein><Tap2heal /></Fadein>
       <Line />
-      <Fadein><Redesign /></Fadein>
+      <Fadein><Lab /></Fadein>
       <Line />
       <Fadein><Dscweb /></Fadein>
       <Line />
