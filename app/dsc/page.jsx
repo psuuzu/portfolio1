@@ -43,7 +43,7 @@ export default function Dsc(){
                         This website rebrand project aimed to improve the club’s online presence by removing distracting content, highlighting key information and aligning the design with the club’s identity. 
                     </p>
                     <p className="mt-[20px]">
-                        Led website analysis, and ideation, presented concepts to the club committee, and gathered feedback. I also collaborated with team members to develop wireframes and build prototypes.
+                        Led website analysis, and ideation, presented concepts to the club committee, and gathered feedback. Collaborated with team members to develop wireframes and build prototypes.
                     </p>
 
                     <section className="flex flex-col sm:flex-row mt-[60px]">
@@ -108,7 +108,9 @@ export default function Dsc(){
                     
                     
                     <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
+                    <p className="mt-[10px]">As a team, we have created three mid-fidelity wireframes reflecting the list of improvements above with different designs and approaches. </p>
                     <img src="images/dsc/dscwireframe.png" />
+                    <h2 className='!text-[30px] mt-[60px]'>Presentation and Feedback</h2>
                     <p className="mt-[20px]">These wireframes are presented to the club committee to collect feedback. The responses are used to mix and match sections and features that work well along with small fixes and polishes to the designs</p>
                     <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                     <img src="images/dsc/dscproto.png" alt="website prototype" className=""/>
