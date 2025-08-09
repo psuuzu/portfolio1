@@ -1,6 +1,9 @@
+'use client'
 import { Button } from "./ui/button"
+import { useRouter } from "next/navigation";
 
 export default function Lab() {
+    const router = useRouter()
     return (
         <section className="flex flex-col sm:flex-row justify-center items-center w-full mt-[40px]">
             <div className="flex items-center">
@@ -11,7 +14,7 @@ export default function Lab() {
                 <h3 className="mb-[15px]"> UX Research | UX testing  </h3>
                 <p className="text-[16px]">This study evaluated the Yummly website using expert and user-based methods to identify usability issues and recommend improvements for clearer navigation, better feedback, and more recognizable interface elements.</p>
                 <div className="flex justify-center sm:justify-start">
-                <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
+                <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={()=>router.push("lab")}><h4>View more</h4></Button>
                 </div>
 
             </div>
