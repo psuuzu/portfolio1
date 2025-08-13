@@ -13,7 +13,7 @@ export default function Page(){
                 <motion.div
                   initial={{ opacity: 0, x: 50 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, ease: "easeOut", delay:0.2}}
+                  transition={{ duration: 0.5, ease: "easeOut", delay:0.5}}
                   >
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] flex-col hidden sm:block">
                         <h1 className='text-[40px] md:text-[50px] pr-1'>Paul Su</h1>
@@ -34,7 +34,7 @@ export default function Page(){
                   <motion.div
                   initial={{ opacity: 1, x: "-15vw" }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, ease: "easeOut", delay:0.2 }}
+                  transition={{ duration: 0.5, ease: "easeOut", delay:0.5 }}
                   >
                     
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] h-[70vw] sm:h-[34vw] lg:h-[20vw] rounded-xl overflow-hidden hidden sm:block">
@@ -59,7 +59,7 @@ export default function Page(){
                 <motion.div
               initial={{ opacity: 0, y: -50 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: "easeOut", delay:0.2 }}
+              transition={{ duration: 0.5, ease: "easeOut", delay:0.5 }}
             >
                 <div className="w-[80vw] sm:w-[84vw] lg:w-[60vw] flex flex-col sm:flex-row sm:justify-between items-center mt-[40px]">
                     <div className="flex flex-row items-center mb-[5px] sm:m-0">
