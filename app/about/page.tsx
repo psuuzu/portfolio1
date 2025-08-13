@@ -18,7 +18,7 @@ export default function Page(){
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] flex-col hidden sm:block">
                         <h1 className='text-[40px] md:text-[50px] pr-1'>Paul Su</h1>
                         <p className="mt-[20px]  pr-[10px]">I’m a UX designer with a background in visual arts, passionate about creating intuitive solutions that are visually appealing and backed by research and testing. Beyond UX design, I am expanding my front end development skills in react to bring my designs to life</p>
-                        <p className="hidden pr-[10px] mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing music, and surfing.</p>
+                        <p className="pr-[10px] mt-[16px]"> in my free time (if i get any) I enjoy doing visual arts, playing music, and surfing.</p>
                     </div>
                   </motion.div>
                   {/* mobile title */}
