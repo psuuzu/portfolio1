@@ -34,17 +34,19 @@ export default function Page(){
                   <motion.div
                   initial={{ opacity: 1, x: "-15vw" }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8, ease: "easeOut", delay:0.5 }}
+                  transition={{ duration: 0.5, ease: "easeOut", delay:0.5 }}
                   >
+                    
                     <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] h-[70vw] sm:h-[34vw] lg:h-[20vw] rounded-xl overflow-hidden hidden sm:block">
                         <img src="/images/surf.jpg" alt="surf pic" className="h-full w-full object-cover scale-150"/>
                     </div>
+    
                   </motion.div>
                   {/* mobile image */}
                   <motion.div
                   initial={{ opacity: 1, y: "15vh" }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, ease: "easeOut", delay:0 }}
+                  transition={{ duration: 0.8, ease: "easeOut", delay:0 }}
                   >
                   <div className="w-[80vw] sm:w-[42vw] lg:w-[30vw] h-[70vw] sm:h-[34vw] lg:h-[20vw] rounded-xl overflow-hidden sm:hidden">
                         <img src="/images/surf.jpg" alt="surf pic" className="h-full w-full object-cover scale-150"/>
@@ -71,7 +73,7 @@ export default function Page(){
            
             {/* mobile content */}
             <motion.div
-                  initial={{ opacity: 0, y: -100 }}
+                  initial={{ opacity: 0, y: -50 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, ease: "easeOut", delay:0.5}}
                   >
