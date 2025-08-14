@@ -87,12 +87,12 @@ if (project === "ux") {
       <Fadein><Dscweb /></Fadein>
       <Line />
       <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-8 sm:top-10 text-[26px] md:text-[30px]">Coming Soon</h2>
-        <img src="/images/signbus.png" className="w-[250px] sm:w-[300px]"></img>
+        <h2 className="absolute translate-x-2 top-6 sm:top-8 text-[26px] md:text-[30px]">Coming Soon</h2>
+        <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
       </div>
       <div className="mt-[30vh]"></div>
       <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-10 translate-x-[-100%]"><p>back to top ↑</p></a>
+        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%]"><p>Back to Top ↑</p></a>
         <img src="/images/chair.gif" className='w-[300px] sm:w-[420px]'/>
       </div>
     </>
@@ -107,12 +107,12 @@ if (project === "ux") {
       <Fadein><Portf/></Fadein>
       <Line />
       <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-8 sm:top-10 text-[26px] md:text-[30px]">Coming Soon</h2>
-        <img src="/images/signbus.png" className="w-[250px] sm:w-[300px]"></img>
+        <h2 className="absolute translate-x-2 top-6 sm:top-8 text-[26px] md:text-[30px]">Coming Soon</h2>
+        <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
       </div>
       <div className="mt-[30vh]"></div>
       <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-10 translate-x-[-100%]"><p>back to top ↑</p></a>
+        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%]"><p>Back to Top ↑</p></a>
         <img src="/images/chair.gif" className='w-[300px] sm:w-[420px]'/>
       </div>
     </>
