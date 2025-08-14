@@ -92,8 +92,8 @@ if (project === "ux") {
       </div>
       <div className="mt-[30vh]"></div>
       <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%]"><p>Back to Top ↑</p></a>
-        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px]'/>
+        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%] z-10"><p>Back to Top ↑</p></a>
+        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px] opacity-80 z-0 contrast-110'/>
       </div>
     </>
   );
@@ -112,8 +112,8 @@ if (project === "ux") {
       </div>
       <div className="mt-[30vh]"></div>
       <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%]"><p>Back to Top ↑</p></a>
-        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px]'/>
+        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%] z-10"><p>Back to Top ↑</p></a>
+        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px] opacity-80 z-0 contrast-110'/>
       </div>
     </>
   );
