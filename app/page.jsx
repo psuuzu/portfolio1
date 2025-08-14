@@ -102,10 +102,16 @@ if (project === "ux") {
       <Line />
       <Fadein><Portf/></Fadein>
       <Line />
-      <div className="mt-[60px]"></div>
-      <Loading />
-      <div className="w-full flex justify-center mt-[60px]">
-        <a href="#top"><p>More great things to come... back to top ↑</p></a>
+      <div className="flex justify-center relative">
+        <h2 className="absolute translate-x-2 top-8 sm:top-10 text-[26px] md:text-[30px]">Coming Soon</h2>
+        <img src="/images/signbus.png" className="w-[250px] sm:w-[300px]"></img>
+      </div>
+      <div className="mt-[40vh]"></div>
+      <div className="w-full flex justify-center">
+        <a href="#top"><p>back to top ↑</p></a>
+      </div>
+      <div className="flex justify-end">
+        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px]'/>
       </div>
     </>
   );
@@ -132,7 +138,7 @@ if (project === "ux") {
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>    
           
           {projectcontent}
-          <div className="mt-[60px]"></div>
+       
           
         </div>
       </section>
