@@ -30,8 +30,8 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[18px] ml-[5px]">to UX/UI Design</p>
                     </div>
-                    <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
-                    <img src="/images/route1.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                   
+                    <p className="!text-[#838383] mt-[5px]">7 min</p>
+                    {/* <img src="/images/route1.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                    */}
                 </div>
               
                 </motion.div>
@@ -49,8 +49,8 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[18px] ml-[5px]">to Front-end Interactions</p>
                     </div>
-                    <p className="!text-[#838383] mt-[5px]">Stopping at:</p>
-                    <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>
+                    <p className="!text-[#838383] mt-[5px]">14 min</p>
+                    {/* <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/> */}
                 </div>  
                 </motion.div>
                 
@@ -62,7 +62,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[18px] ml-[5px]">to Creative Works</p>
                     </div>
-                    <p>(Under Construction)</p>
+                    <p className="mt-[5px]">(Under Construction)</p>
                     {/* image and button goes here         */}
                 </div>
             </section>
