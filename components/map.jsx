@@ -30,7 +30,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[20px] ml-[5px]">UX/UI Design</p>
                     </div>
-                    <p className="!text-[#838383] mt-[5px]">Ideas -------- Prototype</p>
+                    <p className="!text-[#838383] mt-[2px]">Ideas -------- Prototype</p>
                     {/* <img src="/images/route1.p  ng" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                    */}
                 </div>
               
@@ -49,7 +49,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[20px] ml-[5px]">Front-End</p>
                     </div>
-                    <p className="!text-[#838383] mt-[5px]">Design -------- Interactive Product</p>
+                    <p className="!text-[#838383] mt-[2px]">Design -------- Interactive Product</p>
                     {/* <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/> */}
                 </div>  
                 </motion.div>
@@ -62,7 +62,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[20px] ml-[5px]">Creative Works</p>
                     </div>
-                    <p className="mt-[5px]">(Under Construction)</p>
+                    <p className="mt-[2px]">(Under Construction)</p>
                     {/* image and button goes here         */}
                 </div>
             </section>
