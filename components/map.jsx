@@ -66,7 +66,9 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                     {/* image and button goes here         */}
                 </div>
             </section>
-            <div className="w-[70px]  hidden sm:block"></div>
+            <div className="w-[70px]  hidden sm:block">
+                
+            </div>
             
         </div>           
     )
