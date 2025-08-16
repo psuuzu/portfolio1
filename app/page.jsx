@@ -87,7 +87,7 @@ if (project === "ux") {
       <Fadein><Dscweb /></Fadein>
       <Line />
       <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-6 sm:top-8 text-[26px] md:text-[30px]">Coming Soon</h2>
+        <h2 className="absolute translate-x-2 top-7 sm:top-9 text-[20px] md:text-[24px]">Coming Soon</h2>
         <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
       </div>
       <div className="mt-[30vh]"></div>
@@ -107,7 +107,7 @@ if (project === "ux") {
       <Fadein><Portf/></Fadein>
       <Line />
       <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-6 sm:top-8 text-[26px] md:text-[30px]">Coming Soon</h2>
+        <h2 className="absolute translate-x-2 top-7 sm:top-9 text-[20px] md:text-[24px]">Coming Soon</h2>
         <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
       </div>
       <div className="mt-[30vh]"></div>
