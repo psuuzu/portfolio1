@@ -9,7 +9,7 @@ export default function Tap2heal() {
                     <img src="images/yummly/yummlylogo.png" alt="yummly logo" className="h-[100px] sm:h-[130px]"/>
                     <div className="ml-[10px] sm:ml-[30px]">
                         <h2 className='text-[34px] sm:text-[38px] text-[#E0601F]'>Yummly</h2>
-                        <p className="!text-white text-[16px] w-auto sm:w-[180px] mt-[10px]">Usability evaluation</p>
+                        <p className="!text-white text-[16px] w-auto sm:w-[180px] mt-[10px]">Usability Evaluation</p>
                     </div>
                 </div>                
                 <div className="w-full sm:w-auto h-full sm:mb-0 absolute z-0 right-0 hidden sm:block">
@@ -23,7 +23,7 @@ export default function Tap2heal() {
         <section className='flex justify-center bg-[#1e1e1e]'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
             <p className="!text-[20px] mt-[60px] !text-white">
-                This report presents the results of a study conducted on the Yummly website (an online recipe and meal planning platform). The study aimed to identify usability issues of the site and to determine relevant recommendations to improve the usability and user experience for Yummly’s users.
+                The study aimed to identify usability issues of Yummly (an online recipe and meal planning platform) to determine relevant recommendations to improve the usability and user experience.
             </p>
             <p className="mt-[20px]">
             Conducted:            
@@ -35,7 +35,7 @@ export default function Tap2heal() {
             </div>
             <div className="pl-[32px]">
                 <p className="mt-[20px]">
-                User based : unmoderated online test, moderated lab testing (conducted in UX Labs at Melbourne Connect) , questionnaires         
+                User based : unmoderated online test, moderated lab test (conducted in UX Labs at Melbourne Connect) , questionnaires         
                 </p>
             </div>
             
