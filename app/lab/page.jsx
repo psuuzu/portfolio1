@@ -1,6 +1,22 @@
 import { Button } from "@/components/ui/button";
+import * as React from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
 export default function Tap2heal() {
+    const carouselTexts = [
+  "You just arrived home from work and were craving Indian curry. However, you were unsure on how to make it yourself, show me how you could find this information",
+  "You are a busy person who works during the majority of the week, so you decided to start meal planning for the week to reduce the number of grocery trips. Show me how you could start a meal planner and shopping list",
+  "You are searching for a cake recipe in Yummly for your mum. You want to save this cake recipe while adding a note to buy other extra ingredients to further personalise the cake",
+  "You are hungry but don't know what to cook. Browse and find a new recipe for yourself (in this scenario you cannot eat pork due to religious reasons)",
+  "You’re unfamiliar with cooking in general- you use the “guided recipes” feature to walk through a recipe you are interested in by following the step-by-step instructions with video clips. Following this, you decide to leave a review afterward",
+    ];
     return(
         <>
         <section className="h-[620px] sm:h-[97vh] flex-col flex w-full"> 
@@ -101,12 +117,29 @@ export default function Tap2heal() {
             <h2 className='!text-[30px] mt-[60px]'>
                 Scenarios
             </h2>
-            <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles. Our goal was to create a seamless experience for patients — one that felt effortless and reassuring, rather than burdensome.</p>
-            <p className="mt-[10px]">Patient's Mobile:</p>
-            <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
-            <p className="mt-[10px]">GP's Desktop:</p>
-            <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
-
+            <p className="mt-[10px]">
+                Defined main features of the website, created 5 scenarios that are designed to touch upon all core functions. These scenarios are used to conduct cognitive walkthrough and Moderated lab testing.
+            </p>
+            <div className="flex justify-center sm:w-full mt-[20px]">
+            <Carousel opts={{ align: "start" }} className="w-[80%] sm:w-full max-w">
+            <CarouselContent>
+                {carouselTexts.map((text, index) => (
+                <CarouselItem key={index} className="sm:basis-1/2">
+                    <div className="p-1">
+                    <Card>
+                        <CardContent className="flex items-center justify-center p-6">
+                        <p className="!text-black">{text}</p>
+                        </CardContent>
+                    </Card>
+                    </div>
+                </CarouselItem>
+                ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+            </Carousel>
+            </div>
+            
 
             <h2 className='!text-[30px] mt-[60px]'>
                 Cognitive Walkthrough
