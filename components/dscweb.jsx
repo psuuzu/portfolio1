@@ -15,7 +15,7 @@ export default function Dscweb() {
                     firstImageClassName="object-cover "
                     secondImageClassname="object-cover"
                     className="w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-[50.62vw] sm:h-[39.37vw] md:h-[33.75vw] lg:h-[28.12vw]"
-                    slideMode="hover"
+                    slideMode="drag"
                 />
                 </div>
             </div>    

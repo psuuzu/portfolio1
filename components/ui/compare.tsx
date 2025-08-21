@@ -12,7 +12,7 @@ interface CompareProps {
   firstImageClassName?: string;
   secondImageClassname?: string;
   initialSliderPercentage?: number;
-  slideMode?: "hover" | "drag";
+  slideMode?: "drag" | "hover";
   showHandlebar?: boolean;
   autoplay?: boolean;
   autoplayDuration?: number;
@@ -24,7 +24,7 @@ export const Compare = ({
   firstImageClassName,
   secondImageClassname,
   initialSliderPercentage = 30,
-  slideMode = "hover",
+  slideMode = "drag",
   showHandlebar = true,
   autoplay = false,
   autoplayDuration = 5000,
