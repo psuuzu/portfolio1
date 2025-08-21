@@ -22,7 +22,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                 whileTap={{ scale: 0.9 }}
                 className="flex flex-row"> 
              
-                <div onClick={()=> setProject("ux")} className="px-[10px]">
+                <div onClick={()=> setProject("ux")} className="px-[10px] cursor-pointer">
                     <div className="flex items-center">
                         <h2 className="text-[26px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
@@ -41,7 +41,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                 whileTap={{ scale: 0.9 }}
                 > 
                 
-                <div className="mt-[8vh] px-[10px]" onClick={()=> setProject("ui")}>
+                <div className="mt-[8vh] px-[10px] cursor-pointer" onClick={()=> setProject("ui")}>
                     <div className="flex items-center">
                         <h2 className="text-[26px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
