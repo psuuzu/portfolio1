@@ -113,7 +113,7 @@ export default function Tap2heal() {
             <p className="mt-[10px]">
                 Initial analysis involved exploring the site, following Jakob Nielson’s 10 Usability heuristics.
             </p>
-            <img src="images/yummly/heuristic.png" alt="heuristic evaluaation" className="mt-[30px]" />
+            <img src="images/yummly/heuristic.png" alt="heuristic evaluaation" className="mt-[20px]" />
             <h2 className='!text-[30px] mt-[60px]'>
                 Scenarios
             </h2>
@@ -144,30 +144,36 @@ export default function Tap2heal() {
             <h2 className='!text-[30px] mt-[60px]'>
                 Cognitive Walkthrough
             </h2>
-            <p className="mt-[10px]">Building on the wireframes, we developed interactive prototypes to bring the app’s core experience to life. Using Figma’s prototyping tools, we created high-fidelity prototypes that simulated key user flows</p>
-
-            <p className="mt-[20px]">Patient's Mobile (Video):</p>
-            <div className="justify-center flex mt-[20px]">
-                <video src="images/taptoheal/mobileprototype.mp4" autoPlay loop playsInline muted className="" />
-            </div>
-            <p className="mt-[20px]">Sample NFC --with QR code alternative-- sticker  on prescription bottle:</p>
-            <div className="justify-center flex mt-[20px]">
-                <img src="images/taptoheal/nfc.png" alt="nfc sticker" className="rounded-lg w-[60%] h-auto" />
-            </div>
-
-            <p className="mt-[20px]">GP's Desktop (Video):</p>
-            <div className="justify-center flex mt-[20px]">
-                <video src="images/taptoheal/desktopprototype.mp4" autoPlay loop playsInline muted className="" />
-            </div>
+            <p className="mt-[10px]">
+                I broke down each scenario into small steps, evaluating : will users know what to do? see how to do it? and understand from the feedback whether they did it correctly?            
+            </p>
+            <p className="mt-[20px]">
+                Example 1 : Scenario 4 - customozing search to find a recipe
+            </p>
+            <img src="images/yummly/cognitive.png" alt="cognitive walkthrough" className="mt-[10px] rounded-xl" />
+            <h2 className='!text-[30px] mt-[60px]'>
+                First Click Test
+            </h2>
+            <p className="mt-[10px]">
+                Participants were presented with a short scenario, followed by a screenshot of the main page of Yummly. They would then click on any part of the screen they believed would be the first step of hypothetically completing the task. 
+            </p>
+            <img src="images/yummly/firstclick.png" alt="first click test" className="mt-[20px] rounded-xl" />
+            <p className="mt-[10px]">
+                The results from the first click test varied a lot. This highlighted issues with recognition and layout as participants have commented “difficult to find at first glance”, “hard to tell where I’m supposed to look” after the test. 
+            </p>
+            <h2 className='!text-[30px] mt-[60px]'>
+                Lab Test
+            </h2>
+           
 
             <div className="flex mt-[60px] items-center">
                 <h2 className='!text-[30px]'>Links:</h2>
                     <div className="flex h-auto mx-[10px]">  
                         <a href="https://www.figma.com/design/P9STfJptgY0JX70RnQB7FT/Product-thon?node-id=60-2&p=f&t=uk2ZciDcPN54r3HY-0" target="_blank" className="flex justify-center mx-[10px]">
-                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Figma</h4></Button>
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Full Report 1</h4></Button>
                         </a>
                         <a href="https://devpost.com/software/tap2heal?" target="_blank" className="flex justify-center mx-[10px]">
-                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Devpost</h4></Button>
+                            <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Full Report 2</h4></Button>
                         </a>                      
                     </div>
             </div>
