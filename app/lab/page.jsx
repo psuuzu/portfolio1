@@ -170,6 +170,28 @@ export default function Tap2heal() {
            <p className="mt-[16px]">
             The test was conducted following a structured protocol consisting of: an introduction, participant briefing, task execution, a post-test questionnaire, and a debrief. (view the full test protocol in the full report) 
            </p>
+           <h2 className="!text-[24px] sm:block hidden mt-[20px]">Roles</h2>
+           <div className="sm:flex-row flex flex-col-reverse w-full mt-[20px] sm:mt-[0] items-center">
+                <div className="w-full sm:w-[50%]">
+                    <h2 className="!text-[24px] sm:hidden mt-[20px]">Roles</h2>
+                    <p className="mt-[10px] font-semibold !text-white">Host :</p>
+                    <p className="">Set up invitations and welcomed participants.</p>
+                    <p className="mt-[16px] font-semibold !text-white">Facilitator</p>
+                    <p className="">
+                        Briefed and debriefed participants, presented them with 5 task scenarios to complete, following the full test protocol.
+                    </p>
+                    <p className="mt-[16px] font-semibold !text-white">Observer</p>
+                    <p className="">
+                        Overlook the study and took notes.
+                    </p>
+                    <p className="mt-[16px] font-semibold !text-white">Technician</p>
+                    <p className="">
+                        Recorded the study using cameras, microphones and screen recorders.
+                    </p>
+                </div>
+                <img src="images/lab.jpg" alt="UX lab image" className="w-full sm:w-[50%] object-contain px-2"/>
+            </div>
+            <p className="mt-[16px] italic">I took on the role as the technician and the facilitator. </p>
 
             <div className="flex mt-[60px] items-center">
                 <h2 className='!text-[30px]'>Links:</h2>
