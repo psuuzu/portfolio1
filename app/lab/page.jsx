@@ -189,7 +189,7 @@ export default function Tap2heal() {
                         Recorded the study using cameras, microphones and screen recorders.
                     </p>
                 </div>
-                <img src="images/lab.jpg" alt="UX lab image" className="w-full sm:w-[50%] object-contain px-2"/>
+                <img src="images/lab.jpg" alt="UX lab image" className="w-full sm:w-[50%] object-contain px-2 rounded-xl"/>
             </div>
             <p className="mt-[16px] italic">I took on the role as the technician and the facilitator. </p>
 
