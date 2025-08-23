@@ -164,7 +164,12 @@ export default function Tap2heal() {
             <h2 className='!text-[30px] mt-[60px]'>
                 Lab Test
             </h2>
-           
+           <p className="mt-[10px]">
+            The moderated onsite testing was conducted in the UX lab at Melbourne Connect. The test involved 6 participants, selected through convenience sampling, who each completed the study individually. Each participant has given informed consent after reading the plain language statement.
+           </p>
+           <p className="mt-[16px]">
+            The test was conducted following a structured protocol consisting of: an introduction, participant briefing, task execution, a post-test questionnaire, and a debrief. (view the full test protocol in the full report) 
+           </p>
 
             <div className="flex mt-[60px] items-center">
                 <h2 className='!text-[30px]'>Links:</h2>

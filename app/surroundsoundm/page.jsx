@@ -20,6 +20,12 @@ export default function Surroundsoundm() {
         useEffect(() => {
         sessionStorage.setItem("ssvideoReady", ssvideoReady);
         }, [ssvideoReady]);
+
+        useEffect(() => {
+            if (ssvideoReady) {
+                window.scrollTo(0, 0);
+            }
+        }, [ssvideoReady]);
    
         return (
         <>

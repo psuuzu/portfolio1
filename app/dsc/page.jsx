@@ -22,6 +22,12 @@ export default function Dsc(){
         sessionStorage.setItem("dscvideoReady", dscvideoReady);
         }, [dscvideoReady]);
 
+        useEffect(() => {
+            if (dscvideoReady) {
+                window.scrollTo(0, 0);
+            }
+        }, [dscvideoReady]);
+
     return(
     <>
         <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
