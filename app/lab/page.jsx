@@ -192,7 +192,45 @@ export default function Tap2heal() {
                 <img src="images/lab.jpg" alt="UX lab image" className="w-full sm:w-[50%] object-contain px-2 rounded-xl"/>
             </div>
             <p className="mt-[16px] italic">I took on the role as the technician and the facilitator. </p>
-
+            <h2 className='!text-[30px] mt-[60px]'>
+                Findings
+            </h2>
+            <p className="mt-[10px]">
+                Overall, participants thought that the website was usable to a certain extent but most users are
+ neutral on being regular users. Most dissatisfaction came from inconsistencies within the
+ website, assumed technical skills, and the steep learning curve that is required to use the
+ website.
+            </p>
+            <img src="images/yummly/posttest.png" alt="post test questionaire" className="mt-[20px] rounded-xl" />
+            
+            <p className="mt-[16px]">
+                The information flow was inconsistent, particularly with filtering functions that differed between the “browse” and “feeds” pages, leaving many unable to find the filters they needed.
+            </p>
+            <p className="mt-[16px]">
+                Feedback was lacking, as users were unsure if recipes were successfully added to the shopping list, and meal plan options were unresponsive.
+            </p>
+            <p className="mt-[16px]">
+                Recognition was also problematic, with the “save recipe” button’s unclear “yum” label causing confusion and task abandonment
+            </p>
+            <p className="mt-[16px]">
+                Efficiency received mixed feedback: while some appreciated the variety of filters, others found them redundant and unintuitive.
+            </p>
+            <p className="mt-[16px]">
+                Finally, mapping showed both strengths and weaknesses. Participants valued the step-by-step guide for its clarity and interactivity, but navigation was hindered by intrusive ads, cluttered sections, poor content placement, and overwhelming amounts of information, making tasks harder to complete.
+            </p>
+            
+            <h2 className='!text-[30px] mt-[60px]'>
+                Recommendations
+            </h2>
+            <p className="mt-[10px]">
+                It is recommended to replace the logo with a standard save icon (e.g., a bookmark), label it clearly, and add stronger visual or audio feedback to indicate successful saving.
+            </p>
+            <p className="mt-[16px]">
+                Consolidating search into one universal, highly visible search bar with integrated filters available upfront would improve efficiency, consistency, and user control.
+            </p>
+            <p className="mt-[16px]">
+                Adding explicit labels to buttons, improving the visibility of guidance, and incorporating stronger onboarding or instructional aids would enhance clarity, align with user expectations, and improve learnability.
+            </p>
             <div className="flex mt-[60px] items-center">
                 <h2 className='!text-[30px]'>Links:</h2>
                     <div className="flex h-auto mx-[10px]">  
