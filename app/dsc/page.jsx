@@ -122,7 +122,8 @@ export default function Dsc(){
                     <img src="images/dsc/dscproto.png" alt="website prototype" className=""/>
                     <p>View more on website (link below)</p>
                     <h2 className='!text-[30px] mt-[60px]'>Results</h2>
-                    <p className="mt-[10px]">Through updated visuals, a refined structure, and a cohesive style, the new design presents a clearer, more engaging experience for users increasing club member signups by 100+ the following semester! This workflow was used for other club internal projects such as the projects page, committee page and the competitions page that increased participation by more than double from last year! </p>
+                    <p className="mt-[10px]">Through updated visuals, a refined structure, and a cohesive style, the new design presents a clearer, more engaging experience for users increasing club member signups by 100+ the following semester! </p>
+                    <p className="mt-[16px]">This workflow was used for other club internal projects such as the projects page, committee page and the competitions page that increased participation by more than double from last year!</p>
                     <div className="flex mt-[60px] items-center">
                         <h2 className='!text-[30px]'>Links:</h2>
                         <div className="flex h-auto mx-[10px]">  
