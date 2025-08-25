@@ -127,20 +127,15 @@ if (project === "ux") {
         <div className="flex-1 flex justify-center items-center">
           <Landing project={project} setProject={setProject} showSecondDiv={showSecondDiv} setShowSecondDiv={setShowSecondDiv}></Landing>      
         </div>
-      {/* <div className="flex justify-center">
-          <p className="!text-[14px] opacity-55">built with react and tailwind css</p>
-      </div> */}
       <div className='flex justify-center h-auto'>
       <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto '/>
       </div>  
     </section>
-      
 
       <section className='flex justify-center'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>    
           
           {projectcontent}
-       
           
         </div>
       </section>
