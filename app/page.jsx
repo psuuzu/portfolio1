@@ -15,6 +15,7 @@ import Title from "@/components/title";
 import Map from "@/components/map"; 
 import Landing from "@/components/landing";
 import Portf from "@/components/portf"
+import Footer from "@/components/ui/footer";
 import { useState, useEffect } from 'react';
 
 
@@ -86,15 +87,7 @@ if (project === "ux") {
       <Line />
       <Fadein><Dscweb /></Fadein>
       <Line />
-      <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-7 sm:top-9 text-[20px] md:text-[24px]">Coming Soon</h2>
-        <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
-      </div>
-      <div className="mt-[30vh]"></div>
-      <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%] z-10"><p>Back to Top ↑</p></a>
-        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px] opacity-80 z-0 contrast-110'/>
-      </div>
+      <Footer></Footer>
     </>
   );
 } else if (project === "ui") {
@@ -106,15 +99,7 @@ if (project === "ux") {
       <Line />
       <Fadein><Portf/></Fadein>
       <Line />
-      <div className="flex justify-center relative">
-        <h2 className="absolute translate-x-2 top-7 sm:top-9 text-[20px] md:text-[24px]">Coming Soon</h2>
-        <img src="/images/signbus.png" className="w-[200px] sm:w-[250px]"></img>
-      </div>
-      <div className="mt-[30vh]"></div>
-      <div className="flex justify-end relative">
-        <a href="#top" className="absolute top-6 sm:top-10 translate-x-[-100%] z-10"><p>Back to Top ↑</p></a>
-        <img src="/images/chair.gif" className='w-[300px] sm:w-[420px] opacity-80 z-0 contrast-110'/>
-      </div>
+      <Footer></Footer>
     </>
   );
 }
@@ -123,20 +108,21 @@ if (project === "ux") {
     <>
   
     {/* title */}
-    <section className="h-[85vh] sm:h-[88vh] flex flex-col justify-center" >
+    <section className="h-[85vh] sm:h-[88vh] flex flex-col justify-center bg-black z-50" >
         <div className="flex-1 flex justify-center items-center">
           <Landing project={project} setProject={setProject} showSecondDiv={showSecondDiv} setShowSecondDiv={setShowSecondDiv}></Landing>      
         </div>
       <div className='flex justify-center h-auto'>
-      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto '/>
+      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto'/>
       </div>  
     </section>
 
       <section className='flex justify-center'>
-        <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>    
+        <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto z-40 bg-black'>    
           
           {projectcontent}
           
+       
         </div>
       </section>
    
