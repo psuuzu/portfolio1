@@ -11,12 +11,23 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                     <p className="py-[10px] mr-[20px]"> ← Back</p>
                 </div>
             </div>
+            {/* <section className="w-[15%]  flex  items-center">
+                <div className="flex flex-col w-fit text-right">
+                    <p>Ideation</p>
+                    <p className="mt-[20px]">Sketching</p>
+                    <p className="mt-[20px]">Wireframing</p>
+                    <p className="mt-[20px]">Testing</p>
+                    <p className="mt-[20px]">Iterations</p>
+                    <p className="mt-[20px]">Prototype</p>
+                </div>
+            </section> */}
             <section className="flex flex-col h-full">
                 <div className="h-full sm:hidden">
                     <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
                         <p className="mb-[3vh]"> ← Back</p>
                     </div>
                 </div>
+                
                 <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
@@ -31,7 +42,6 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <p className="!text-[20px] ml-[5px]">UX/UI Design</p>
                     </div>
                     <p className="!text-[#838383] mt-[2px]">Ideas -------- Prototype</p>
-                    {/* <img src="/images/route1.p  ng" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/>                                    */}
                 </div>
               
                 </motion.div>
@@ -50,7 +60,6 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <p className="!text-[20px] ml-[5px]">Front-End</p>
                     </div>
                     <p className="!text-[#838383] mt-[2px]">Design -------- Interactive Product</p>
-                    {/* <img src="/images/route2.png" className="w-[90vw] sm:w-[35vw] md:w-[30vw] lg:w-[25vw] h-auto max-w-[300px] mb-[5px]"/> */}
                 </div>  
                 </motion.div>
                 
@@ -63,7 +72,6 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <p className="!text-[20px] ml-[5px]">Creative Works</p>
                     </div>
                     <p className="mt-[2px]">(Under Construction)</p>
-                    {/* image and button goes here         */}
                 </div>
             </section>
             <div className="w-[70px]  hidden sm:block">
