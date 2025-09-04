@@ -63,12 +63,8 @@ export default function Landing({ project, setProject, showSecondDiv, setShowSec
   }
 
   return (
-
       <AnimatePresence className="relative w-full h-auto overflow-hidden">
-      
             {content}
-      
-      
       </AnimatePresence>
   );
 }
