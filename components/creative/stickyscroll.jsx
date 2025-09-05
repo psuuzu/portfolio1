@@ -53,7 +53,7 @@ const content = [
 ];
 export function StickyScrollReveal() {
   return (
-    <div className="w-full py-4 scrollbar-none">
+    <div className="w-full py-4 scrollbar-hide">
       <StickyScroll content={content} />
     </div>
   );

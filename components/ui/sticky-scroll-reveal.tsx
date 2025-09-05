@@ -58,9 +58,22 @@ export const StickyScroll = ({
   return (
     <motion.div
     
-      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10"
+      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10 scrollbar-hide"
       ref={ref}
     >
+      <div className="div relative flex items-start px-4">
+        <div className="max-w-2xl">
+          {content.map((item, index) => (
+            <div key={item.title + index} className="my-20">
+              <h2 className="text-[26px] md:text-[30px]">{item.title}</h2>
+                
+                <p className="text-[16px] max-w-sm">{item.description}</p>
+             
+            </div>
+          ))}
+          <div className="h-40" />
+        </div>
+      </div>
       <div
         style={{ background: backgroundGradient }}
         className={cn(
@@ -70,38 +83,8 @@ export const StickyScroll = ({
       >
         {content[activeCard].content ?? null}
       </div>
-      <div className="div relative flex items-start px-4">
-        <div className="max-w-2xl">
-          {content.map((item, index) => (
-            <div key={item.title + index} className="my-20">
-              <motion.h2
-                initial={{
-                  opacity: 0,
-                }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-[26px] md:text-[30px]"
-              >
-                {item.title}
-              </motion.h2>
-              <motion.p
-                initial={{
-                  opacity: 0,
-                }}
-                animate={{
-                  opacity: activeCard === index ? 1 : 0.3,
-                }}
-                className="text-[16px] max-w-sm"
-              >
-                {item.description}
-              </motion.p>
-            </div>
-          ))}
-          <div className="h-40" />
-        </div>
-      </div>
       
     </motion.div>
+    
   );
 };
