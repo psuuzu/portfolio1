@@ -6,7 +6,7 @@ import social from "@/components/ui/social"
 export default function Page(){
     return(
         <>
-        <section className="h-auto sm:h-[100vh] w-[100vw] flex flex-col justify-center items-center mt-[50px] sm:mt-0">
+        <section className="h-auto w-[100vw] flex flex-col items-center mt-[50px] sm:mt-[100px]">
          
             <div className="flex flex-col sm:flex-row items-center justify-center">
                

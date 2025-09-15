@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Line from "@/components/line";
 import { Button } from "@/components/ui/button";
 import { button } from 'framer-motion/client';
-import { StickyScrollReveal } from '@/components/creative/stickyscroll';
+
 
 export default function Test() {
   const [sboriginal, setSboriginal] = useState(false);
@@ -62,7 +62,7 @@ export default function Test() {
             </div>
           <Line></Line>
         </div>
-        <StickyScrollReveal></StickyScrollReveal>
+        
         <div className='h-[100vh]'></div>
       </section>
   );
