@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export default function Tap2heal() {
+export default function Oishy() {
     return(
         <>
         <section className="h-[auto] sm:h-[97vh] flex-col flex ">
