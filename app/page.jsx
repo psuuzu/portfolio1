@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import  Movement  from "@/components/movement";
 import  Inbound  from "@/components/lab";
-import Tap2heal from "@/components/tap2heal";
+import Oishy from "@/components/oishy";
 import Line from "@/components/line";
 import Surroundsound from "@/components/surroundsound";
 import Dscweb from "@/components/dscweb";
@@ -81,7 +81,7 @@ if (project === "ux") {
       <div className="mt-[60px]"></div>
       <Fadein><Surroundsound /></Fadein>
       <Line />
-      <Fadein><Tap2heal /></Fadein>
+      <Fadein><Oishy /></Fadein>
       <Line />
       <Fadein><Lab /></Fadein>
       <Line />

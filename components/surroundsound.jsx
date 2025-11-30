@@ -12,7 +12,7 @@ export default function Surroundsound() {
                 <img src="/images/ssphonesl.jpg" alt="gif" className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw]'/>
             </div>    
             <h2 className='text-[26px] md:text-[30px] mt-[20px]'>SurroundSound</h2>
-            <h3 className="mb-[15px]">UI UX Design | Winning Hackathon</h3>
+            <h3 className="mb-[15px]">UX Design | Winning Hackathon</h3>
             <p className="text-[16px]">SurroundSound is a project that won first place and accessibility award in the 2024 CISSA Catalyst Hackathon. Our team developed a working application that uses AI to curate personalized Spotify 
             playlists that fit the ambiance of user's surroundings, selected mood, and listening history.</p>
             

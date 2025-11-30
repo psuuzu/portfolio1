@@ -30,7 +30,9 @@ export default function Page(){
                         <h2 className='text-[20px] md:text-[24px]'>Contacts</h2>
                         <p className="ml-[20px]">psuuzu@gmail.com</p>
                     </div>
-                    <Social></Social>
+                    <div className="mt-[20px] sm:mt-0">
+                        <Social></Social>
+                    </div>
                 </div>
                 <div className="mt-[80px] sm:hidden"></div>
             </div>  
