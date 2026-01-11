@@ -147,7 +147,7 @@ h2{
 
 /* tags */
 h3{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2 ;
   color: rgb(120,120,120);
   font-size: 1.125rem;
@@ -156,14 +156,14 @@ h3{
 
 /* button */
 h4{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2 ;
   font-size: 1rem;
 }
 
 /* paragraph */
 p{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2 ;
   color: rgb(200,200,200);
   font-size: 1rem;

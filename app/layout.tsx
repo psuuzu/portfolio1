@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Big_Shoulders_Stencil_Display, Rationale } from "next/font/google";
+import { Geist, Geist_Mono, Big_Shoulders_Stencil_Display, Rationale, } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/ui/nav";
 
@@ -12,6 +12,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+// const cabin = Cabin({
+//   variable: "--font-cabin",
+//   subsets: ["latin"],
+// });
 
 const bigShoulderStencil = Big_Shoulders_Stencil_Display({
   variable: "--font-big-shoulder-stencil",
