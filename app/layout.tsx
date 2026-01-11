@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 
 const bigShoulderStencil = Big_Shoulders_Stencil({
   variable: "--font-big-shoulder-stencil",
-  weight: "800",
+  weight: "700",
   subsets: ["latin"],
 });
 
