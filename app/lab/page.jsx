@@ -148,7 +148,7 @@ export default function Tap2heal() {
                 I broke down each scenario into small steps, evaluating : will users know what to do? see how to do it? and understand from the feedback whether they did it correctly?            
             </p>
             <p className="mt-[20px]">
-                Example 1 : Scenario 4 - customozing search to find a recipe
+                Example 1 : Scenario 4 - customizing search to find a recipe
             </p>
             <img src="images/yummly/cognitive.png" alt="cognitive walkthrough" className="mt-[10px] rounded-xl" />
             <h2 className='!text-[30px] mt-[60px]'>
