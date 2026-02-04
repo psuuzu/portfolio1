@@ -13,7 +13,7 @@ export default function Oishy() {
                     Struggling to reach a consensus in a large social group? Oishy is an instantaneous dining decision making tool presented in four interactive games to promote fun and efficiency in group outings.
                 </p>
                 <div className="flex justify-center sm:justify-end">
-                    <Button onClick={() => router.push("under construction")} variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
+                    <Button onClick={() =>  router.push("oishy")} variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>View more</h4></Button>
                 </div>
                 {/* router.push("oishy") */}
             </div>

@@ -231,10 +231,10 @@ export default function Tap2heal() {
             <p className="mt-[16px]">
                 Adding explicit labels to buttons, improving the visibility of guidance, and incorporating stronger onboarding or instructional aids would enhance clarity, align with user expectations, and improve learnability.
             </p>
-            <div className="flex mt-[60px] items-center">
+            <div className="flex mt-[60px] sm:items-center">
                 <h2 className='!text-[30px]'>Links:</h2>
-                    <div className="flex h-auto mx-[10px]">  
-                        <a href="https://drive.google.com/file/d/1nWnwtaoKnlkGvoD8qHYz30HqrENxjoEy/view?usp=drive_link" target="_blank" className="flex justify-center mx-[10px]">
+                    <div className="flex flex-col sm:flex-row h-auto mx-[10px]">  
+                        <a href="https://drive.google.com/file/d/1nWnwtaoKnlkGvoD8qHYz30HqrENxjoEy/view?usp=drive_link" target="_blank" className="flex justify-center mx-[10px] mb-[10px] sm:mb-0">
                             <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Full Report 1</h4></Button>
                         </a>
                         <a href="https://drive.google.com/file/d/1RYtxWK2XPUFWq6LmXFWnLgv3D9tdLh5P/view?usp=sharing" target="_blank" className="flex justify-center mx-[10px]">

@@ -3,21 +3,16 @@ import { Button } from "@/components/ui/button";
 export default function Oishy() {
     return(
         <>
-        <section className="h-[auto] sm:h-[97vh] flex-col flex ">
-            
-            <div className="flex-col flex sm:flex-row ml-[5vw] sm:ml-[5vw] md:ml-[10vw] lg:ml-[15vw] h-auto items-center"> 
-                <div className="flex mt-[60px] sm:mt-0">
-                    <img src="images/taptoheal/logo.png" alt="tap2heal logo" className="w-[110px] h-[130px]"/>
-                    <div>
-                        <h2 className='text-[34px] sm:text-[38px] text-[#B54733]'>Tap2Heal</h2>
-                        <p className="text-[16px] w-auto sm:w-[180px] mt-[10px]">Reimagining prescription healthcare management</p>
-                    </div>
-                </div>                
-                <div className="flex-1 mb-[60px] sm:mb-0 self-end ml-auto">
-                    <img src="images/taptoheal/banner.jpg" alt="banner image" className="w-full h-auto object-contain object-right max-h-[90vh]"/>
-                </div>
-            </div> 
-        </section>
+   <section className="h-[620px] sm:h-[97vh] relative flex items-center justify-center sm:justify-normal">
+        <div className="z-10 absolute  sm:pl-[10vw] flex flex-col items-center">
+    
+                <img src="/images/oishy/oishylogo.png" alt="oishy logo" className="h-[50%] w-[50%] "/>
+                <h2 className='text-[34px] sm:text-[38px] text-[#f8d742]'>Oishy</h2>
+                <p className="mt-[10px] !text-[#fcb040]">Better decisions, faster</p>
+
+        </div>
+        <img src="/images/oishy/oishybanner2.png" alt="oishy banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
+    </section>
         <section className='flex justify-center bg-[#1e1e1e]'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
             <p className="!text-[20px] mt-[60px] !text-white">
@@ -78,15 +73,15 @@ export default function Oishy() {
             <h2 className='!text-[30px] mt-[60px]'>
                 User Journey
             </h2>
-            <img src="images/taptoheal/journey.png" alt="journey map" className="mt-[10px]" />
+            <img src="images/oishy/journey.png" alt="journey map" className="mt-[10px]" />
             <h2 className='!text-[30px] mt-[60px]'>
                 Wireframing
             </h2>
             <p className="mt-[10px]">We defined the information structure of the app and experimented around with different layouts and styles. Our goal was to create a seamless experience for patients — one that felt effortless and reassuring, rather than burdensome.</p>
             <p className="mt-[10px]">Patient's Mobile:</p>
-            <img src="images/taptoheal/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
+            <img src="images/oishy/wireframephone.png" alt="wireframe mobile" className="mt-[20px]" />
             <p className="mt-[10px]">GP's Desktop:</p>
-            <img src="images/taptoheal/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
+            <img src="images/oishy/wireframedesktop.png" alt="wireframe mobile" className="mt-[20px]" />
 
 
             <h2 className='!text-[30px] mt-[60px]'>
