@@ -81,7 +81,7 @@ export default function Surroundsoundm() {
                     <div className="h-auto mx-[18px]">
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>AI and Image recognition</h2>
+                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>AI and Image Recognition</h2>
                                 <p>Using AI and image recognition to analyze the surrounding environment</p>
                             </li>
                             <li>
