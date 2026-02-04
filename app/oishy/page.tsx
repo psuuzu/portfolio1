@@ -11,7 +11,7 @@ export default function Oishy() {
                 <p className="mt-[10px] !text-[#fcb040]">Better decisions, faster</p>
 
         </div>
-        <img src="/images/oishy/oishybanner2.png" alt="oishy banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
+        <img src="/images/oishy/oishybanner1.png" alt="oishy banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
     </section>
         <section className='flex justify-center bg-[#1e1e1e]'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
