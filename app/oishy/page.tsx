@@ -12,6 +12,7 @@ export default function Oishy() {
 
         </div>
         <img src="/images/oishy/oishybanner1.png" alt="oishy banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
+        <img src="/images/oishy/oishybanner2.png" alt="oishy banner" className="sm:hidden w-full h-full max-h-[600px] object-cover object-center z-0 absolute"/>
     </section>
         <section className='flex justify-center bg-[#1e1e1e]'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
@@ -72,6 +73,20 @@ export default function Oishy() {
         <p className="mt-[10px]">
             The problem domain of indecision when searching for dining options is commonly experienced among social groups. Our interviews focused on a socially active demographic – students. A recurring factor observed was the need to balance personal preferences with the group’s needs, which often stalls time as individuals wait for others to take initiative. Current technologies such as google maps are ineffective at addressing everyone’s preferences 
         </p>
+        
+        <h2 className='!text-[30px] mt-[60px]'>Persona</h2>
+        <img src="/images/oishy/persona.png" alt="oishy persona" className="mt-[10px] w-full h-auto"/>
+        <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
+        <p className="mt-[10px]">
+            Based on insights from user interviews, we developed designs with varying functionalities to evaluate how effectively they address the problem domain.
+        </p>
+        <img src="/images/oishy/oishyearly.png" alt="Initial Ideas" className="mt-[20px] w-full h-auto"/>
+        <p className="mt-[10px]">
+            Upon re-evaluation, functions such as filtering, maps and reviews do not aid the decision-making process. Instead, gamified features received positive feedback for the engagement and novelty. As a result, our design direction shifted towards leveraging gamification as a core mechanism. 
+        </p>
+        <h2 className='!text-[30px] mt-[60px]'>Wireframes</h2>
+        <img src="/images/oishy/wireframes.png" alt="oishy wireframes" className="mt-[20px] w-full h-auto"/>
+        <h2 className='!text-[30px] mt-[60px]'>Main Design Concept</h2>
         <div className="mt-[80px]"></div>
         </div>
         

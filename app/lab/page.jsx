@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel"
 
-export default function Tap2heal() {
+export default function Lab() {
     const carouselTexts = [
   "You just arrived home from work and were craving Indian curry. However, you were unsure on how to make it yourself, show me how you could find this information",
   "You are a busy person who works during the majority of the week, so you decided to start meal planning for the week to reduce the number of grocery trips. Show me how you could start a meal planner and shopping list",
