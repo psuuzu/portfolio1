@@ -125,7 +125,7 @@ export default function Lab() {
             <CarouselContent>
                 {carouselTexts.map((text, index) => (
                 <CarouselItem key={index} className="sm:basis-1/2">
-                    <div className="p-1">
+                    <div className="p-1 sm:p-0">
                     <Card>
                         <CardContent className="flex items-center justify-center p-6">
                         <p className="!text-black">{text}</p>

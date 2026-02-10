@@ -1,6 +1,37 @@
 import { Button } from "@/components/ui/button";
+import * as React from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import { image } from "framer-motion/client";
 
 export default function Oishy() {
+        const carouselTexts = [{
+            title: "Lazy Suzan",
+            description: "The game Lazy Suzan is designed to solve conflicting opinions. It allows everyone to input their preferences and picks one at random with equal chance. Lazy Susan is suitable for an opiniated group.",
+            image: "",
+        },{
+            title: "Gachapon",
+            description : "Gachapon provides flexibility of choosing options and allowing inaction. The game chooses one option at random from a pool of saved places. Users can choose to add new restaurants or go with the existing pool. Gachapon is designed for groups with a mix of decisive and indecisive people.",  
+            image: "",
+        },{
+            title: "Quick Pick",
+            description: "Quick pick is the most efficient and time-saving method. The game generates one option that best fits preferences, location, budget, dietary requirements of the whole group. It is suitable in a fast-paced environment.",
+            image: "",
+        },{
+            title: "This or That",
+            description: "This or That is designed for restaurant discovery. The Game generates a list of restaurant options close by. Users swipe through the options, and the most popular pick persists. It encourages people to venture out of their existing knowledge base. ",
+            image: "",
+        }
+
+
+  
+    ];
     return(
         <>
    <section className="h-[620px] sm:h-[97vh] relative flex items-center justify-center sm:justify-normal">
@@ -91,7 +122,37 @@ export default function Oishy() {
         <p className="mt-[10px]">
                 The problem of indecision arises in different contexts with different social group dynamics. Oishy addresses this by offering tailored decision-making modes: from restaurant exploration, automated informed pick, to playful random selections. Each of which is designed for a specific situation and delivered through an engaging, gamified experience. 
         </p>
-        {/* <img src="/images/oishy/prototype.png" alt="oishy prototype" className="mt-[20px] w-full h-auto"/> */}
+        <img src="/images/oishy/snippet.png" alt="oishy prototype snippet" className="mt-[20px] w-full h-auto"/>
+        <p className="!text-[20px] mt-[20px] !text-white">
+            Games :
+        </p>
+        <div className="flex justify-center sm:w-full mt-[20px]">
+                    <Carousel opts={{ align: "start" }} className="w-[80%] sm:w-full max-w">
+                    <CarouselContent>
+                        {carouselTexts.map((text, index) => (
+                        <CarouselItem key={index} className="">
+                            <div className="">
+                            <Card className="bg-[#1e1e1e] border-0">
+                                <CardContent className="flex items-center justify-center px-2">
+                                <div className="sm:flex">
+                                    <p className="h-[200px]"> hijaskdlfjasklfsj;d</p>
+                                    <div className="sm:ml-[5px]">
+                                        <p className="!text-[20px] mb-[20px] !text-white">
+                                            {text.title} 
+                                        </p>
+                                        <p className="">{text.description}</p>
+                                    </div>
+                                </div>
+                                </CardContent>
+                            </Card>
+                            </div>
+                        </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                    </Carousel>
+                    </div>
         <div className="mt-[80px]"></div>
         </div>
         
