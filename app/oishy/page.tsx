@@ -14,19 +14,19 @@ export default function Oishy() {
         const carouselTexts = [{
             title: "Lazy Suzan",
             description: "The game Lazy Suzan is designed to solve conflicting opinions. It allows everyone to input their preferences and picks one at random with equal chance. Lazy Susan is suitable for an opiniated group.",
-            image: "",
+            image: "/videos/suzan.mp4",
         },{
             title: "Gachapon",
             description : "Gachapon provides flexibility of choosing options and allowing inaction. The game chooses one option at random from a pool of saved places. Users can choose to add new restaurants or go with the existing pool. Gachapon is designed for groups with a mix of decisive and indecisive people.",  
-            image: "",
+            image: "/videos/gacha.mp4",
         },{
             title: "Quick Pick",
             description: "Quick pick is the most efficient and time-saving method. The game generates one option that best fits preferences, location, budget, dietary requirements of the whole group. It is suitable in a fast-paced environment.",
-            image: "",
+            image: "/videos/quickpick.mp4",
         },{
             title: "This or That",
             description: "This or That is designed for restaurant discovery. The Game generates a list of restaurant options close by. Users swipe through the options, and the most popular pick persists. It encourages people to venture out of their existing knowledge base. ",
-            image: "",
+            image: "/videos/thisthat.mp4",
         }
 
 
@@ -102,7 +102,7 @@ export default function Oishy() {
             </section>
         <h2 className='!text-[30px] mt-[60px]'>Problem Domain Interviews</h2>
         <p className="mt-[10px]">
-            The problem domain of indecision when searching for dining options is commonly experienced among social groups. Our interviews focused on a socially active demographic – students. A recurring factor observed was the need to balance personal preferences with the group’s needs, which often stalls time as individuals wait for others to take initiative. Current technologies such as google maps are ineffective at addressing everyone’s preferences. 
+            The problem domain of indecision when searching for dining options is commonly experienced among social groups. Our interviews focused on a socially active demographic – students. A recurring factor observed was the need to balance personal preferences with the group’s needs. Without a structured approach, conversations are stagnant as individuals wait for others to take initiative. Current technologies such as google maps are ineffective at addressing everyone’s preferences. 
         </p>
         
         <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
@@ -116,8 +116,8 @@ export default function Oishy() {
         <h2 className='!text-[30px] mt-[60px]'>Persona</h2>
         <img src="/images/oishy/persona.png" alt="oishy persona" className="mt-[10px] w-full h-auto"/>
 
-        <h2 className='!text-[30px] mt-[60px]'>Wireframes</h2>
-        <img src="/images/oishy/wireframes.png" alt="oishy wireframes" className="mt-[20px] w-full h-auto"/>
+        {/* <h2 className='!text-[30px] mt-[60px]'>Wireframes</h2>
+        <img src="/images/oishy/wireframes.png" alt="oishy wireframes" className="mt-[20px] w-full h-auto"/> */}
         <h2 className='!text-[30px] mt-[60px]'>Main Design Concept</h2>
         <p className="mt-[10px]">
                 The problem of indecision arises in different contexts with different social group dynamics. Oishy addresses this by offering tailored decision-making modes: from restaurant exploration, automated informed pick, to playful random selections. Each of which is designed for a specific situation and delivered through an engaging, gamified experience. 
@@ -126,7 +126,7 @@ export default function Oishy() {
         <p className="!text-[20px] mt-[20px] !text-white">
             Games :
         </p>
-        <div className="flex justify-center sm:w-full mt-[20px]">
+        <div className="flex justify-center sm:w-full">
                     <Carousel opts={{ align: "start" }} className="w-[80%] sm:w-full max-w">
                     <CarouselContent>
                         {carouselTexts.map((text, index) => (
@@ -134,10 +134,10 @@ export default function Oishy() {
                             <div className="">
                             <Card className="bg-[#1e1e1e] border-0">
                                 <CardContent className="flex items-center justify-center px-2">
-                                <div className="sm:flex">
-                                    <p className="h-[200px]"> hijaskdlfjasklfsj;d</p>
-                                    <div className="sm:ml-[5px]">
-                                        <p className="!text-[20px] mb-[20px] !text-white">
+                                <div className="flex flex-col sm:flex-row items-center sm:items-start">
+                                    <video src={text.image} autoPlay loop muted className="w-[200px] rounded-xl border-5 border-black"/>
+                                    <div className="sm:ml-[10px]">
+                                        <p className="!text-[20px] mb-[20px] !text-white mt-[10px]">
                                             {text.title} 
                                         </p>
                                         <p className="">{text.description}</p>
@@ -153,6 +153,7 @@ export default function Oishy() {
                     <CarouselNext />
                     </Carousel>
                     </div>
+        <h2 className='!text-[30px] mt-[60px]'>User-Based Evaluation Summary</h2>
         <div className="mt-[80px]"></div>
         </div>
         

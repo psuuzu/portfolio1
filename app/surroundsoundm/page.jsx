@@ -107,7 +107,7 @@ export default function Surroundsoundm() {
                 Close communication between front-end and back-end teammates helped us identify key features based on viability, efficiency, and functionality. I mapped out the app structure to visualise how components interact with each other
                 </p>
                 <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
-                <h2 className='!text-[30px] mt-[60px]'>Wireframing and prototyping</h2>
+                <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                 <p className="mt-[10px]">
                 The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience
                 </p>
