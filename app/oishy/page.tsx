@@ -154,6 +154,36 @@ export default function Oishy() {
                     </Carousel>
                     </div>
         <h2 className='!text-[30px] mt-[60px]'>User-Based Evaluation Summary</h2>
+        <p className="!text-[20px] mt-[10px] !text-white">
+            What Went Well
+        </p>
+        <p className="mt-[20px]">
+            Participants clearly understood the app’s purpose, with first impressions aligning closely with its intended theme. The gamified decision-making features were seen as engaging and effectively transformed a tedious task into an enjoyable experience. Overall, the app was perceived as useful and adaptable, with each game offering a distinct and relevant use case.
+        </p>
+        <p className="!text-[20px] mt-[30px] !text-white">
+            What Could be Improved
+        </p>
+        <p className="mt-[20px]">
+            Participants found the game descriptions unclear at first glance, with some misinterpreting icons on the game hub. Stronger alignment between visual cues and real-world expectations would improve intuitive understanding. Additionally, Lazy Suzan and Gachapon felt too similar, with unclear distinctions in gameplay and purpose. Incorporating their contextual differences and unique use cases would strengthen their novelty. 
+        </p>
+        <h2 className='!text-[30px] mt-[60px]'>Industry Panel and Next Steps</h2>
+        <p className="mt-[10px]">
+            Currently, it is impossible to accommodate all preferences due to conflicts of interest. Feedback from industry panels suggest that people “would get irritated if [their] options are not picked by luck for a while”.
+        </p>
+        <p className="mt-[20px]">
+            The introduction of a point system gives people power to skew results in their favor at the expense of points earned through playing the in-app games. At the end of each game, points are distributed according to how far the chosen place differs from individual’s preferences. This creates another layer of interaction, creating purposeful user actions.
+        </p>
+        <div className="flex mt-[60px] sm:items-center">
+            <h2 className='!text-[30px]'>Links:</h2>
+                <div className="flex flex-col sm:flex-row h-auto mx-[10px]">  
+                    <a href="https://drive.google.com/file/d/1IdaOs2wzW6IIQrY3L-SPqkYPrQmzfbAG/view?usp=sharing" target="_blank" className="flex justify-center mx-[10px] mb-[10px] sm:mb-0">
+                        <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white "><h4>Group Final Report</h4></Button>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1z4bGroK5r7kWe2Tv6tifNqhHsh4XsdF9/view?usp=sharing" target="_blank" className="flex justify-center mx-[10px]">
+                        <Button variant="outline" className=" hover:bg-[#1e1e1e] hover:border hover:border-input text-[#1e1e1e] hover:text-white"><h4>Individual Report</h4></Button>
+                    </a>                      
+                </div>
+        </div>
         <div className="mt-[80px]"></div>
         </div>
         
