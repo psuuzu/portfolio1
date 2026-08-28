@@ -36,7 +36,7 @@ export default function Dsc(){
 
         <div className={`${dscvideoReady ? "block" : "hidden"}`}>
             <section className="h-[620px] sm:h-[100vh] relative">
-                <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
+                <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full w-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
                 <div className="w-full h-full flex flex-col absolute items-start justify-center lg:ml-[10%] lg:w-auto z-20 px-[15px] " >
                     <h2 className='text-[34px] sm:text-[38px] sm:w-[400px] '>The Leading Data Science Club at The University of Melbourne</h2>
                     <p className="mt-[20px] !text-white">Website Redesign</p>
