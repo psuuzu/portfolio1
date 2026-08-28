@@ -113,7 +113,7 @@ if (project === "ux") {
           <Landing project={project} setProject={setProject} showSecondDiv={showSecondDiv} setShowSecondDiv={setShowSecondDiv}></Landing>      
         </div>
       <div className='flex justify-center h-auto'>
-      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto'/>
+      <img src="/images/anim8c.gif" alt="gif" className='max-w-[90vw] max-h-[30vh] sm:max-w-[500px] w-auto select-none pointer-events-none'/>
       </div>  
     </section>
 
