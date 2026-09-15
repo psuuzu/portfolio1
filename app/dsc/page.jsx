@@ -95,23 +95,16 @@ export default function Dsc(){
                         </div>     
                     </section>
                     <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
-                    <p className="mt-[10px]">I conducted an analysis of the current website, identifying issues and creating a list of improvements:</p>
-                    <div className="sm:flex w-full mt-[20px]">
-                    <img src="images/dsc/olddsc.png" alt="old website" className="w-full sm:w-[65%] object-contain"/>
-                    <ul className="list-disc pl-6">
-                        <li><p className="mt-[10px]">Update color theme </p></li>
-                        <li><p className="mt-[10px]">Gradients </p></li>
-                        <li><p className="mt-[10px]">Replace AI images</p></li>
-                        <li><p className="mt-[10px]">Merge two sections</p></li>
-                        <li><p className="mt-[10px]">Focus on benefits of the club</p></li>
-                        <li><p className="mt-[10px]">Shorten paragraphs</p></li>
-                        <li><p className="mt-[10px]">Replace pixel grid with visualizer</p></li>
-                        <li><p className="mt-[10px]">restyle nav bar</p></li>
-                        <li><p className="mt-[10px]">Competitions page information update</p></li>
-                        <li><p className="mt-[10px]">Projects page design review</p></li>
-                    </ul> 
-                    </div>
-                    
+                    <p className="mt-[10px]">
+                        I conducted an analysis of the existing website to identify usability, visual and content issues and developed a prioritized list of improvements
+                    </p>
+                    <img src="images/dsc/olddsc.png" alt="old website" className="w-full object-contain"/>
+                    <p className="mt-[10px]">
+                        The website’s visual style did not reflect the brand, while dense and repetitive content made it difficult to communicate the club’s purpose clearly. The use of AI images did not support its respective content
+                    </p>
+                    <p className="mt-[16px]">
+                        Along with replacing the pixel grid with a visualizer, I recommended updating the colour theme and styling across the website, replacing AI images with relevant media, and restructuring content into shorter, more concise sections centered around the club’s benefits 
+                    </p>
                     
                     <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
                     <p className="mt-[10px]">As a team, we have created three mid-fidelity wireframes reflecting the list of improvements above with different designs and approaches. </p>
