@@ -71,7 +71,7 @@ export default function Surroundsoundm() {
                             </li>     
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Lacks Context Awareness</h2>
-                                <p>Playlist generation software are not aware about the state users are in</p>
+                                <p>Playlist generation software are not aware about the state and environment users are in</p>
                             </li>
                         </ul> 
                     </div>
@@ -92,7 +92,7 @@ export default function Surroundsoundm() {
                             </li>     
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Organised Archive</h2>
-                                <p>Saving playlists in an organised archive automatically</p>
+                                <p>Saving playlists in an editable, organised archive automatically in spotify</p>
                             </li>
                         </ul>
                     </div>     
