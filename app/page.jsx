@@ -16,6 +16,7 @@ import Map from "@/components/map";
 import Landing from "@/components/landing";
 import Portf from "@/components/portf"
 import Footer from "@/components/ui/footer";
+import About from "@/components/about";
 import { useState, useEffect } from 'react';
 
 
@@ -53,9 +54,9 @@ export default function Home() {
 
 
 
-  //scrolling when project is clicked
+  //scrolling when project and about is clicked
    useEffect(() => {
-    if (project === "ux") {
+    if (project === "ux" || project === "about") {
       window.scrollTo({
         top: window.innerHeight, 
         behavior: "smooth", 
@@ -64,7 +65,7 @@ export default function Home() {
   }, [project]);
 
   useEffect(() => {
-    if (project === "ui") {
+    if (project === "create") {
       window.scrollTo({
         top: window.innerHeight/2, 
         behavior: "smooth", 
@@ -78,7 +79,7 @@ export default function Home() {
 if (project === "ux") {
   projectcontent = (
     <>
-      <div className="mt-[60px]"></div>
+      <div className="h-[20px]"></div>
       <Fadein><Surroundsound /></Fadein>
       <Line />
       <Fadein><Oishy /></Fadein>
@@ -90,7 +91,7 @@ if (project === "ux") {
       <Footer></Footer>
     </>
   );
-} else if (project === "ui") {
+} else if (project === "create") {
   projectcontent = (
     <>
       <Fadein><Ani /></Fadein>
@@ -102,11 +103,18 @@ if (project === "ux") {
       <Footer></Footer>
     </>
   );
+} else if (project === "about") {
+  projectcontent = (
+    <>
+      <div className="h-[20px]"></div>
+      <Fadein><About /></Fadein>
+    </>
+  );
 }
 
   return (
     <>
-  
+    <div className="h-[40px]" id="top"></div>
     {/* title */}
     <section className="h-[85vh] sm:h-[88vh] flex flex-col justify-center bg-black z-50" >
         <div className="flex-1 flex justify-center items-center">

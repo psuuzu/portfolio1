@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Line from "@/components/line";
+import Navbar from "@/components/ui/nav";
 
 //this page adds a loading page since the video takes some time to load
 //the loading page is an illusion made by hiding and showing elements based on the state
@@ -29,13 +30,14 @@ export default function Surroundsoundm() {
    
         return (
         <>
+        <Navbar/>
         <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${ssvideoReady ? "hidden" : "block"}`}>
         <h2 className='!text-[30px]'>Loading...</h2>
         </div>
         
         <div className={`${ssvideoReady ? "block" : "hidden"}`}>
-        <section className='flex flex-col sm:flex-row sm:justify-center items-center h-[620px] sm:h-[100vh] bg-black'>
-            <div className="w-[300px] md:w-[400px]"> 
+        <section className='flex flex-col sm:flex-row justify-center items-center h-[660px] sm:h-[100vh] bg-black'>
+            <div className="w-[300px] md:w-[400px]  md:mt-0"> 
                 <img src="/images/surroundsound/surroundsoundlogo.png" alt="surroundsound logo" />
             </div>
             <div className=" bg-black rounded-xl border-t border-l-[2px] border-b border-[#787878] mt-[30px] sm:mt-0">

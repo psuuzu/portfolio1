@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import * as React from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import Navbar from "@/components/ui/nav";
 import {
   Carousel,
   CarouselContent,
@@ -19,7 +20,8 @@ export default function Lab() {
     ];
     return(
         <>
-        <section className="h-[620px] sm:h-[97vh] flex-col flex w-full"> 
+        <Navbar/>
+        <section className="h-[660px] sm:h-[100vh] flex-col flex w-full"> 
             <div className="h-full w-full sm:w-auto flex-col flex sm:flex-row items-center justify-center relative"> 
                 <div className="flex  z-10">
                     <img src="images/yummly/yummlylogo.png" alt="yummly logo" className="h-[100px] sm:h-[130px]"/>

@@ -2,6 +2,7 @@
 'use client';
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import Navbar from "@/components/ui/nav";
 
 
 //this page adds a loading page since the video takes some time to load
@@ -30,12 +31,13 @@ export default function Dsc(){
 
     return(
     <>
+        <Navbar/>
         <div className={`w-[100vw] h-[100vh] bg-black text-white flex items-center justify-center  ${dscvideoReady ? "hidden" : "block"}`}>
             <h2 className='!text-[30px]'>Loading...</h2>
         </div>
 
         <div className={`${dscvideoReady ? "block" : "hidden"}`}>
-            <section className="h-[620px] sm:h-[100vh] relative">
+            <section className="h-[660px] sm:h-[100vh] relative">
                 <video src="/videos/newdsc.mp4" autoPlay muted loop className="object-cover h-full w-full object-[75%_center] absolute" onCanPlay={() => setVideoReady(true)}/>
                 <div className="w-full h-full flex flex-col absolute items-start justify-center lg:ml-[10%] lg:w-auto z-20 px-[15px] " >
                     <h2 className='text-[34px] sm:text-[38px] sm:w-[400px] '>The Leading Data Science Club at The University of Melbourne</h2>

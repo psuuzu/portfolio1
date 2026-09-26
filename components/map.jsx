@@ -11,16 +11,6 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                     <p className="py-[10px] mr-[20px]"> ← Back</p>
                 </div>
             </div>
-            {/* <section className="w-[15%]  flex  items-center">
-                <div className="flex flex-col w-fit text-right">
-                    <p>Ideation</p>
-                    <p className="mt-[20px]">Sketching</p>
-                    <p className="mt-[20px]">Wireframing</p>
-                    <p className="mt-[20px]">Testing</p>
-                    <p className="mt-[20px]">Iterations</p>
-                    <p className="mt-[20px]">Prototype</p>
-                </div>
-            </section> */}
             <section className="flex flex-col h-full">
                 <div className="h-full sm:hidden">
                     <div onClick={()=> {setProject("none"); setShowSecondDiv(false);}}>
@@ -41,7 +31,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         </div>
                         <p className="!text-[20px] ml-[5px]">UX/UI Design</p>
                     </div>
-                    <p className="!text-[#838383] mt-[2px]">Ideas -------- Prototype</p>
+                    <p className="!text-[#838383] mt-[2px]">Problem --------- Product</p>
                 </div>
               
                 </motion.div>
@@ -51,28 +41,33 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                 whileTap={{ scale: 0.9 }}
                 > 
                 
-                <div className="mt-[8vh] px-[10px] cursor-pointer" onClick={()=> setProject("ui")}>
+                <div className="mt-[8vh] px-[10px] cursor-pointer" onClick={()=> setProject("create")}>
                     <div className="flex items-center">
                         <h2 className="text-[26px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
                             <h2 className="text-[22px] !text-black">02</h2>
                         </div>
-                        <p className="!text-[20px] ml-[5px]">Front-End</p>
+                        <p className="!text-[20px] ml-[5px]">Playground</p>
                     </div>
-                    <p className="!text-[#838383] mt-[2px]">Design -------- Interactive Product</p>
+                    <p className="!text-[#838383] mt-[2px]">Concept -------- Creation</p>
                 </div>  
                 </motion.div>
                 
-                <div className="mt-[8vh] opacity-60 px-[10px]">
+                <motion.div
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                > 
+                <div className="mt-[8vh] px-[10px] cursor-pointer" onClick={()=> setProject("about")}>
                     <div className="flex items-center">
                         <h2 className="text-[26px]">Route</h2>
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
                             <h2 className="text-[22px] !text-black">03</h2>
                         </div>
-                        <p className="!text-[20px] ml-[5px]">Creative Works</p>
+                        <p className="!text-[20px] ml-[5px]">About Me</p>
                     </div>
-                    <p className="mt-[2px]">(Under Construction)</p>
+                    <p className="!text-[#838383] mt-[2px]">Background --- Direction</p>
                 </div>
+                </motion.div>
             </section>
             <div className="w-[70px]  hidden sm:block">
                 

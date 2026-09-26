@@ -1,13 +1,13 @@
 'use client'
 import { useRouter } from "next/navigation"
 
-export function Navbar() {
+export default function Navbar() {
     const router = useRouter()
-    return (
-        
-        <section className="h-auto items-center justify-center w-full inline-flex top-0 bg-black" id='top'>
-            <p className=" px-[16px] py[2px] hover:!text-white hover:border-b h-[40px] items-center flex cursor-pointer" onClick={() => router.push("/")}>Home</p>
-            <p className=" px-[16px] py[2px] hover:!text-white hover:border-b h-[40px] items-center flex cursor-pointer" onClick={() => router.push("about")}>About</p>
+    return (  
+        <section className="absolute top-0 left-0 z-50 h-auto flex  items-center p-[20px] sm:p-[50px]">
+            <div className="rounded-xl bg-black/30 backdrop-blur-md">
+                <p className=" px-[16px] py-[2px] h-[40px] items-center flex cursor-pointer !text-white" onClick={() => router.push("/")}> ← Back</p>
+            </div>
         </section>
     )
 }

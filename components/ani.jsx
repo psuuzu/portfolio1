@@ -9,7 +9,9 @@ export default function Ani(){
             <h3 className=" text-gray-600 mb-[15px]">Front End | Personal Project </h3>
             <p>Mixing pixel art and animation mechanics with vanila Javascript, Html and Css.</p>
             <div className="flex justify-center">
-            <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white" onClick={() => router.push("javascript")}><h4>View more</h4></Button>
+            <a href="https://github.com/psuuzu/animation" target="_blank">
+                <Button variant="outline" className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>Github</h4></Button>
+            </a>
             </div>
         </section>
     )

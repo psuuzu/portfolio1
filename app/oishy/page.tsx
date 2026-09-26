@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import * as React from "react"
 import { Card, CardContent } from "@/components/ui/card"
+import Navbar from "@/components/ui/nav";
 import {
   Carousel,
   CarouselContent,
@@ -34,7 +35,8 @@ export default function Oishy() {
     ];
     return(
         <>
-   <section className="h-[620px] sm:h-[97vh] relative flex items-center justify-center sm:justify-normal">
+        <Navbar/>
+        <section className="h-[660px] sm:h-[100vh] relative flex items-center justify-center sm:justify-normal">
         <div className="z-10 absolute  sm:pl-[10vw] flex flex-col items-center">
     
                 <img src="/images/oishy/oishylogo.png" alt="oishy logo" className="h-[50%] w-[50%] "/>
@@ -43,8 +45,10 @@ export default function Oishy() {
 
         </div>
         <img src="/images/oishy/oishybanner1.png" alt="oishy banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
-        <img src="/images/oishy/oishybanner2.png" alt="oishy banner" className="sm:hidden w-full h-full max-h-[600px] object-cover object-center z-0 absolute"/>
-    </section>
+        <div className="sm:hidden w-full h-full overflow-hidden relative">
+            <img src="/images/oishy/oishybanner2.png" alt="oishy banner" className=" w-full h-full scale-110 object-cover object-center z-0 absolute"/>
+        </div>
+        </section>
         <section className='flex justify-center bg-[#1e1e1e]'>
         <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
             <p className="!text-[20px] mt-[60px] !text-white">
