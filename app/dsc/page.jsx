@@ -130,7 +130,8 @@ export default function Dsc(){
                     <p>View more on website (link below)</p>
                     <h2 className='!text-[30px] mt-[60px]'>Results</h2>
                     <p className="mt-[10px]">
-                        Through the visualizer embedding, a refined structure, and a cohesive style, the new design presents a more engaging experience with a clearer purpose. Members were seen exploring the visualizer, engaging with the homepage more. The redesign launched alongside a wider committee push across marketing, events, and industry outreach, and signups rose by 100+ the following semester.|                    </p>
+                        Through the visualizer embedding, a refined structure, and a cohesive style, the new design presents a more engaging experience with a clearer purpose. Members were seen exploring the visualizer, engaging with the homepage more. The redesign launched alongside a wider committee push across marketing, events, and industry outreach, and signups rose by 100+ the following semester.                
+                    </p>
                     <div className="flex mt-[60px] items-center">
                         <h2 className='!text-[30px]'>Links:</h2>
                         <div className="flex h-auto mx-[10px]">  
