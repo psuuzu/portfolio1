@@ -19,9 +19,8 @@ export default function Brutalsurf() {
         <div className="z-10 absolute  sm:pl-[10vw] flex flex-col items-center">
                 <h2 className='text-[34px] sm:text-[38px] text-[#77A4B3]'>BrutalSurfCam</h2>
                 <p className="mt-[10px] !text-[#D3E9F1]">User Experience Consulting</p>
-
         </div>
-        <img src="/images/brutal/banner1.png" alt="Brutalsurfcam banner" className="hidden sm:block w-full h-full max-h-[600px] object-cover object-left z-0 absolute"/>
+        <img src="/images/brutal/banner1.png" alt="Brutalsurfcam banner" className="w-auto h-auto object-cover max-h-[100vh] object-left z-0 absolute right-0"/>
         <div className="sm:hidden w-full h-full overflow-hidden relative">
             <img src="/images/brutal/banner2.png" alt="Brutalsurfcam banner" className=" w-full h-full scale-110 object-cover object-center z-0 absolute"/>
         </div>
