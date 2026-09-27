@@ -62,15 +62,15 @@ export default function Dsc(){
                             <ul className="list-disc pl-[10px] space-y-[20px]">
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Generic AI generated images</h2>
-                                    <p>Current website uses irrelevant AI generated images that does not contribute to enhancing user understanding</p>
+                                    <p>Current website uses irrelevant AI generated images that does not contribute to enhancing user understanding.</p>
                                 </li>
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Unorganized information</h2>
-                                    <p>There are irrelevant information that distracts users from key sections</p>
+                                    <p>There are irrelevant information that distracts users from key sections.</p>
                                 </li>     
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Bland design</h2>
-                                    <p>The club’s brand image is not represented through the current website</p>
+                                    <p>The club’s brand image is not represented through the current website.</p>
                                 </li>
                             </ul> 
                         </div>
@@ -83,36 +83,36 @@ export default function Dsc(){
                             <ul className="list-disc pl-[10px] space-y-[20px]">
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Visualizer embedding</h2>
-                                    <p>This interactive tool lets users explore how words relate to each other using high-dimensional embeddings, projected into 3D space</p>
+                                    <p>This interactive tool lets users explore how words relate to each other using high-dimensional embeddings, projected into 3D space.</p>
                                 </li>
                                 <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Aesthetic redesign</h2>
-                                    <p>Redesigned layout, style and colour palette to better fit club's brand image</p>
+                                    <p>Redesigned layout, style and colour palette to better fit club's brand image.</p>
                                 </li>     
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Information restructuring</h2>
-                                    <p>removing fillers and merging similar sections makes information more cohesive and impactful</p>
+                                    <p>removing fillers and merging similar sections makes information more cohesive and impactful.</p>
                                 </li>
                             </ul>
                         </div>     
                     </section>
                     <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
                     <p className="mt-[10px]">
-                        I conducted an analysis of the existing website to identify usability, visual and content issues and developed a prioritized list of improvements
+                        I conducted an analysis of the existing website to identify usability, visual and content issues and developed a prioritized list of improvements.
                     </p>
                     <img src="images/dsc/olddsc.png" alt="old website" className="w-full object-contain"/>
                     <p className="mt-[10px]">
-                        The website’s visual style did not reflect the brand, while dense and repetitive content made it difficult to communicate the club’s purpose clearly. The use of AI images did not support its respective content
+                        The website’s visual style did not reflect the brand, while dense and repetitive content made it difficult to communicate the club’s purpose clearly. The use of AI images did not support its respective content.
                     </p>
                     <p className="mt-[16px]">
-                        Along with replacing the pixel grid with a visualizer, I recommended updating the colour theme and styling across the website, replacing AI images with relevant media, and restructuring content into shorter, more concise sections centered around the club’s benefits 
+                        Along with replacing the pixel grid with a visualizer, I recommended updating the colour theme and styling across the website, replacing AI images with relevant media, and restructuring content into shorter, more concise sections centered around the club’s benefits. 
                     </p>
                     
                     <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
                     <p className="mt-[10px]">As a team, we have created three mid-fidelity wireframes reflecting the list of improvements above with different designs and approaches. </p>
                     <img src="images/dsc/dscwireframe.png" />
                     <h2 className='!text-[30px] mt-[60px]'>Presentation and Feedback</h2>
-                    <p className="mt-[20px]">These wireframes are presented to the club committee to collect feedback. The responses are used to mix and match sections and features that work well along with small fixes and polishes to the designs</p>
+                    <p className="mt-[20px]">These wireframes are presented to the club committee to collect feedback. The responses are used to mix and match sections and features that work well along with small fixes and polishes to the designs.</p>
                     <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                     <img src="images/dsc/dscproto.png" alt="website prototype" className=""/>
                     <p>View more on website (link below)</p>

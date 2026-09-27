@@ -51,7 +51,7 @@ export default function Surroundsoundm() {
                 SurroundSound is a music platform that uses AI to curate personalized Spotify playlists tailored to the user's environment, mood, and listening history. 
                 </p>
                 <p className="mt-[20px]">
-                As the sole UI designer in the team, I facilitated the end to end design process—research, Ideation, wireframing and prototyping
+                As the sole UI designer in the team, I facilitated the end to end design process—research, Ideation, wireframing and prototyping.
                 </p>
 
                 
@@ -63,15 +63,15 @@ export default function Surroundsoundm() {
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Time Consuming</h2>
-                                <p>Discovering new music that fits your vibe can be time consuming. Also, users have to spend time organising songs into playlists themselves</p>
+                                <p>Discovering new music that fits your vibe can be time consuming. Also, users have to spend time organising songs into playlists themselves.</p>
                             </li>
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Generic Recommendations</h2>
-                                <p>Existing platforms rely on recommendations from user's overall music taste which can be inefficient as people associate different music for different occasions</p>
+                                <p>Existing platforms rely on recommendations from user's overall music taste which can be inefficient as people associate different music for different occasions.</p>
                             </li>     
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Lacks Context Awareness</h2>
-                                <p>Playlist generation software are not aware about the state and environment users are in</p>
+                                <p>Playlist generation software are not aware about the state and environment users are in.</p>
                             </li>
                         </ul> 
                     </div>
@@ -84,15 +84,15 @@ export default function Surroundsoundm() {
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>AI and Image Recognition</h2>
-                                <p>Using AI and image recognition to analyze the surrounding environment</p>
+                                <p>Using AI and image recognition to analyze the surrounding environment.</p>
                             </li>
                             <li>
                             <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Personalised Playlist</h2>
-                                <p>Using insights from user's surroundings to curate personalized Spotify playlists that fits the mood and music preferences</p>
+                                <p>Using insights from user's surroundings to curate personalized Spotify playlists that fits the mood and music preferences.</p>
                             </li>     
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Organised Archive</h2>
-                                <p>Saving playlists in an editable, organised archive automatically in spotify</p>
+                                <p>Saving playlists in an editable, organised archive automatically in spotify.</p>
                             </li>
                         </ul>
                     </div>     
@@ -101,27 +101,27 @@ export default function Surroundsoundm() {
         
                 <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
                 <p className="mt-[10px]">
-                Using a moderated version of the MoSCoW framework, I organised ideas into categories based on priority. Given the short timeframe of the hackathon, this approach was crucial for focusing our efforts on high-impact features, ensuring efficient use of time and resources
+                Using a moderated version of the MoSCoW framework, I organised ideas into categories based on priority. Given the short timeframe of the hackathon, this approach was crucial for focusing our efforts on high-impact features, ensuring efficient use of time and resources.
                 </p>
                 <img src="images/surroundsound/ideationss.png" alt="ideation notes" className="mt-[20px]"/>
                 <h2 className='!text-[30px] mt-[60px]'>App Structure</h2>
                 <p className="mt-[10px]">
-                Close communication between front-end and back-end teammates helped us identify key features based on viability, efficiency, and functionality. I mapped out the app structure to visualise how components interact with each other
+                Close communication between front-end and back-end teammates helped us identify key features based on viability, efficiency, and functionality. I mapped out the app structure to visualise how components interact with each other.
                 </p>
                 <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
                 <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                 <p className="mt-[10px]">
-                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience
+                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience.
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/surroundsound/ssfigma.png" alt="surroundsound figma"/>
                 </div>
                 <p className="mt-[10px]">
-                    The designs were used as a framework for the development of the working app
+                    The designs were used as a framework for the development of the working app.
                 </p>
                 <h2 className='!text-[30px] mt-[60px]'>Results</h2>
                 <p className="mt-[10px]">
-                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today
+                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today.
                 </p>
                 <p className="mt-[16px]">
                     sample playlist generations:

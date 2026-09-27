@@ -18,7 +18,7 @@ export default function Surroundsound() {
             </p>
             
             <div className="flex justify-center">
-                <Button variant="outline" onClick={() => router.push("surroundsoundm")} className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white">
+                <Button variant="outline" onClick={() => router.push("surroundsound")} className="mt-[25px] hover:bg-black hover:border hover:border-input text-black hover:text-white">
                     <h4>View more</h4>
                 </Button>
             </div>

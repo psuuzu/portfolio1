@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel"
 import { image } from "framer-motion/client";
 
-export default function Oishy() {
+export default function Brutalsurf() {
         const carouselTexts = [{
             title: "Lazy Suzan",
             description: "The game Lazy Suzan is designed to solve conflicting opinions. It allows everyone to input their preferences and picks one at random with equal chance. Lazy Susan is suitable for an opiniated group.",
