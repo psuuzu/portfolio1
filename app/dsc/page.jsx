@@ -48,10 +48,10 @@ export default function Dsc(){
             <section className='flex justify-center bg-[#1e1e1e]'>
                 <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'>
                     <p className="!text-[20px] mt-[60px] !text-white">
-                        This website rebrand project aimed to improve the club’s online presence by removing distracting content, highlighting key information and aligning the design with the club’s identity. 
+                        The club's brand guidelines, called for a modern, technical identity that reflected DSCubed's position as the leading data science club. The existing website fell short
                     </p>
                     <p className="mt-[20px]">
-                        Led website analysis, and ideation, presented concepts to the club committee, and gathered feedback. Collaborated with team members to develop wireframes and build prototypes.
+                        Led website analysis, ideation, committee presentation, and feedback collection. Collaborated with a team of designers to develop wireframes and prototypes.
                     </p>
 
                     <section className="flex flex-col sm:flex-row mt-[60px]">
@@ -61,16 +61,20 @@ export default function Dsc(){
                         <div className="h-auto mx-[18px]">            
                             <ul className="list-disc pl-[10px] space-y-[20px]">
                                 <li>
-                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Generic AI generated images</h2>
-                                    <p>Current website uses irrelevant AI generated images that does not contribute to enhancing user understanding.</p>
+                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Brand Misalignment</h2>
+                                    <p>
+                                        generic AI-generated imagery had no visual connection to the club, undermining the credibility the brief was meant to establish. 
+                                    </p>
                                 </li>
                                 <li>
-                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Unorganized information</h2>
-                                    <p>There are irrelevant information that distracts users from key sections.</p>
+                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Diluted Messaging</h2>
+                                    <p>
+                                        key information was buried under repetitive filler content, weakening the brief's goal of communicating value clearly to prospective members. 
+                                    </p>
                                 </li>     
                                 <li>
-                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Bland design</h2>
-                                    <p>The club’s brand image is not represented through the current website.</p>
+                                    <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Inconsistent Execution</h2>
+                                    <p>layout and styling varied across sections with no unifying system, leaving the site feeling improvised rather than intentional</p>
                                 </li>
                             </ul> 
                         </div>
@@ -83,24 +87,24 @@ export default function Dsc(){
                             <ul className="list-disc pl-[10px] space-y-[20px]">
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Visualizer embedding</h2>
-                                    <p>This interactive tool lets users explore how words relate to each other using high-dimensional embeddings, projected into 3D space.</p>
+                                    <p>Replaced the hero banner with an interactive tool, built by the committee, that lets users explore semantic connections of words.</p>
                                 </li>
                                 <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Aesthetic redesign</h2>
-                                    <p>Redesigned layout, style and colour palette to better fit club's brand image.</p>
+                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Brand Alignment</h2>
+                                    <p>Rebuilt the layout, styling, and colour palette against the committee's brief, creating a cohesive visual system</p>
                                 </li>     
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Information restructuring</h2>
-                                    <p>removing fillers and merging similar sections makes information more cohesive and impactful.</p>
+                                    <p>Removed filler and merged overlapping sections so the club's core message surfaces immediately</p>
                                 </li>
                             </ul>
                         </div>     
                     </section>
                     <h2 className='!text-[30px] mt-[60px]'>Ideation</h2>
                     <p className="mt-[10px]">
-                        I conducted an analysis of the existing website to identify usability, visual and content issues and developed a prioritized list of improvements.
+                        I conducted an analysis of the existing website to identify usability, visual and content issues by conducting a heuristic evaluation against the brief along with a competitor scan of established club sites. Then developed a prioritized list of improvements.
                     </p>
-                    <img src="images/dsc/olddsc.png" alt="old website" className="w-full object-contain"/>
+                    <img src="images/dsc/olddsc.png" alt="old website" className="w-full object-contain mt-[10px]"/>
                     <p className="mt-[10px]">
                         The website’s visual style did not reflect the brand, while dense and repetitive content made it difficult to communicate the club’s purpose clearly. The use of AI images did not support its respective content.
                     </p>
@@ -108,17 +112,25 @@ export default function Dsc(){
                         Along with replacing the pixel grid with a visualizer, I recommended updating the colour theme and styling across the website, replacing AI images with relevant media, and restructuring content into shorter, more concise sections centered around the club’s benefits. 
                     </p>
                     
-                    <h2 className='!text-[30px] mt-[60px]'>Wireframing</h2>
-                    <p className="mt-[10px]">As a team, we have created three mid-fidelity wireframes reflecting the list of improvements above with different designs and approaches. </p>
-                    <img src="images/dsc/dscwireframe.png" />
-                    <h2 className='!text-[30px] mt-[60px]'>Presentation and Feedback</h2>
-                    <p className="mt-[20px]">These wireframes are presented to the club committee to collect feedback. The responses are used to mix and match sections and features that work well along with small fixes and polishes to the designs.</p>
+                    <h2 className='!text-[30px] mt-[60px]'>Process</h2>
+                    <p className="mt-[10px]">
+                        Working from a list of functional requirements, the team mapped the site's entire Information architecture and redesigned a scalable user flow to accommodate expanding initiatives like projects and competition pages.                     
+                    </p>
+                    <p className="mt-[16px]">
+                        As a team, we produced multiple mid-fidelity wireframes, each exploring different design directions and approaches to the brief. One direction leaned towards an interactive experience with animations and moving elements, another kept a structured, static layout.                   
+                    </p>
+                    <p className="mt-[16px]">
+                        Wireframes were presented to the club committee to collect feedback. The responses were used to weigh trade-offs between sections and features across different approaches, informing final adjustments.                    
+                    </p>
+                    <p className="mt-[16px]">
+                        Between the interactive and structured directions, the committee favored a conservative layout throughout the rest of the site since the hero section already carried the interactive weight through the visualizer. On-load animations were encouraged as a middle ground.
+                    </p>
                     <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                     <img src="images/dsc/dscproto.png" alt="website prototype" className=""/>
                     <p>View more on website (link below)</p>
                     <h2 className='!text-[30px] mt-[60px]'>Results</h2>
-                    <p className="mt-[10px]">Through updated visuals, a refined structure, and a cohesive style, the new design presents a clearer, more engaging experience for users increasing club member signups by 100+ the following semester! </p>
-                    <p className="mt-[16px]">This workflow was used for other club internal projects such as the projects page, committee page and the competitions page that increased participation by more than double from last year!</p>
+                    <p className="mt-[10px]">
+                        Through the visualizer embedding, a refined structure, and a cohesive style, the new design presents a more engaging experience with a clearer purpose. Members were seen exploring the visualizer, engaging with the homepage more. The redesign launched alongside a wider committee push across marketing, events, and industry outreach, and signups rose by 100+ the following semester.|                    </p>
                     <div className="flex mt-[60px] items-center">
                         <h2 className='!text-[30px]'>Links:</h2>
                         <div className="flex h-auto mx-[10px]">  
