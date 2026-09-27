@@ -48,7 +48,7 @@ export default function Surroundsoundm() {
         <section className='flex justify-center bg-[#1e1e1e]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
                 <p className="!text-[20px] mt-[60px] !text-white">
-                SurroundSound is a music platform that uses AI to curate personalized Spotify playlists tailored to the user's environment, mood, and listening history. 
+                    From personal observations : music fits different occasions. While Spotify's recommendations are strong for discovery, curating them into dedicated playlists takes significant manual effort.
                 </p>
                 <p className="mt-[20px]">
                 As the sole UI designer in the team, I facilitated the end to end design process—research, Ideation, wireframing and prototyping.
@@ -62,16 +62,17 @@ export default function Surroundsoundm() {
                     <div className="h-auto mx-[18px]">            
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Time Consuming</h2>
-                                <p>Discovering new music that fits your vibe can be time consuming. Also, users have to spend time organising songs into playlists themselves.</p>
-                            </li>
-                            <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Generic Recommendations</h2>
-                                <p>Existing platforms rely on recommendations from user's overall music taste which can be inefficient as people associate different music for different occasions.</p>
-                            </li>     
+                                <p>Existing recommendation engines optimize for general taste, not situational context.</p>
+                            </li>   
+                            <li>
+                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Time Consuming</h2>
+                                <p>Manually filtering recommendations such as "discover weekly" mixes into specific playlists requires a lot of time and effort.</p>
+                            </li>
+                              
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Lacks Context Awareness</h2>
-                                <p>Playlist generation software are not aware about the state and environment users are in.</p>
+                                <p>No existing tool understands the state and environment users are in.</p>
                             </li>
                         </ul> 
                     </div>
@@ -111,7 +112,7 @@ export default function Surroundsoundm() {
                 <img src="images/surroundsound/infoarchi.png" alt="app structure diagram" className="mt-[20px]"/>
                 <h2 className='!text-[30px] mt-[60px]'>Prototype</h2>
                 <p className="mt-[10px]">
-                The interface of this app incorporated design features from popular social media and music platforms such as Instagram, Spotify, and BeReal to create a familiar and intuitive user experience to appeal to our target audience.
+                    The interface of this app incorporated a feed-based UI derived from popular social media and music platforms because users needed a near-zero learning curve given the extremely short judging context.
                 </p>
                 <div className="flex justify-center mt-[20px]">
                     <img src="/images/surroundsound/ssfigma.png" alt="surroundsound figma"/>
@@ -121,7 +122,7 @@ export default function Surroundsoundm() {
                 </p>
                 <h2 className='!text-[30px] mt-[60px]'>Results</h2>
                 <p className="mt-[10px]">
-                Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its effective mobile design and implementation, earning us another accessibility award, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today.
+                    Our team managed to obtain First place amongst 78 other participants. My UI design was praised by the judge for its intuitive mobile design and implementation, earning an accessibility award on top, bringing the team a total of $850 in cash prize. The app has been used socially amongst friends today.
                 </p>
                 <p className="mt-[16px]">
                     sample playlist generations:
