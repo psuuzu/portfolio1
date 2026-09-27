@@ -29,7 +29,7 @@ export default function Map({ project, setProject, showSecondDiv , setShowSecond
                         <div className="bg-white rounded-sm px-[5px] mx-[5px]">
                             <h2 className="text-[22px] !text-black">01</h2>
                         </div>
-                        <p className="!text-[20px] ml-[5px]">UX/UI Design</p>
+                        <p className="!text-[20px] ml-[5px]">UX/UI Work</p>
                     </div>
                     <p className="!text-[#838383] mt-[2px]">Problem --------- Product</p>
                 </div>

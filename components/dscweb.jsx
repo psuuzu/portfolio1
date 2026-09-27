@@ -19,7 +19,7 @@ export default function Dscweb() {
                 />
                 </div>
             </div>    
-            <h2 className='text-[26px] md:text-[30px] mt-[20px]'>Dscubed Website Redesign </h2>
+            <h2 className='text-[26px] md:text-[30px] mt-[20px]'>Dscubed</h2>
             <h3 className="mb-[15px]">UX Design | Club Work </h3>
             <p className="text-[16px]">As the Data Science Student Society continues to grow, its website must evolve to reflect current goals and activities. This involves redesigning the website to enhance brand image, updating existing pages while introducing new content to support expanding initiatives.</p>
             <div className="flex justify-center">
