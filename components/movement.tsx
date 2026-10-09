@@ -126,16 +126,16 @@ export default function Movement() {
         <section className="sm:flex justify-center mt-[10px]">
           <div className="h-auto flex flex-col w-full sm:w-[126px] sm:justify-center mx-[5px] align-middle">
             <div className="flex justify-center">
-              <Button onClick={up} variant="outline" className=" w-[40px]"> w </Button>
+              <Button onClick={up} variant="outline" className=" w-[40px]"> W </Button>
             </div>
             <div className="flex justify-center">
-              <Button onClick={left} variant="outline" className=" w-[40px] m-[2px]"> a</Button>
-              <Button onClick={down} variant="outline" className=" w-[40px] m-[2px]"> s</Button>
-              <Button onClick={right} variant="outline" className=" w-[40px] m-[2px]"> d</Button>
+              <Button onClick={left} variant="outline" className=" w-[40px] m-[2px]"> A</Button>
+              <Button onClick={down} variant="outline" className=" w-[40px] m-[2px]"> S</Button>
+              <Button onClick={right} variant="outline" className=" w-[40px] m-[2px]"> D</Button>
             </div>
           </div>
           <div className="flex sm:w-[35vw] items-center space-x-2 flex-col mx-[10px] ">
-            <p className="text-[16px] text-gray-400">Enter program using letters : w, a, s, d</p>
+            <p className="text-[16px] text-gray-400">Enter program using letters : W, A, S, D</p>
             <div className="flex mt-[5px]">
             <Input type="email" ref={inputRef} className="h-[30px] w-[45vw] sm:w-[25vw] border-r-0 rounded-r-none"/>
             <Button type="submit" variant="outline" onClick={run}  className="h-[30px]  hover:bg-black hover:border hover:border-input text-black hover:text-white"><h4>Enter</h4></Button>

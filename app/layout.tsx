@@ -31,8 +31,8 @@ const rationale = Rationale({
 });
 
 export const metadata: Metadata = {
-  title: "Pauls portfolio",
-  description: "built using react",
+  title: "Paul Su",
+  description: "A portfolio website showcasing my work and projects.",
 };
 
 export default function RootLayout({
