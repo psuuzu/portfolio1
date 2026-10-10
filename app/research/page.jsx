@@ -77,7 +77,7 @@ export default function Lab() {
                         <li>
                             <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Recognition</h2>
                             <p>
-                                The “Yum” label and ambiguous icon caused confusion and task abandonment. First-click results varied widely.
+                                The “Yum” label and ambiguous icon choices for saved recipes caused confusion and task abandonment. First-click results varied widely.
                             </p>
                         </li>
                     </ul>
@@ -99,12 +99,12 @@ export default function Lab() {
                         <li>
                         <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Information Structure</h2>
                             <p>
-                                Consolidate search into one unified path of entry with filters upfront, and relocate ads away from main content.                                
+                                Consolidate search into one unified path of entry with filters upfront, and relocate ads and overlapping elements away from main content.                                
                             </p>
                         </li> 
                         <li>
                             <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Button Redesign</h2>
-                            <p>Replace "Yum" with a standard bookmark icon and a clear label to improve recognition.</p>
+                            <p>Replace “Yum” with a standard bookmark icon and a clear label, and reuse the icon for saved recipes to distinguish them from the meal planner.</p>
                         </li>    
                         
                     </ul>
@@ -114,7 +114,7 @@ export default function Lab() {
                 Heuristic Evaluation
             </h2>
             <p className="mt-[10px]">
-                Initial analysis involved exploring the site, following Jakob Nielson’s 10 Usability heuristics.
+                Initial analysis involved exploring the site, following Jakob Nielsen’s 10 Usability heuristics.
             </p>
             <img src="images/yummly/heuristic.png" alt="heuristic evaluaation" className="mt-[20px]" />
             <h2 className='!text-[30px] mt-[60px]'>
@@ -162,7 +162,7 @@ export default function Lab() {
             </p>
             <img src="images/yummly/firstclick.png" alt="first click test" className="mt-[20px] rounded-xl" />
             <p className="mt-[16px]">
-                The results from the first click test varied a lot. This highlighted issues with recognition and layout as participants have commented “difficult to find at first glance”, “hard to tell where I’m supposed to look” given the task to navigate towards the meal planner. 
+                The results from the first click test varied a lot. This highlighted issues with recognition and layout as participants have commented “difficult to find at first glance” given the task to navigate towards the meal planner. 
             </p>
             <h2 className='!text-[30px] mt-[60px]'>
                 Lab Test
@@ -199,15 +199,15 @@ export default function Lab() {
                 Findings
             </h2>
             <p className="mt-[10px]">
-                Overall, participants thought that the website was usable to a certain extent but most users are
+                Overall, participants thought that the website was usable to a certain extent but most users were
  neutral on being regular users. Most dissatisfaction came from inconsistencies within the
- website, assumed technical skills, and the steep learning curve that is required to use the
+ website, assumed technical skills, and the steep learning curve required to use the
  website.
             </p>
             <img src="images/yummly/posttest.png" alt="post test questionaire" className="mt-[20px] rounded-xl" />
             <p className="mt-[16px] font-semibold !text-white">Feedback</p>
             <p className="">
-                Users could not tell if recipes were successfully added to the shopping list, and meal plan options were unresponsive. With no visible confirmation, users have to double check manually (a gulf of evaluation).
+                Users could not tell if recipes were successfully added to the shopping list, and meal plan options were unresponsive. With no visible confirmation, users had to double check manually (a gulf of evaluation).
             </p>
             <p className="mt-[16px] font-semibold !text-white">Navigation</p>
             <p className="">
@@ -215,7 +215,7 @@ export default function Lab() {
             </p>
             <p className="mt-[16px] font-semibold !text-white">Recognition</p>
             <p className="">
-                The “Yum” label on the save button caused confusion and task abandonment. In the first-click test, answers varied widely, and participants described the save action as “difficult to find at first glance.”
+                The “Yum” label on the save button caused confusion and task abandonment during user-based testing. Meal planner and saved recipes were confused with each other as seen in the first-click test where answers varied widely.
             </p>
             
             <h2 className='!text-[30px] mt-[60px]'>
@@ -228,7 +228,7 @@ export default function Lab() {
                 Consolidate the search function into one universal search bar with filters shown upfront on every page so the system behaves consistently and provides user control. Relocate ads and overlapping elements away from main content.
             </p>
             <p className="mt-[16px]">
-                Replace “Yum” with a standard bookmark icon and a clear label, so users can find and understand the save action through affordances.
+                Replace “Yum” with a standard bookmark icon and a clear label, so users can find the save action without explanation. Use the same bookmark icon, with a label, for the saved recipes section, so it stays consistent with the save action and is distinct from the meal planner.
             </p>
             
             <div className="flex mt-[60px] sm:items-center">
