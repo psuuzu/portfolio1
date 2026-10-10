@@ -51,7 +51,7 @@ export default function Surroundsoundm() {
                     From personal observations : music fits different occasions. While Spotify's recommendations are strong for discovery, curating them into dedicated playlists takes significant manual effort.
                 </p>
                 <p className="mt-[20px]">
-                As the sole UI designer in the team, I facilitated the end to end design process—research, Ideation, wireframing and prototyping.
+                As the sole UI designer in the team, I facilitated the end to end design process: market research, ideation, wireframing and prototyping.
                 </p>
 
                 
@@ -63,16 +63,16 @@ export default function Surroundsoundm() {
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Generic Recommendations</h2>
-                                <p>Existing recommendation engines optimize for general taste, not situational context.</p>
+                                <p>Existing recommendation engines optimize for a single taste profile, so suggestions stay the same.</p>
                             </li>   
                             <li>
-                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Time Consuming</h2>
+                                <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Playlist Curation Friction</h2>
                                 <p>Manually filtering recommendations such as "discover weekly" mixes into specific playlists requires a lot of time and effort.</p>
                             </li>
                               
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Lacks Context Awareness</h2>
-                                <p>No existing tool understands the state and environment users are in.</p>
+                                <p>Existing tools have no awareness of the user's surroundings, so music discovery can't respond to the moment they are in.</p>
                             </li>
                         </ul> 
                     </div>
@@ -85,15 +85,15 @@ export default function Surroundsoundm() {
                         <ul className="list-disc pl-[10px] space-y-[20px]">
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>AI and Image Recognition</h2>
-                                <p>Using AI and image recognition to analyze the surrounding environment.</p>
+                                <p>Using AI and image recognition to analyze the surrounding environment, giving context to music discovery.</p>
                             </li>
                             <li>
-                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Personalised Playlist</h2>
-                                <p>Using insights from user's surroundings to curate personalized Spotify playlists that fits the mood and music preferences.</p>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Personalised Playlists</h2>
+                                <p>Combines image recognition with the user's Spotify taste profile to generate playlists that fit the mood and preferences.</p>
                             </li>     
                             <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Organised Archive</h2>
-                                <p>Saving playlists in an editable, organised archive automatically in spotify.</p>
+                                <p>Automatically saves playlists in an editable, organised archive in spotify allowing users to revisit and refine.</p>
                             </li>
                         </ul>
                     </div>     
