@@ -74,7 +74,7 @@ export default function Dsc(){
                                 </li>     
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Inconsistent Execution</h2>
-                                    <p>layout and styling varied across sections with no unifying system, leaving the site feeling improvised rather than intentional</p>
+                                    <p>layout and styling varied across sections with no unifying system, leaving the site feeling improvised rather than intentional.</p>
                                 </li>
                             </ul> 
                         </div>
@@ -91,11 +91,11 @@ export default function Dsc(){
                                 </li>
                                 <li>
                                 <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Brand Alignment</h2>
-                                    <p>Rebuilt the layout, styling, and colour palette against the committee's brief, creating a cohesive visual system</p>
+                                    <p>Rebuilt the layout, styling, and colour palette against the committee's brief, creating a cohesive visual system.</p>
                                 </li>     
                                 <li>
                                     <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Information restructuring</h2>
-                                    <p>Removed filler and merged overlapping sections so the club's core message surfaces immediately</p>
+                                    <p>Removed filler and merged overlapping sections so the club's core message surfaces immediately.</p>
                                 </li>
                             </ul>
                         </div>     

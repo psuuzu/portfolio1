@@ -65,19 +65,19 @@ export default function Lab() {
                         <li>
                             <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Feedback</h2>
                             <p>
-                                Lack of feedback negatively impacts the gulf of evaluation as users are unable to interpret whether their action was successful
+                                Users couldn’t tell whether items had been added to the shopping list or meal plan (a gulf of evaluation).
                             </p>
                         </li>
                         <li>
-                        <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Layout</h2>
+                        <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Navigation</h2>
                             <p>
-                                Some elements would cover up other information, preventing access to other pages.
+                                Filters worked differently on Browse and Feeds. Intrusive ads, cluttered sections and overlapping elements made it harder to move between pages.
                             </p>
                         </li>     
                         <li>
                             <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Recognition</h2>
                             <p>
-                                Unclear labels, and ambiguous icons. The lack of understanding negatively impacts the gulf of execution
+                                The “Yum” label and ambiguous icon caused confusion and task abandonment. First-click results varied widely.
                             </p>
                         </li>
                     </ul>
@@ -91,21 +91,22 @@ export default function Lab() {
                 <div className="h-auto mx-[18px]">
                     <ul className="list-disc pl-[10px] space-y-[20px]">
                         <li>
-                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Button Redesign</h2>
-                            <p>To create a more recognizable “Save” button for saving recipes</p>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Visible Confirmation</h2>
+                            <p>
+                                Show a state change or message when a recipe is saved or added to the list, so users know it worked.
+                            </p>
                         </li>
                         <li>
                         <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Information Structure</h2>
                             <p>
-                            Form a clearer path for users to search for and filter out recipes                                
+                                Consolidate search into one unified path of entry with filters upfront, and relocate ads away from main content.                                
                             </p>
-                        </li>     
+                        </li> 
                         <li>
-                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Help and Documentation</h2>
-                            <p>
-                                Ensure help documentation for various site functions is available for users at any stage of their user experience
-                            </p>
-                        </li>
+                            <h2 className='!text-[26px] text-[rgb(200,200,200)]'>Button Redesign</h2>
+                            <p>Replace "Yum" with a standard bookmark icon and a clear label to improve recognition.</p>
+                        </li>    
+                        
                     </ul>
                 </div>     
             </section>
@@ -160,8 +161,8 @@ export default function Lab() {
                 Participants were presented with a short scenario, followed by a screenshot of the main page of Yummly. They would then click on any part of the screen they believed would be the first step of hypothetically completing the task. 
             </p>
             <img src="images/yummly/firstclick.png" alt="first click test" className="mt-[20px] rounded-xl" />
-            <p className="mt-[10px]">
-                The results from the first click test varied a lot. This highlighted issues with recognition and layout as participants have commented “difficult to find at first glance”, “hard to tell where I’m supposed to look” after the test. 
+            <p className="mt-[16px]">
+                The results from the first click test varied a lot. This highlighted issues with recognition and layout as participants have commented “difficult to find at first glance”, “hard to tell where I’m supposed to look” given the task to navigate towards the meal planner. 
             </p>
             <h2 className='!text-[30px] mt-[60px]'>
                 Lab Test
@@ -204,35 +205,32 @@ export default function Lab() {
  website.
             </p>
             <img src="images/yummly/posttest.png" alt="post test questionaire" className="mt-[20px] rounded-xl" />
-            
-            <p className="mt-[16px]">
-                The information flow was inconsistent, particularly with filtering functions that differed between the “browse” and “feeds” pages, leaving many unable to find the filters they needed.
+            <p className="mt-[16px] font-semibold !text-white">Feedback</p>
+            <p className="">
+                Users could not tell if recipes were successfully added to the shopping list, and meal plan options were unresponsive. With no visible confirmation, users have to double check manually (a gulf of evaluation).
             </p>
-            <p className="mt-[16px]">
-                Feedback was lacking, as users were unsure if recipes were successfully added to the shopping list, and meal plan options were unresponsive.
+            <p className="mt-[16px] font-semibold !text-white">Navigation</p>
+            <p className="">
+                Filters worked differently between “browse” and “feeds” pages, leaving many unable to find the filters they needed. Views on the filters themselves were mixed: some liked the variety, others found them redundant and unintuitive. Intrusive ads, cluttered sections, poor content placement and information overload made tasks harder, even though participants valued the step-by-step guide.
             </p>
-            <p className="mt-[16px]">
-                Recognition was also problematic, with the “save recipe” button’s unclear “yum” label causing confusion and task abandonment
-            </p>
-            <p className="mt-[16px]">
-                Efficiency received mixed feedback: while some appreciated the variety of filters, others found them redundant and unintuitive.
-            </p>
-            <p className="mt-[16px]">
-                Finally, mapping showed both strengths and weaknesses. Participants valued the step-by-step guide for its clarity and interactivity, but navigation was hindered by intrusive ads, cluttered sections, poor content placement, and overwhelming amounts of information, making tasks harder to complete.
+            <p className="mt-[16px] font-semibold !text-white">Recognition</p>
+            <p className="">
+                The “Yum” label on the save button caused confusion and task abandonment. In the first-click test, answers varied widely, and participants described the save action as “difficult to find at first glance.”
             </p>
             
             <h2 className='!text-[30px] mt-[60px]'>
                 Recommendations
             </h2>
             <p className="mt-[10px]">
-                It is recommended to replace the logo with a standard save icon (e.g., a bookmark), label it clearly, and add stronger visual or audio feedback to indicate successful saving.
+                Show a clear visual confirmation when a recipe is saved or added to the shopping list by introducing a saved state with a different design so users know their action was successful.
             </p>
             <p className="mt-[16px]">
-                Consolidating search into one universal, highly visible search bar with integrated filters available upfront would improve efficiency, consistency, and user control.
+                Consolidate the search function into one universal search bar with filters shown upfront on every page so the system behaves consistently and provides user control. Relocate ads and overlapping elements away from main content.
             </p>
             <p className="mt-[16px]">
-                Adding explicit labels to buttons, improving the visibility of guidance, and incorporating stronger onboarding or instructional aids would enhance clarity, align with user expectations, and improve learnability.
+                Replace “Yum” with a standard bookmark icon and a clear label, so users can find and understand the save action through affordances.
             </p>
+            
             <div className="flex mt-[60px] sm:items-center">
                 <h2 className='!text-[30px]'>Links:</h2>
                     <div className="flex flex-col sm:flex-row h-auto mx-[10px]">  
