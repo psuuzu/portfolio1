@@ -7,7 +7,7 @@ export default function Title(){
         </div>
         </div>
         <div className="flex justify-start items-start">
-        <div className='max-w-[200px] flex h-auto'>
+        <div className='max-w-[180px] flex h-auto'>
          <p className="text-[16px] pl-1">
             I’m a UX designer who believes good interfaces should need less explaining. I combine research and visual design to build products that speak for themselves.         </p>
         </div>
