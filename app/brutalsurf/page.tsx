@@ -114,7 +114,7 @@ export default function Brutalsurf() {
             The founder found progressive disclosure effective in reducing booking friction, matching the goal of problem 2. The rewards consolidation also validated an idea the founder had been considering independently, prompted by the same user confusion identified in problem 4, confirming the fix aligned with both business intent and usability.
         </p>
         <p className="mt-[16px]">
-            Overall, the improved systems and UX has significantly reduced client complaints.
+            Overall, the improved systems and UX has received positive feedback and eliminated client complaints.
         </p>
 
         <div className="flex mt-[60px] sm:items-center">
