@@ -82,7 +82,7 @@ export default function Brutalsurf() {
 
         <h2 className='!text-[30px] mt-[60px]'>Approach</h2>
         <p className="mt-[10px]">
-            Given the booking flow's severity and tight timeline, I prioritized speed: diagrams and low-fidelity wireframes got the fix moving fast. The quest and rewards consolidation, by contrast, needed high-fidelity prototypes to make a genuinely complex system legible. 
+            The booking flow’s problems were structural. Given the high severity and a tight timeline, I prioritized speed : low-fidelity wireframes and an annotated animation communicated the structure and interaction fast. The quest and rewards consolidation, by contrast, needed high-fidelity prototypes to make a genuinely complex system legible.
         </p>
         <p className="mt-[16px]">
             Since users originate through social media, I adopted a mobile-first approach.
@@ -108,13 +108,10 @@ export default function Brutalsurf() {
 
         <h2 className='!text-[30px] mt-[60px]'>Outcomes</h2>
         <p className="mt-[10px]">
-            I reviewed each redesign against the original four issues with the founder, to confirm each solution addressed what it was intended to.
+            I reviewed the redesigns against the four identified issues with the founder, drawing on his firsthand customer feedback to assess whether the proposed solutions addressed the underlying problems. Formal user testing was outside the project scope, so validation remained at the stakeholder level.
         </p>
         <p className="mt-[16px]">
-            The founder found progressive disclosure effective in reducing booking friction, matching the goal of problem 2. The rewards consolidation also validated an idea the founder had been considering independently, prompted by the same user confusion identified in problem 4, confirming the fix aligned with both business intent and usability.
-        </p>
-        <p className="mt-[16px]">
-            Overall, the improved systems and UX has received positive feedback and eliminated client complaints.
+            Progressive disclosure was effective in reducing booking friction. The rewards consolidation also validated an idea the founder had been considering independently, prompted by the same user confusion identified in problem 4, confirming the fix aligned with both business intent and usability. Overall, the improved systems and UX received positive feedback and eliminated client complaints.
         </p>
 
         <div className="flex mt-[60px] sm:items-center">
