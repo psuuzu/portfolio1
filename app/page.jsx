@@ -67,7 +67,7 @@ export default function Home() {
   useEffect(() => {
     if (project === "create") {
       window.scrollTo({
-        top: window.innerHeight/1.6, 
+        top: window.innerHeight/1.68, 
         behavior: "smooth", 
       });
     }
