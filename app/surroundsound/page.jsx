@@ -48,7 +48,7 @@ export default function Surroundsoundm() {
         <section className='flex justify-center bg-[#1e1e1e]'>
             <div className='w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] h-auto'> 
                 <p className="!text-[20px] mt-[60px] !text-white">
-                    From personal observations : music fits different occasions. While Spotify's recommendations are strong for discovery, curating them into dedicated playlists takes significant manual effort.
+                    Music fits different occasions. While Spotify's recommendations are strong for discovery, curating and filtering takes significant manual effort.
                 </p>
                 <p className="mt-[20px]">
                 As the sole UI designer in the team, I facilitated the end to end design process: market research, ideation, wireframing and prototyping.
