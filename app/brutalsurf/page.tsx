@@ -95,10 +95,11 @@ export default function Brutalsurf() {
         <p className="mt-[16px]">
             I redesigned the booking flow into a dynamic interface using progressive disclosure. Each step collapses into an editable summary, so users can review or change earlier choices with minimal scroll. Independent sections are kept to prevent repeated re-entry.
         </p>
-        <div className="flex justify-center">
-            <video src="/videos/pdisclose.mp4" autoPlay loop muted className="w-[150px] h-auto"/>
+        <div className="flex justify-center sm:justify-center items-center mt-[16px]">
+            <video src="/videos/pdisclose.mp4" autoPlay loop muted className="w-[100px] sm:w-1/4 h-auto  mr-[30px]"/>
+            <img src="/images/brutal/booking.png" alt="Brutalsurfcam booking screen" className="w-[100px] sm:w-1/4 h-auto"/>
         </div>
-        <p className="mt-[10px]">
+        <p className="mt-[16px]">
             I removed repetitive content, established consistent styling for interactive elements, merged duplicate nav entry points, and implemented a clear visual hierarchy to guide users intuitively.
         </p>
         <p className="mt-[16px]">
