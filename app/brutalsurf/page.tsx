@@ -31,7 +31,7 @@ export default function Brutalsurf() {
                 Brutalsurfcam is attracting a growing number of clients, putting pressure on its manual processes. Out of urgency, the founder has implemented a website prototype to handle the volume but is faced with usability complaints. 
             </p>
             <p className="mt-[20px]">
-            As sole UX consultant, I led stakeholder interviews and service mapping to diagnose root causes. Designed and prototyped the booking flow, profile and rewards system at appropriate fidelity. 
+            As sole UX consultant, I led stakeholder interviews and service mapping to diagnose root causes. Reviewed site architecture, identifying inconsistencies and duplications. Designed and prototyped the booking flow, profile and rewards system at appropriate fidelity. 
             </p>
 
         <h2 className='!text-[30px] mt-[60px]'>Diagnosis</h2>
