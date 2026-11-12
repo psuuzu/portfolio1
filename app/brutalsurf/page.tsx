@@ -109,7 +109,7 @@ export default function Brutalsurf() {
 
         <h2 className='!text-[30px] mt-[60px]'>Outcomes</h2>
         <p className="mt-[10px]">
-            I reviewed the redesigns against the four identified issues with the founder, drawing on his firsthand customer feedback to assess whether the proposed solutions addressed the underlying problems. Formal user testing was outside the project scope, so validation remained at the stakeholder level.
+            After implementation, I reviewed the redesigns against the four identified issues with the founder, drawing on his firsthand customer feedback to assess whether the proposed solutions addressed the underlying problems. Formal user testing was outside the project scope, so validation remained at the stakeholder level.
         </p>
         <p className="mt-[16px]">
             Progressive disclosure was effective in reducing booking friction. The rewards consolidation also validated an idea the founder had been considering independently, prompted by the same user confusion identified in problem 4, confirming the fix aligned with both business intent and usability. Overall, the improved systems and UX received positive feedback and eliminated client complaints.
